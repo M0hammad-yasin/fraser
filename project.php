@@ -3,7 +3,7 @@
 
 <head>
     <?php 
-    $pageTitle = "Projects - Klean Cleaning Services";
+    $pageTitle = "Projects - Fraser Facility Services";
     include 'components/head.php'; 
     ?>
 </head>
@@ -19,13 +19,13 @@
         <div class="container py-5">
             <div class="row align-items-center py-4">
                 <div class="col-md-6 text-center text-md-left">
-                    <h1 class="display-4 mb-4 mb-md-0 text-secondary text-uppercase">Project</h1>
+                    <h1 class="display-4 mb-4 mb-md-0 text-secondary text-uppercase">Projects & Properties We Serve</h1>
                 </div>
                 <div class="col-md-6 text-center text-md-right">
                     <div class="d-inline-flex align-items-center">
                         <a class="btn btn-sm btn-outline-light" href="">Home</a>
                         <i class="fas fa-angle-double-right text-light mx-2"></i>
-                        <a class="btn btn-sm btn-outline-light disabled" href="">Project</a>
+                        <a class="btn btn-sm btn-outline-light disabled" href="">Projects</a>
                     </div>
                 </div>
             </div>
@@ -39,15 +39,15 @@
         <div class="container">
             <div class="row align-items-end mb-4">
                 <div class="col-lg-6">
-                    <h6 class="text-secondary font-weight-semi-bold text-uppercase mb-3">Our Projects</h6>
-                    <h1 class="section-title mb-3">Visit Our Awesome Cleaning Projects</h1>
+                    <h6 class="text-secondary font-weight-semi-bold text-uppercase mb-3">Our Work</h6>
+                    <h1 class="section-title mb-3">Properties & Clients We Serve</h1>
                 </div>
                 <div class="col-lg-6 text-center text-lg-right">
                     <ul class="list-inline mb-2" id="portfolio-flters">
-                        <li class="btn btn-sm btn-outline-primary m-1 active"  data-filter="*">All</li>
-                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".first">Complete</li>
-                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".second">Running</li>
-                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".third">Upcoming</li>
+                        <li class="btn btn-sm btn-outline-primary m-1 active" data-filter="*">All</li>
+                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".first">Commercial</li>
+                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".second">Residential</li>
+                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".third">Industrial</li>
                     </ul>
                 </div>
             </div>
@@ -58,7 +58,7 @@
                             <img class="img-fluid w-100" src="./assets/img/portfolio-1.jpg" alt="">
                         </div>
                         <div class="portfolio-text bg-primary">
-                            <h4 class="font-weight-bold mb-4">Project Name</h4>
+                            <h4 class="font-weight-bold mb-4">Office Buildings</h4>
                             <div class="d-flex align-items-center justify-content-center">
                                 <a class="btn btn-sm btn-secondary m-1" href="">
                                     <i class="fa fa-link"></i>
@@ -76,7 +76,7 @@
                             <img class="img-fluid w-100" src="./assets/img/portfolio-2.jpg" alt="">
                         </div>
                         <div class="portfolio-text bg-primary">
-                            <h4 class="font-weight-bold mb-4">Project Name</h4>
+                            <h4 class="font-weight-bold mb-4">Retail & Restaurants</h4>
                             <div class="d-flex align-items-center justify-content-center">
                                 <a class="btn btn-sm btn-secondary m-1" href="">
                                     <i class="fa fa-link"></i>
@@ -94,7 +94,7 @@
                             <img class="img-fluid w-100" src="./assets/img/portfolio-3.jpg" alt="">
                         </div>
                         <div class="portfolio-text bg-primary">
-                            <h4 class="font-weight-bold mb-4">Project Name</h4>
+                            <h4 class="font-weight-bold mb-4">Medical & Dental Offices</h4>
                             <div class="d-flex align-items-center justify-content-center">
                                 <a class="btn btn-sm btn-secondary m-1" href="">
                                     <i class="fa fa-link"></i>
@@ -112,7 +112,7 @@
                             <img class="img-fluid w-100" src="./assets/img/portfolio-4.jpg" alt="">
                         </div>
                         <div class="portfolio-text bg-primary">
-                            <h4 class="font-weight-bold mb-4">Project Name</h4>
+                            <h4 class="font-weight-bold mb-4">Strata & Multi-Family</h4>
                             <div class="d-flex align-items-center justify-content-center">
                                 <a class="btn btn-sm btn-secondary m-1" href="">
                                     <i class="fa fa-link"></i>
@@ -130,7 +130,7 @@
                             <img class="img-fluid w-100" src="./assets/img/portfolio-5.jpg" alt="">
                         </div>
                         <div class="portfolio-text bg-primary">
-                            <h4 class="font-weight-bold mb-4">Project Name</h4>
+                            <h4 class="font-weight-bold mb-4">Warehouses & Industrial</h4>
                             <div class="d-flex align-items-center justify-content-center">
                                 <a class="btn btn-sm btn-secondary m-1" href="">
                                     <i class="fa fa-link"></i>
@@ -148,7 +148,7 @@
                             <img class="img-fluid w-100" src="./assets/img/portfolio-6.jpg" alt="">
                         </div>
                         <div class="portfolio-text bg-primary">
-                            <h4 class="font-weight-bold mb-4">Project Name</h4>
+                            <h4 class="font-weight-bold mb-4">Property Management</h4>
                             <div class="d-flex align-items-center justify-content-center">
                                 <a class="btn btn-sm btn-secondary m-1" href="">
                                     <i class="fa fa-link"></i>

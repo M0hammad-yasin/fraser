@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <?php 
-    $pageTitle = "About Us - Klean Cleaning Services";
+    $pageTitle = "About Us - Fraser Facility Services";
     include 'components/head.php'; 
     ?>
   </head>
@@ -18,7 +18,7 @@
         <div class="row align-items-center py-4">
           <div class="col-md-6 text-center text-md-left">
             <h1 class="display-4 mb-4 mb-md-0 text-secondary text-uppercase">
-              About
+              About Fraser Facility Services
             </h1>
           </div>
           <div class="col-md-6 text-center text-md-right">
@@ -43,29 +43,25 @@
             >
               <i class="fa fa-5x fa-award text-primary mb-4"></i>
               <h1 class="display-2 text-white mb-2" data-toggle="counter-up">
-                25
+                15
               </h1>
-              <h2 class="text-white m-0">Years Experience</h2>
+              <h2 class="text-white m-0 text-center">[CLIENT TO CONFIRM]</h2>
             </div>
           </div>
           <div class="col-lg-7 pt-5 pb-lg-5">
             <h6
               class="text-secondary font-weight-semi-bold text-uppercase mb-3"
             >
-              Learn About Us
+              About Fraser Facility Services
             </h6>
             <h1 class="mb-4 section-title">
-              We Provide The Best Cleaning Services
+              One Partner. Complete Facility Solutions.
             </h1>
             <h5 class="text-muted font-weight-normal mb-3">
-              Eos kasd eos dolor vero vero, lorem stet diam rebum. Ipsum amet
-              sed vero dolor sea lorem justo est dolor eos
+              Fraser Facility Services provides integrated solutions that keep your property clean, safe, and operating at its best.
             </h5>
             <p>
-              Invidunt lorem justo sanctus clita. Erat lorem labore ea, justo
-              dolor lorem ipsum ut sed eos, ipsum et dolor kasd sit ea justo.
-              Erat justo sed sed diam. Ea et erat ut sed diam sea ipsum est
-              dolor
+              One partner for commercial and residential facility needs across the Fraser region. We emphasize reliability, professionalism, and long-term partnership so you can focus on what matters most.
             </p>
             <div class="d-flex align-items-center pt-4">
               <a href="" class="btn btn-primary mr-5">Learn More</a>
@@ -137,32 +133,27 @@
               Why Choose Us
             </h6>
             <h1 class="mb-4 section-title">
-              25 Years Experience In Cleaning Industry
+              Your Trusted Facility Partner
             </h1>
             <p class="mb-4">
-              Dolores lorem lorem ipsum sit et ipsum. Sadip sea amet diam dolore
-              sed et. Sit rebum labore sit sit ut vero no sit. Et elitr stet
-              dolor sed sit et sed ipsum et kasd ut. Erat duo eos et erat sed
-              diam duo
+              We provide a single point of contact for all your facility needs, ensuring peace of mind and exceptional results.
             </p>
             <div class="row">
-              <div class="col-sm-4">
-                <h1 class="text-secondary mb-2" data-toggle="counter-up">
-                  225
-                </h1>
-                <h6 class="font-weight-semi-bold mb-sm-4">Our Cleaners</h6>
+              <div class="col-sm-6 mb-4">
+                <h5 class="font-weight-semi-bold"><i class="fa fa-check text-primary mr-2"></i>Trusted & Reliable</h5>
+                <p class="mb-0">We show up, follow through, and stand behind our work.</p>
               </div>
-              <div class="col-sm-4">
-                <h1 class="text-secondary mb-2" data-toggle="counter-up">
-                  1050
-                </h1>
-                <h6 class="font-weight-semi-bold mb-sm-4">Happy Clients</h6>
+              <div class="col-sm-6 mb-4">
+                <h5 class="font-weight-semi-bold"><i class="fa fa-check text-primary mr-2"></i>Experienced Team</h5>
+                <p class="mb-0">Skilled professionals committed to quality and safety.</p>
               </div>
-              <div class="col-sm-4">
-                <h1 class="text-secondary mb-2" data-toggle="counter-up">
-                  2500
-                </h1>
-                <h6 class="font-weight-semi-bold mb-sm-4">Projects Done</h6>
+              <div class="col-sm-6 mb-4">
+                <h5 class="font-weight-semi-bold"><i class="fa fa-check text-primary mr-2"></i>Responsive & Flexible</h5>
+                <p class="mb-0">Quick response times and custom solutions that fit your needs.</p>
+              </div>
+              <div class="col-sm-6 mb-4">
+                <h5 class="font-weight-semi-bold"><i class="fa fa-check text-primary mr-2"></i>Quality & Care</h5>
+                <p class="mb-0">We treat your property like it's our own.</p>
               </div>
             </div>
           </div>
@@ -181,150 +172,14 @@
     <!-- Features End -->
 
     <!-- Team Start -->
-    <div class="container-fluid pt-5">
+    <div class="container-fluid py-5 bg-light">
       <div class="container py-5">
-        <div class="row align-items-end mb-4">
-          <div class="col-lg-6">
-            <h6
-              class="text-secondary font-weight-semi-bold text-uppercase mb-3"
-            >
-              Meet Our Team
-            </h6>
-            <h1 class="section-title mb-3">
-              Meet Our Highly Experienced Cleaners
-            </h1>
-          </div>
-          <div class="col-lg-6">
-            <h4 class="font-weight-normal text-muted mb-3">
-              Eirmod kasd duo eos et magna, diam dolore stet sea clita sit ea
-              erat lorem. Ipsum eos ipsum magna lorem stet
-            </h4>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-12">
-            <div class="owl-carousel team-carousel position-relative">
-              <div
-                class="team d-flex flex-column text-center rounded overflow-hidden"
-              >
-                <div class="position-relative">
-                  <div class="team-img">
-                    <img
-                      class="img-fluid w-100"
-                      src="./assets/img/team-1.jpg"
-                      alt=""
-                    />
-                  </div>
-                  <div
-                    class="team-social d-flex flex-column align-items-center justify-content-center bg-primary"
-                  >
-                    <a class="btn btn-secondary btn-social mb-2" href="#"
-                      ><i class="fab fa-twitter"></i
-                    ></a>
-                    <a class="btn btn-secondary btn-social mb-2" href="#"
-                      ><i class="fab fa-facebook-f"></i
-                    ></a>
-                    <a class="btn btn-secondary btn-social" href="#"
-                      ><i class="fab fa-linkedin-in"></i
-                    ></a>
-                  </div>
-                </div>
-                <div class="d-flex flex-column bg-primary text-center py-4">
-                  <h5 class="font-weight-bold">Full Name</h5>
-                  <p class="text-white m-0">Designation</p>
-                </div>
-              </div>
-              <div
-                class="team d-flex flex-column text-center rounded overflow-hidden"
-              >
-                <div class="position-relative">
-                  <div class="team-img">
-                    <img
-                      class="img-fluid w-100"
-                      src="./assets/img/team-2.jpg"
-                      alt=""
-                    />
-                  </div>
-                  <div
-                    class="team-social d-flex flex-column align-items-center justify-content-center bg-primary"
-                  >
-                    <a class="btn btn-secondary btn-social mb-2" href="#"
-                      ><i class="fab fa-twitter"></i
-                    ></a>
-                    <a class="btn btn-secondary btn-social mb-2" href="#"
-                      ><i class="fab fa-facebook-f"></i
-                    ></a>
-                    <a class="btn btn-secondary btn-social" href="#"
-                      ><i class="fab fa-linkedin-in"></i
-                    ></a>
-                  </div>
-                </div>
-                <div class="d-flex flex-column bg-primary text-center py-4">
-                  <h5 class="font-weight-bold">Full Name</h5>
-                  <p class="text-white m-0">Designation</p>
-                </div>
-              </div>
-              <div
-                class="team d-flex flex-column text-center rounded overflow-hidden"
-              >
-                <div class="position-relative">
-                  <div class="team-img">
-                    <img
-                      class="img-fluid w-100"
-                      src="./assets/img/team-3.jpg"
-                      alt=""
-                    />
-                  </div>
-                  <div
-                    class="team-social d-flex flex-column align-items-center justify-content-center bg-primary"
-                  >
-                    <a class="btn btn-secondary btn-social mb-2" href="#"
-                      ><i class="fab fa-twitter"></i
-                    ></a>
-                    <a class="btn btn-secondary btn-social mb-2" href="#"
-                      ><i class="fab fa-facebook-f"></i
-                    ></a>
-                    <a class="btn btn-secondary btn-social" href="#"
-                      ><i class="fab fa-linkedin-in"></i
-                    ></a>
-                  </div>
-                </div>
-                <div class="d-flex flex-column bg-primary text-center py-4">
-                  <h5 class="font-weight-bold">Full Name</h5>
-                  <p class="text-white m-0">Designation</p>
-                </div>
-              </div>
-              <div
-                class="team d-flex flex-column text-center rounded overflow-hidden"
-              >
-                <div class="position-relative">
-                  <div class="team-img">
-                    <img
-                      class="img-fluid w-100"
-                      src="./assets/img/team-4.jpg"
-                      alt=""
-                    />
-                  </div>
-                  <div
-                    class="team-social d-flex flex-column align-items-center justify-content-center bg-primary"
-                  >
-                    <a class="btn btn-secondary btn-social mb-2" href="#"
-                      ><i class="fab fa-twitter"></i
-                    ></a>
-                    <a class="btn btn-secondary btn-social mb-2" href="#"
-                      ><i class="fab fa-facebook-f"></i
-                    ></a>
-                    <a class="btn btn-secondary btn-social" href="#"
-                      ><i class="fab fa-linkedin-in"></i
-                    ></a>
-                  </div>
-                </div>
-                <div class="d-flex flex-column bg-primary text-center py-4">
-                  <h5 class="font-weight-bold">Full Name</h5>
-                  <p class="text-white m-0">Designation</p>
-                </div>
-              </div>
-            </div>
+        <div class="row justify-content-center text-center">
+          <div class="col-lg-8">
+            <i class="fa fa-5x fa-handshake text-primary mb-4"></i>
+            <h1 class="section-title mb-3">One Partner. Every Service.</h1>
+            <h4 class="font-weight-normal text-muted mb-4">Simplify your operations with a single, trusted partner for all your facility needs.</h4>
+            <a href="contact.php" class="btn btn-primary py-3 px-5">Partner With Us</a>
           </div>
         </div>
       </div>

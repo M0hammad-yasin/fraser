@@ -10,11 +10,11 @@
                 <div class="col-lg-7 text-left text-white">
                     <div class="h-100 d-inline-flex align-items-center border-right border-primary py-2 px-3">
                         <i class="fa fa-envelope text-primary mr-2"></i>
-                        <small>info@example.com</small>
+                        <small>info@fraserfacilityservices.ca</small>
                     </div>
                     <div class="h-100 d-inline-flex align-items-center py-2 px-2">
                         <i class="fa fa-phone-alt text-primary mr-2"></i>
-                        <small>+012 345 6789</small>
+                        <small>604-123-4567</small>
                     </div>
                 </div>
                 <div class="col-lg-5 text-right">
@@ -39,7 +39,7 @@
             </div>
             <nav class="navbar navbar-expand-lg bg-white navbar-light p-0">
                 <a href="" class="navbar-brand d-block d-lg-none">
-                    <h1 class="m-0 display-4 text-primary">Klean</h1>
+                    <h1 class="m-0 display-4 text-primary">Fraser Facility Services</h1>
                 </a>
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                     <span class="navbar-toggler-icon"></span>
@@ -70,7 +70,7 @@
 <div id="narrow-header" class="shadow-sm">
     <nav class="navbar navbar-expand-lg navbar-light p-0">
         <a href="index.php" class="navbar-brand d-block d-lg-none pl-4">
-            <h1 class="m-0 display-5 text-primary">Klean</h1>
+            <h1 class="m-0 display-5 text-primary">Fraser Facility Services</h1>
         </a>
         <button type="button" class="navbar-toggler mr-4 my-2" data-toggle="collapse" data-target="#narrowNavbarCollapse">
             <span class="navbar-toggler-icon"></span>

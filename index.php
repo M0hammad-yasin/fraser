@@ -27,9 +27,11 @@
                     <img class="img-fluid" src="./assets/img/carousel-1.jpg" alt="Image">
                     <div class="carousel-caption d-flex align-items-center justify-content-center">
                         <div class="p-5" style="width: 100%; max-width: 900px;">
-                            <h5 class="text-primary text-uppercase mb-md-3">Cleaning Services</h5>
-                            <h1 class="display-3 text-white mb-md-4">Best Quality Solution In Cleaning</h1>
-                            <a href="" class="btn btn-primary">Get A Quote</a>
+                            <h5 class="text-primary text-uppercase mb-md-3">Fraser Facility Services</h5>
+                            <h1 class="display-3 text-white mb-md-4">One Partner. Complete Facility Solutions.</h1>
+                            <p class="text-white mb-4 d-none d-md-block" style="font-size: 1.2rem;">Fraser Facility Services provides integrated janitorial, maintenance, exterior, and mechanical solutions that keep your property clean, safe, and operating at its best.</p>
+                            <a href="contact.php" class="btn btn-primary mr-2">Get A Quote</a>
+                            <a href="service.php" class="btn btn-outline-light">Our Services</a>
                         </div>
                     </div>
                 </div>
@@ -37,9 +39,11 @@
                     <img class="img-fluid" src="./assets/img/carousel-2.jpg" alt="Image">
                     <div class="carousel-caption d-flex align-items-center justify-content-center">
                         <div class="p-5" style="width: 100%; max-width: 900px;">
-                            <h5 class="text-primary text-uppercase mb-md-3">Cleaning Services</h5>
-                            <h1 class="display-3 text-white mb-md-4">Highly Professional Cleaning Services</h1>
-                            <a href="" class="btn btn-primary">Get A Quote</a>
+                            <h5 class="text-primary text-uppercase mb-md-3">Fraser Facility Services</h5>
+                            <h1 class="display-3 text-white mb-md-4">Commercial & Residential — One Trusted Team.</h1>
+                            <p class="text-white mb-4 d-none d-md-block" style="font-size: 1.2rem;">From office towers to strata buildings, we deliver reliable, professional facility care across the Fraser region.</p>
+                            <a href="contact.php" class="btn btn-primary mr-2">Get A Quote</a>
+                            <a href="service.php" class="btn btn-outline-light">Our Services</a>
                         </div>
                     </div>
                 </div>
@@ -47,9 +51,11 @@
                     <img class="img-fluid" src="./assets/img/carousel-3.jpg" alt="Image">
                     <div class="carousel-caption d-flex align-items-center justify-content-center">
                         <div class="p-5" style="width: 100%; max-width: 900px;">
-                            <h5 class="text-primary text-uppercase mb-md-3">Cleaning Services</h5>
-                            <h1 class="display-3 text-white mb-md-4">Experienced & Expert Cleaners</h1>
-                            <a href="" class="btn btn-primary">Get A Quote</a>
+                            <h5 class="text-primary text-uppercase mb-md-3">Fraser Facility Services</h5>
+                            <h1 class="display-3 text-white mb-md-4">Proudly Serving the Fraser Region.</h1>
+                            <p class="text-white mb-4 d-none d-md-block" style="font-size: 1.2rem;">Lower Mainland-wide coverage, responsive scheduling, and a single point of contact for every service.</p>
+                            <a href="contact.php" class="btn btn-primary mr-2">Get A Quote</a>
+                            <a href="service.php" class="btn btn-outline-light">Our Services</a>
                         </div>
                     </div>
                 </div>
@@ -64,28 +70,28 @@
         <div class="row">
             <div class="col-lg-4 p-0">
                 <div class="contact-info-item d-flex align-items-center justify-content-center bg-primary text-white py-4 py-lg-0">
-                    <i class="fa fa-3x fa-map-marker-alt text-secondary mr-4"></i>
+                    <i class="fa fa-3x fa-shield-alt text-secondary mr-4"></i>
                     <div class="">
-                        <h5 class="mb-2">Our Office</h5>
-                        <p class="m-0">123 Street, New York, USA</p>
+                        <h5 class="mb-2">Reliable Service</h5>
+                        <p class="m-0">We show up & follow through</p>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4 p-0">
                 <div class="contact-info-item d-flex align-items-center justify-content-center bg-secondary text-white py-4 py-lg-0">
-                    <i class="fa fa-3x fa-envelope-open text-primary mr-4"></i>
+                    <i class="fa fa-3x fa-user-tie text-primary mr-4"></i>
                     <div class="">
-                        <h5 class="mb-2">Email Us</h5>
-                        <p class="m-0">info@example.com</p>
+                        <h5 class="mb-2">Professional Team</h5>
+                        <p class="m-0">Skilled & committed</p>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4 p-0">
                 <div class="contact-info-item d-flex align-items-center justify-content-center bg-primary text-white py-4 py-lg-0">
-                    <i class="fa fa-3x fa-phone-alt text-secondary mr-4"></i>
+                    <i class="fa fa-3x fa-headset text-secondary mr-4"></i>
                     <div class="">
-                        <h5 class="mb-2">Call Us</h5>
-                        <p class="m-0">+012 345 6789</p>
+                        <h5 class="mb-2">Responsive Support</h5>
+                        <p class="m-0">Quick response times</p>
                     </div>
                 </div>
             </div>
@@ -101,17 +107,17 @@
                 <div class="col-lg-5">
                     <div class="d-flex flex-column align-items-center justify-content-center bg-about rounded h-100 py-5 px-3">
                         <i class="fa fa-5x fa-award text-primary mb-4"></i>
-                        <h1 class="display-2 text-white mb-2" data-toggle="counter-up">25</h1>
-                        <h2 class="text-white m-0">Years Experience</h2>
+                        <h1 class="display-2 text-white mb-2" data-toggle="counter-up">15</h1>
+                        <h2 class="text-white m-0">[CLIENT TO CONFIRM]</h2>
                     </div>
                 </div>
                 <div class="col-lg-7 pt-5 pb-lg-5">
-                    <h6 class="text-secondary font-weight-semi-bold text-uppercase mb-3">Learn About Us</h6>
-                    <h1 class="mb-4 section-title">We Provide The Best Cleaning Services</h1>
-                    <h5 class="text-muted font-weight-normal mb-3">Eos kasd eos dolor vero vero, lorem stet diam rebum. Ipsum amet sed vero dolor sea lorem justo est dolor eos</h5>
-                    <p>Invidunt lorem justo sanctus clita. Erat lorem labore ea, justo dolor lorem ipsum ut sed eos, ipsum et dolor kasd sit ea justo. Erat justo sed sed diam. Ea et erat ut sed diam sea ipsum est dolor</p>
+                    <h6 class="text-secondary font-weight-semi-bold text-uppercase mb-3">About Fraser Facility Services</h6>
+                    <h1 class="mb-4 section-title">One Partner. Complete Facility Solutions.</h1>
+                    <h5 class="text-muted font-weight-normal mb-3">Fraser Facility Services provides integrated solutions that keep your property clean, safe, and operating at its best.</h5>
+                    <p>One partner, every service — so you can focus on what matters most. We deliver reliable, professional facility care across the Fraser region.</p>
                     <div class="d-flex align-items-center pt-4">
-                        <a href="" class="btn btn-primary mr-5">Learn More</a>
+                        <a href="about.php" class="btn btn-primary mr-5">Learn More</a>
                         <button type="button" class="btn-play" data-toggle="modal"
                             data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-target="#videoModal">
                             <span></span>
@@ -148,34 +154,48 @@
     <div class="container-fluid bg-service py-5">
         <div class="container py-5">
             <div class="row align-items-center">
-                <div class="col-lg-6">
+                <div class="col-lg-12 text-center mb-5">
                     <h6 class="text-secondary font-weight-semi-bold text-uppercase mb-3">Our Services</h6>
-                    <h1 class="mb-4 section-title text-white">Awesome Cleaning Services For You</h1>
-                    <p class="text-white">Invidunt lorem justo clita. Erat lorem labore ea, justo dolor lorem ipsum ut sed eos, ipsum et dolor kasd sit ea justo. Erat justo sed sed diam. Ea et erat ut sed diam sea ipsum</p>
-                    <a href="" class="btn btn-primary mt-3 py-2 px-4">More Services</a>
+                    <h1 class="mb-4 section-title text-white">Complete Facility Solutions For You</h1>
+                    <p class="text-white mx-auto" style="max-width: 800px;">One Partner. Every Service. We provide a full suite of services to ensure your property remains clean, safe, and fully operational.</p>
+                    <a href="service.php" class="btn btn-primary mt-3 py-2 px-4">All Services</a>
                 </div>
-                <div class="col-lg-6 pt-5 pt-lg-0">
+                <div class="col-lg-12 pt-5 pt-lg-0">
                     <div class="owl-carousel service-carousel position-relative">
                         <div class="d-flex flex-column align-items-center text-center bg-white rounded overflow-hidden pt-4">
                             <div class="icon-box bg-light text-secondary shadow mt-2 mb-4">
-                                <i class="fa fa-2x fa-hotel"></i>
+                                <i class="fa fa-2x fa-broom"></i>
                             </div>
-                            <h5 class="font-weight-bold mb-4 px-4">Home Cleaning</h5>
-                            <img src="./assets/img/blog-1.jpg" alt="">
+                            <h5 class="font-weight-bold mb-4 px-4">Janitorial & Custodial</h5>
+                            <p class="px-4">Commercial & residential cleaning, floor care, carpet & window cleaning.</p>
                         </div>
                         <div class="d-flex flex-column align-items-center text-center bg-white rounded overflow-hidden pt-4">
                             <div class="icon-box bg-light text-secondary shadow mt-2 mb-4">
-                                <i class="fa fa-2x fa-city"></i>
+                                <i class="fa fa-2x fa-tools"></i>
                             </div>
-                            <h5 class="font-weight-bold mb-4 px-4">Window Cleaning</h5>
-                            <img src="./assets/img/blog-3.jpg" alt="">
+                            <h5 class="font-weight-bold mb-4 px-4">Building Maintenance</h5>
+                            <p class="px-4">General repairs, painting, drywall, lock & hardware repairs.</p>
                         </div>
                         <div class="d-flex flex-column align-items-center text-center bg-white rounded overflow-hidden pt-4">
                             <div class="icon-box bg-light text-secondary shadow mt-2 mb-4">
-                                <i class="fa fa-2x fa-spa"></i>
+                                <i class="fa fa-2x fa-leaf"></i>
                             </div>
-                            <h5 class="font-weight-bold mb-4 px-4">Carpet Cleaning</h5>
-                            <img src="./assets/img/blog-2.jpg" alt="">
+                            <h5 class="font-weight-bold mb-4 px-4">Exterior Services</h5>
+                            <p class="px-4">Snow plowing, landscaping, pressure washing, seasonal cleanup.</p>
+                        </div>
+                        <div class="d-flex flex-column align-items-center text-center bg-white rounded overflow-hidden pt-4">
+                            <div class="icon-box bg-light text-secondary shadow mt-2 mb-4">
+                                <i class="fa fa-2x fa-wrench"></i>
+                            </div>
+                            <h5 class="font-weight-bold mb-4 px-4">Mechanical & Support</h5>
+                            <p class="px-4">Plumbing, electrical & HVAC, preventive maintenance programs.</p>
+                        </div>
+                        <div class="d-flex flex-column align-items-center text-center bg-white rounded overflow-hidden pt-4">
+                            <div class="icon-box bg-light text-secondary shadow mt-2 mb-4">
+                                <i class="fa fa-2x fa-hard-hat"></i>
+                            </div>
+                            <h5 class="font-weight-bold mb-4 px-4">Specialized Services</h5>
+                            <p class="px-4">Construction site cleanup, high dusting & power washing.</p>
                         </div>
                     </div>
                 </div>
@@ -191,20 +211,24 @@
             <div class="row">
                 <div class="col-lg-7 pt-lg-5 pb-3">
                     <h6 class="text-secondary font-weight-semi-bold text-uppercase mb-3">Why Choose Us</h6>
-                    <h1 class="mb-4 section-title">25 Years Experience In Cleaning Industry</h1>
-                    <p class="mb-4">Dolores lorem lorem ipsum sit et ipsum. Sadip sea amet diam dolore sed et. Sit rebum labore sit sit ut vero no sit. Et elitr stet dolor sed sit et sed ipsum et kasd ut. Erat duo eos et erat sed diam duo</p>
+                    <h1 class="mb-4 section-title">Your Trusted Facility Partner</h1>
+                    <p class="mb-4">We provide a single point of contact for all your facility needs, ensuring peace of mind and exceptional results.</p>
                     <div class="row">
-                        <div class="col-sm-4">
-                            <h1 class="text-secondary mb-2" data-toggle="counter-up">225</h1>
-                            <h6 class="font-weight-semi-bold mb-sm-4">Our Cleaners</h6>
+                        <div class="col-sm-6 mb-4">
+                            <h5 class="font-weight-semi-bold"><i class="fa fa-check text-primary mr-2"></i>Trusted & Reliable</h5>
+                            <p class="mb-0">We show up, follow through, and stand behind our work.</p>
                         </div>
-                        <div class="col-sm-4">
-                            <h1 class="text-secondary mb-2" data-toggle="counter-up">1050</h1>
-                            <h6 class="font-weight-semi-bold mb-sm-4">Happy Clients</h6>
+                        <div class="col-sm-6 mb-4">
+                            <h5 class="font-weight-semi-bold"><i class="fa fa-check text-primary mr-2"></i>Experienced Team</h5>
+                            <p class="mb-0">Skilled professionals committed to quality and safety.</p>
                         </div>
-                        <div class="col-sm-4">
-                            <h1 class="text-secondary mb-2" data-toggle="counter-up">2500</h1>
-                            <h6 class="font-weight-semi-bold mb-sm-4">Projects Done</h6>
+                        <div class="col-sm-6 mb-4">
+                            <h5 class="font-weight-semi-bold"><i class="fa fa-check text-primary mr-2"></i>Responsive & Flexible</h5>
+                            <p class="mb-0">Quick response times and custom solutions that fit your needs.</p>
+                        </div>
+                        <div class="col-sm-6 mb-4">
+                            <h5 class="font-weight-semi-bold"><i class="fa fa-check text-primary mr-2"></i>Quality & Care</h5>
+                            <p class="mb-0">We treat your property like it's our own.</p>
                         </div>
                     </div>
                 </div>
@@ -229,7 +253,7 @@
                             <img class="img-fluid w-100" src="./assets/img/portfolio-1.jpg" alt="">
                         </div>
                         <div class="portfolio-text bg-primary">
-                            <h4 class="font-weight-bold mb-4">Project Name</h4>
+                            <h4 class="font-weight-bold mb-4">Office Buildings</h4>
                             <div class="d-flex align-items-center justify-content-center">
                                 <a class="btn btn-sm btn-secondary m-1" href="">
                                     <i class="fa fa-link"></i>
@@ -247,7 +271,7 @@
                             <img class="img-fluid w-100" src="./assets/img/portfolio-2.jpg" alt="">
                         </div>
                         <div class="portfolio-text bg-primary">
-                            <h4 class="font-weight-bold mb-4">Project Name</h4>
+                            <h4 class="font-weight-bold mb-4">Retail & Restaurants</h4>
                             <div class="d-flex align-items-center justify-content-center">
                                 <a class="btn btn-sm btn-secondary m-1" href="">
                                     <i class="fa fa-link"></i>
@@ -265,7 +289,7 @@
                             <img class="img-fluid w-100" src="./assets/img/portfolio-3.jpg" alt="">
                         </div>
                         <div class="portfolio-text bg-primary">
-                            <h4 class="font-weight-bold mb-4">Project Name</h4>
+                            <h4 class="font-weight-bold mb-4">Medical & Dental Offices</h4>
                             <div class="d-flex align-items-center justify-content-center">
                                 <a class="btn btn-sm btn-secondary m-1" href="">
                                     <i class="fa fa-link"></i>
@@ -283,7 +307,7 @@
                             <img class="img-fluid w-100" src="./assets/img/portfolio-4.jpg" alt="">
                         </div>
                         <div class="portfolio-text bg-primary">
-                            <h4 class="font-weight-bold mb-4">Project Name</h4>
+                            <h4 class="font-weight-bold mb-4">Property Management</h4>
                             <div class="d-flex align-items-center justify-content-center">
                                 <a class="btn btn-sm btn-secondary m-1" href="">
                                     <i class="fa fa-link"></i>
@@ -301,7 +325,7 @@
                             <img class="img-fluid w-100" src="./assets/img/portfolio-5.jpg" alt="">
                         </div>
                         <div class="portfolio-text bg-primary">
-                            <h4 class="font-weight-bold mb-4">Project Name</h4>
+                            <h4 class="font-weight-bold mb-4">Warehouses & Industrial</h4>
                             <div class="d-flex align-items-center justify-content-center">
                                 <a class="btn btn-sm btn-secondary m-1" href="">
                                     <i class="fa fa-link"></i>
@@ -319,7 +343,7 @@
                             <img class="img-fluid w-100" src="./assets/img/portfolio-6.jpg" alt="">
                         </div>
                         <div class="portfolio-text bg-primary">
-                            <h4 class="font-weight-bold mb-4">Project Name</h4>
+                            <h4 class="font-weight-bold mb-4">Strata & Multi-Family</h4>
                             <div class="d-flex align-items-center justify-content-center">
                                 <a class="btn btn-sm btn-secondary m-1" href="">
                                     <i class="fa fa-link"></i>
@@ -339,85 +363,14 @@
 
 
     <!-- Team Start -->
-    <div class="container-fluid py-5">
+    <div class="container-fluid py-5 bg-light">
         <div class="container py-5">
-            <div class="row align-items-end mb-4">
-                <div class="col-lg-6">
-                    <h6 class="text-secondary font-weight-semi-bold text-uppercase mb-3">Meet Our Team</h6>
-                    <h1 class="section-title mb-3">Meet Our Highly Experienced Cleaners</h1>
-                </div>
-                <div class="col-lg-6">
-                    <h4 class="font-weight-normal text-muted mb-3">Eirmod kasd duo eos et magna, diam dolore stet sea clita sit ea erat lorem. Ipsum eos ipsum magna lorem stet</h4>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12">
-                    <div class="owl-carousel team-carousel position-relative">
-                        <div class="team d-flex flex-column text-center rounded overflow-hidden">
-                            <div class="position-relative">
-                                <div class="team-img">
-                                    <img class="img-fluid w-100" src="./assets/img/team-1.jpg" alt="">
-                                </div>
-                                <div class="team-social d-flex flex-column align-items-center justify-content-center bg-primary">
-                                    <a class="btn btn-secondary btn-social mb-2" href="#"><i class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-secondary btn-social mb-2" href="#"><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-secondary btn-social" href="#"><i class="fab fa-linkedin-in"></i></a>
-                                </div>
-                            </div>
-                            <div class="d-flex flex-column bg-primary text-center py-4">
-                                <h5 class="font-weight-bold">Full Name</h5>
-                                <p class="text-white m-0">Designation</p>
-                            </div>
-                        </div>
-                        <div class="team d-flex flex-column text-center rounded overflow-hidden">
-                            <div class="position-relative">
-                                <div class="team-img">
-                                    <img class="img-fluid w-100" src="./assets/img/team-2.jpg" alt="">
-                                </div>
-                                <div class="team-social d-flex flex-column align-items-center justify-content-center bg-primary">
-                                    <a class="btn btn-secondary btn-social mb-2" href="#"><i class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-secondary btn-social mb-2" href="#"><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-secondary btn-social" href="#"><i class="fab fa-linkedin-in"></i></a>
-                                </div>
-                            </div>
-                            <div class="d-flex flex-column bg-primary text-center py-4">
-                                <h5 class="font-weight-bold">Full Name</h5>
-                                <p class="text-white m-0">Designation</p>
-                            </div>
-                        </div>
-                        <div class="team d-flex flex-column text-center rounded overflow-hidden">
-                            <div class="position-relative">
-                                <div class="team-img">
-                                    <img class="img-fluid w-100" src="./assets/img/team-3.jpg" alt="">
-                                </div>
-                                <div class="team-social d-flex flex-column align-items-center justify-content-center bg-primary">
-                                    <a class="btn btn-secondary btn-social mb-2" href="#"><i class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-secondary btn-social mb-2" href="#"><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-secondary btn-social" href="#"><i class="fab fa-linkedin-in"></i></a>
-                                </div>
-                            </div>
-                            <div class="d-flex flex-column bg-primary text-center py-4">
-                                <h5 class="font-weight-bold">Full Name</h5>
-                                <p class="text-white m-0">Designation</p>
-                            </div>
-                        </div>
-                        <div class="team d-flex flex-column text-center rounded overflow-hidden">
-                            <div class="position-relative">
-                                <div class="team-img">
-                                    <img class="img-fluid w-100" src="./assets/img/team-4.jpg" alt="">
-                                </div>
-                                <div class="team-social d-flex flex-column align-items-center justify-content-center bg-primary">
-                                    <a class="btn btn-secondary btn-social mb-2" href="#"><i class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-secondary btn-social mb-2" href="#"><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-secondary btn-social" href="#"><i class="fab fa-linkedin-in"></i></a>
-                                </div>
-                            </div>
-                            <div class="d-flex flex-column bg-primary text-center py-4">
-                                <h5 class="font-weight-bold">Full Name</h5>
-                                <p class="text-white m-0">Designation</p>
-                            </div>
-                        </div>
-                    </div>
+            <div class="row justify-content-center text-center">
+                <div class="col-lg-8">
+                    <i class="fa fa-5x fa-handshake text-primary mb-4"></i>
+                    <h1 class="section-title mb-3">One Partner. Every Service.</h1>
+                    <h4 class="font-weight-normal text-muted mb-4">Simplify your operations with a single, trusted partner for all your facility needs.</h4>
+                    <a href="contact.php" class="btn btn-primary py-3 px-5">Partner With Us</a>
                 </div>
             </div>
         </div>
@@ -437,31 +390,31 @@
                             <div class="d-flex align-items-center mb-3">
                                 <img class="img-fluid" src="./assets/img/testimonial-1.jpg" alt="">
                                 <div class="ml-3">
-                                    <h5 class="text-primary">Client Name</h5>
-                                    <i>Profession</i>
+                                    <h5 class="text-primary">[CLIENT TO PROVIDE]</h5>
+                                    <i>Property Manager / Strata Council</i>
                                 </div>
                             </div>
-                            <p>Tempor at diam tempor sed. Sanctus dolor ipsum ut nonumy amet clita sea. Sed eos sed dolores vero no. Ipsum elitr elitr stet dolor  lorem erat. Diam no amet sea justo vero ut. Dolor ipsum kasd ipsum dolore.</p>
+                            <p>[CLIENT TO PROVIDE — property manager / strata council testimonial]</p>
                         </div>
                         <div class="d-flex flex-column text-white">
                             <div class="d-flex align-items-center mb-3">
                                 <img class="img-fluid" src="./assets/img/testimonial-2.jpg" alt="">
                                 <div class="ml-3">
-                                    <h5 class="text-primary">Client Name</h5>
-                                    <i>Profession</i>
+                                    <h5 class="text-primary">[CLIENT TO PROVIDE]</h5>
+                                    <i>Property Manager / Strata Council</i>
                                 </div>
                             </div>
-                            <p>Tempor at diam tempor sed. Sanctus dolor ipsum ut nonumy amet clita sea. Sed eos sed dolores vero no. Ipsum elitr elitr stet dolor  lorem erat. Diam no amet sea justo vero ut. Dolor ipsum kasd ipsum dolore.</p>
+                            <p>[CLIENT TO PROVIDE — property manager / strata council testimonial]</p>
                         </div>
                         <div class="d-flex flex-column text-white">
                             <div class="d-flex align-items-center mb-3">
                                 <img class="img-fluid" src="./assets/img/testimonial-3.jpg" alt="">
                                 <div class="ml-3">
-                                    <h5 class="text-primary">Client Name</h5>
-                                    <i>Profession</i>
+                                    <h5 class="text-primary">[CLIENT TO PROVIDE]</h5>
+                                    <i>Property Manager / Strata Council</i>
                                 </div>
                             </div>
-                            <p>Tempor at diam tempor sed. Sanctus dolor ipsum ut nonumy amet clita sea. Sed eos sed dolores vero no. Ipsum elitr elitr stet dolor  lorem erat. Diam no amet sea justo vero ut. Dolor ipsum kasd ipsum dolore.</p>
+                            <p>[CLIENT TO PROVIDE — property manager / strata council testimonial]</p>
                         </div>
                     </div>
                 </div>
@@ -481,11 +434,11 @@
         <div class="container pt-5">
             <div class="row align-items-end mb-4">
                 <div class="col-lg-6">
-                    <h6 class="text-secondary font-weight-semi-bold text-uppercase mb-3">Latest Blog</h6>
-                    <h1 class="section-title mb-3">Latest Articles From Our Blog Post</h1>
+                    <h6 class="text-secondary font-weight-semi-bold text-uppercase mb-3">Facility Care Tips</h6>
+                    <h1 class="section-title mb-3">News & Updates</h1>
                 </div>
                 <div class="col-lg-6">
-                    <h4 class="font-weight-normal text-muted mb-3">Eirmod kasd duo eos et magna, diam dolore stet sea clita sit ea erat lorem. Ipsum eos ipsum magna lorem stet</h4>
+                    <h4 class="font-weight-normal text-muted mb-3">Stay up to date with the latest insights, maintenance checklists, and best practices for property care.</h4>
                 </div>
             </div>
             <div class="row">

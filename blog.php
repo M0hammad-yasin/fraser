@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <?php 
-    $pageTitle = "Blog - Klean Cleaning Services";
+    $pageTitle = "Facility Care Tips - Fraser Facility Services";
     include 'components/head.php'; 
     ?>
   </head>
@@ -18,14 +18,14 @@
         <div class="row align-items-center py-4">
           <div class="col-md-6 text-center text-md-left">
             <h1 class="display-4 mb-4 mb-md-0 text-secondary text-uppercase">
-              Blog
+              Facility Care Tips
             </h1>
           </div>
           <div class="col-md-6 text-center text-md-right">
             <div class="d-inline-flex align-items-center">
               <a class="btn btn-sm btn-outline-light" href="">Home</a>
               <i class="fas fa-angle-double-right text-light mx-2"></i>
-              <a class="btn btn-sm btn-outline-light disabled" href="">Blog</a>
+              <a class="btn btn-sm btn-outline-light disabled" href="">Facility Care Tips</a>
             </div>
           </div>
         </div>
@@ -41,211 +41,66 @@
             <h6
               class="text-secondary font-weight-semi-bold text-uppercase mb-3"
             >
-              Latest Blog
+              Facility Care Tips
             </h6>
             <h1 class="section-title mb-3">
-              Latest Articles From Our Blog Post
+              News & Updates
             </h1>
           </div>
           <div class="col-lg-6">
             <h4 class="font-weight-normal text-muted mb-3">
-              Eirmod kasd duo eos et magna, diam dolore stet sea clita sit ea
-              erat lorem. Ipsum eos ipsum magna lorem stet
+              Stay up to date with the latest insights, maintenance checklists, and best practices for property care.
             </h4>
           </div>
         </div>
         <div class="row">
-          <div class="col-lg-4 col-md-6 mb-5">
+          <!-- Post 1 -->
+          <div class="col-lg-6 col-md-6 mb-5">
             <div class="position-relative mb-4">
               <img
                 class="img-fluid rounded w-100"
                 src="./assets/img/blog-1.jpg"
-                alt=""
+                alt="Seasonal Property Maintenance Checklist"
               />
               <div class="blog-date">
-                <h4 class="font-weight-bold mb-n1">01</h4>
-                <small class="text-white text-uppercase">Jan</small>
+                <h4 class="font-weight-bold mb-n1">15</h4>
+                <small class="text-white text-uppercase">Aug</small>
               </div>
             </div>
             <div class="d-flex mb-2">
-              <a
-                class="text-secondary text-uppercase font-weight-medium"
-                href=""
-                >Admin</a
-              >
+              <a class="text-secondary text-uppercase font-weight-medium" href="">Fraser Facility Services</a>
               <span class="text-primary px-2">|</span>
-              <a
-                class="text-secondary text-uppercase font-weight-medium"
-                href=""
-                >Cleaning</a
-              >
+              <a class="text-secondary text-uppercase font-weight-medium" href="">Facility Care</a>
             </div>
-            <h5 class="font-weight-medium mb-2">Rebum lorem eos ipsum diam</h5>
+            <h5 class="font-weight-medium mb-2">Seasonal Property Maintenance Checklist</h5>
             <p class="mb-4">
-              Dolor justo sea kasd lorem clita justo no diam amet. Kasd magna
-              dolor amet
+              Keeping your property in top condition year-round requires a proactive approach. From spring landscaping to winter snow management, here's what every property manager should be scheduling.
             </p>
-            <a class="btn btn-sm btn-primary py-2" href="">Read More</a>
+            <a class="btn btn-sm btn-primary py-2" href="single.php">Read More</a>
           </div>
-          <div class="col-lg-4 col-md-6 mb-5">
+          <!-- Post 2 -->
+          <div class="col-lg-6 col-md-6 mb-5">
             <div class="position-relative mb-4">
               <img
                 class="img-fluid rounded w-100"
                 src="./assets/img/blog-2.jpg"
-                alt=""
+                alt="Choosing a Facility Services Partner for Your Strata"
               />
               <div class="blog-date">
-                <h4 class="font-weight-bold mb-n1">01</h4>
-                <small class="text-white text-uppercase">Jan</small>
+                <h4 class="font-weight-bold mb-n1">08</h4>
+                <small class="text-white text-uppercase">Aug</small>
               </div>
             </div>
             <div class="d-flex mb-2">
-              <a
-                class="text-secondary text-uppercase font-weight-medium"
-                href=""
-                >Admin</a
-              >
+              <a class="text-secondary text-uppercase font-weight-medium" href="">Fraser Facility Services</a>
               <span class="text-primary px-2">|</span>
-              <a
-                class="text-secondary text-uppercase font-weight-medium"
-                href=""
-                >Cleaning</a
-              >
+              <a class="text-secondary text-uppercase font-weight-medium" href="">Strata</a>
             </div>
-            <h5 class="font-weight-medium mb-2">Rebum lorem eos ipsum diam</h5>
+            <h5 class="font-weight-medium mb-2">Choosing a Facility Services Partner for Your Strata</h5>
             <p class="mb-4">
-              Dolor justo sea kasd lorem clita justo no diam amet. Kasd magna
-              dolor amet
+              Managing a strata complex means coordinating multiple vendors, schedules, and budgets. Discover why one integrated facility partner simplifies everything — and what to look for when choosing one.
             </p>
-            <a class="btn btn-sm btn-primary py-2" href="">Read More</a>
-          </div>
-          <div class="col-lg-4 col-md-6 mb-5">
-            <div class="position-relative mb-4">
-              <img
-                class="img-fluid rounded w-100"
-                src="./assets/img/blog-3.jpg"
-                alt=""
-              />
-              <div class="blog-date">
-                <h4 class="font-weight-bold mb-n1">01</h4>
-                <small class="text-white text-uppercase">Jan</small>
-              </div>
-            </div>
-            <div class="d-flex mb-2">
-              <a
-                class="text-secondary text-uppercase font-weight-medium"
-                href=""
-                >Admin</a
-              >
-              <span class="text-primary px-2">|</span>
-              <a
-                class="text-secondary text-uppercase font-weight-medium"
-                href=""
-                >Cleaning</a
-              >
-            </div>
-            <h5 class="font-weight-medium mb-2">Rebum lorem eos ipsum diam</h5>
-            <p class="mb-4">
-              Dolor justo sea kasd lorem clita justo no diam amet. Kasd magna
-              dolor amet
-            </p>
-            <a class="btn btn-sm btn-primary py-2" href="">Read More</a>
-          </div>
-          <div class="col-lg-4 col-md-6 mb-5">
-            <div class="position-relative mb-4">
-              <img
-                class="img-fluid rounded w-100"
-                src="./assets/img/blog-2.jpg"
-                alt=""
-              />
-              <div class="blog-date">
-                <h4 class="font-weight-bold mb-n1">01</h4>
-                <small class="text-white text-uppercase">Jan</small>
-              </div>
-            </div>
-            <div class="d-flex mb-2">
-              <a
-                class="text-secondary text-uppercase font-weight-medium"
-                href=""
-                >Admin</a
-              >
-              <span class="text-primary px-2">|</span>
-              <a
-                class="text-secondary text-uppercase font-weight-medium"
-                href=""
-                >Cleaning</a
-              >
-            </div>
-            <h5 class="font-weight-medium mb-2">Rebum lorem eos ipsum diam</h5>
-            <p class="mb-4">
-              Dolor justo sea kasd lorem clita justo no diam amet. Kasd magna
-              dolor amet
-            </p>
-            <a class="btn btn-sm btn-primary py-2" href="">Read More</a>
-          </div>
-          <div class="col-lg-4 col-md-6 mb-5">
-            <div class="position-relative mb-4">
-              <img
-                class="img-fluid rounded w-100"
-                src="./assets/img/blog-3.jpg"
-                alt=""
-              />
-              <div class="blog-date">
-                <h4 class="font-weight-bold mb-n1">01</h4>
-                <small class="text-white text-uppercase">Jan</small>
-              </div>
-            </div>
-            <div class="d-flex mb-2">
-              <a
-                class="text-secondary text-uppercase font-weight-medium"
-                href=""
-                >Admin</a
-              >
-              <span class="text-primary px-2">|</span>
-              <a
-                class="text-secondary text-uppercase font-weight-medium"
-                href=""
-                >Cleaning</a
-              >
-            </div>
-            <h5 class="font-weight-medium mb-2">Rebum lorem eos ipsum diam</h5>
-            <p class="mb-4">
-              Dolor justo sea kasd lorem clita justo no diam amet. Kasd magna
-              dolor amet
-            </p>
-            <a class="btn btn-sm btn-primary py-2" href="">Read More</a>
-          </div>
-          <div class="col-lg-4 col-md-6 mb-5">
-            <div class="position-relative mb-4">
-              <img
-                class="img-fluid rounded w-100"
-                src="./assets/img/blog-1.jpg"
-                alt=""
-              />
-              <div class="blog-date">
-                <h4 class="font-weight-bold mb-n1">01</h4>
-                <small class="text-white text-uppercase">Jan</small>
-              </div>
-            </div>
-            <div class="d-flex mb-2">
-              <a
-                class="text-secondary text-uppercase font-weight-medium"
-                href=""
-                >Admin</a
-              >
-              <span class="text-primary px-2">|</span>
-              <a
-                class="text-secondary text-uppercase font-weight-medium"
-                href=""
-                >Cleaning</a
-              >
-            </div>
-            <h5 class="font-weight-medium mb-2">Rebum lorem eos ipsum diam</h5>
-            <p class="mb-4">
-              Dolor justo sea kasd lorem clita justo no diam amet. Kasd magna
-              dolor amet
-            </p>
-            <a class="btn btn-sm btn-primary py-2" href="">Read More</a>
+            <a class="btn btn-sm btn-primary py-2" href="single.php">Read More</a>
           </div>
           <div class="col-12">
             <nav aria-label="Page navigation">

@@ -1,11 +1,11 @@
 <meta charset="utf-8">
-<title><?php echo isset($pageTitle) ? htmlspecialchars($pageTitle) : 'Klean - Cleaning Services Website Template'; ?></title>
+<title><?php echo isset($pageTitle) ? htmlspecialchars($pageTitle) : 'Fraser Facility Services'; ?></title>
 <meta content="width=device-width, initial-scale=1.0" name="viewport">
-<meta content="Free HTML Templates" name="keywords">
-<meta content="Free HTML Templates" name="description">
+<meta content="<?php echo isset($pageKeywords) ? htmlspecialchars($pageKeywords) : 'facility services, commercial cleaning, residential cleaning, lower mainland'; ?>" name="keywords">
+<meta content="<?php echo isset($pageDesc) ? htmlspecialchars($pageDesc) : 'Fraser Facility Services provides integrated solutions that keep your property clean, safe, and operating at its best.'; ?>" name="description">
 
 <!-- Favicon -->
-<link href="img/favicon.ico" rel="icon">
+<link href="./assets/img/favicon.ico" rel="icon">
 
 <!-- Google Web Fonts -->
 <link rel="preconnect" href="https://fonts.gstatic.com">

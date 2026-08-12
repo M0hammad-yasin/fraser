@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <?php 
-    $pageTitle = "Blog Detail - Klean Cleaning Services";
+    $pageTitle = "Seasonal Property Maintenance Checklist - Fraser Facility Services";
     include 'components/head.php'; 
     ?>
   </head>
@@ -18,7 +18,7 @@
         <div class="row align-items-center py-4">
           <div class="col-md-6 text-center text-md-left">
             <h1 class="display-4 mb-4 mb-md-0 text-secondary text-uppercase">
-              Detail Page
+              Facility Care Tips
             </h1>
           </div>
           <div class="col-md-6 text-center text-md-right">
@@ -26,7 +26,7 @@
               <a class="btn btn-sm btn-outline-light" href="">Home</a>
               <i class="fas fa-angle-double-right text-light mx-2"></i>
               <a class="btn btn-sm btn-outline-light disabled" href=""
-                >Detail Page</a
+                >Facility Care Tips</a
               >
             </div>
           </div>
@@ -45,23 +45,23 @@
                 <a
                   class="text-secondary text-uppercase font-weight-medium"
                   href=""
-                  >Admin</a
+                  >Fraser Facility Services</a
                 >
                 <span class="text-primary px-2">|</span>
                 <a
                   class="text-secondary text-uppercase font-weight-medium"
                   href=""
-                  >Cleaning</a
+                  >Facility Care</a
                 >
                 <span class="text-primary px-2">|</span>
                 <a
                   class="text-secondary text-uppercase font-weight-medium"
                   href=""
-                  >January 01, 2045</a
+                  >August 15, 2026</a
                 >
               </div>
               <h1 class="section-title mb-3">
-                Amet sit kasd ipsum lorem clita ipsum duo clita
+                Seasonal Property Maintenance Checklist
               </h1>
             </div>
 
@@ -72,73 +72,28 @@
                 alt="Image"
               />
               <p>
-                Sadipscing labore amet rebum est et justo gubergren. Et eirmod
-                ipsum sit diam ut magna lorem. Nonumy vero labore lorem sanctus
-                rebum et lorem magna kasd, stet amet magna accusam consetetur
-                eirmod. Kasd accusam sit ipsum sadipscing et at at sanctus et.
-                Ipsum sit gubergren dolores et, consetetur justo invidunt at et
-                aliquyam ut et vero clita. Diam sea sea no sed dolores diam
-                nonumy, gubergren sit stet no diam kasd vero.
+                Keeping your property in top condition year-round requires a proactive approach. Whether you manage a commercial office building, a strata complex, or a residential property, scheduling the right services at the right time reduces costly emergency repairs and keeps your space presentable and safe.
               </p>
               <p>
-                Voluptua est takimata stet invidunt sed rebum nonumy stet, clita
-                aliquyam dolores vero stet consetetur elitr takimata rebum
-                sanctus. Sit sed accusam stet sit nonumy kasd diam dolores,
-                sanctus lorem kasd duo dolor dolor vero sit et. Labore ipsum duo
-                sanctus amet eos et. Consetetur no sed et aliquyam ipsum justo
-                et, clita lorem sit vero amet amet est dolor elitr, stet et no
-                diam sit. Dolor erat justo dolore sit invidunt.
+                At Fraser Facility Services, we work with property managers across the Lower Mainland to develop custom maintenance schedules that cover every season — from spring landscaping and pressure washing to fall gutter cleaning and winter snow plowing.
               </p>
-              <h2 class="mb-4">Est dolor lorem et ea</h2>
+              <h2 class="mb-4">Spring & Summer Priorities</h2>
               <img
                 class="img-fluid rounded w-50 float-left mr-4 mb-3"
                 src="./assets/img/blog-1.jpg"
-                alt="Image"
+                alt="Spring property maintenance"
               />
               <p>
-                Diam dolor est labore duo invidunt ipsum clita et, sed et lorem
-                voluptua tempor invidunt at est sanctus sanctus. Clita dolores
-                sit kasd diam takimata justo diam lorem sed. Magna amet sed
-                rebum eos. Clita no magna no dolor erat diam tempor rebum
-                consetetur, sanctus labore sed nonumy diam lorem amet eirmod. No
-                at tempor sea diam kasd, takimata ea nonumy elitr sadipscing
-                gubergren erat. Gubergren at lorem invidunt sadipscing rebum sit
-                amet ut ut, voluptua diam dolores at sadipscing stet. Clita
-                dolor amet dolor ipsum vero ea ea eos. Invidunt sed diam dolores
-                takimata dolor dolore dolore sit. Sit ipsum erat amet lorem et,
-                magna sea at sed et eos. Accusam eirmod kasd lorem clita sanctus
-                ut consetetur et. Et duo tempor sea kasd clita ipsum et.
-                Takimata kasd diam justo est eos erat aliquyam et ut. Ea sed
-                sadipscing no justo et eos labore, gubergren ipsum magna dolor
-                lorem dolore, elitr aliquyam takimata sea kasd dolores diam,
-                amet et est accusam labore eirmod vero et voluptua. Amet labore
-                clita duo et no. Rebum voluptua magna eos magna, justo gubergren
-                labore sit voluptua eos.
+                Spring is the ideal time to assess any damage from winter and refresh your property's exterior. Key tasks include: pressure washing walkways and parking areas, servicing HVAC systems before summer heat, inspecting and repairing any winter-damaged landscaping, and deep cleaning common areas after months of heavy foot traffic.
               </p>
-              <h3 class="mb-4">Est dolor lorem et ea</h3>
+              <h3 class="mb-4">Fall & Winter Readiness</h3>
               <img
                 class="img-fluid rounded w-50 float-right ml-4 mb-3"
                 src="./assets/img/blog-2.jpg"
-                alt="Image"
+                alt="Winter property maintenance"
               />
               <p>
-                Diam dolor est labore duo invidunt ipsum clita et, sed et lorem
-                voluptua tempor invidunt at est sanctus sanctus. Clita dolores
-                sit kasd diam takimata justo diam lorem sed. Magna amet sed
-                rebum eos. Clita no magna no dolor erat diam tempor rebum
-                consetetur, sanctus labore sed nonumy diam lorem amet eirmod. No
-                at tempor sea diam kasd, takimata ea nonumy elitr sadipscing
-                gubergren erat. Gubergren at lorem invidunt sadipscing rebum sit
-                amet ut ut, voluptua diam dolores at sadipscing stet. Clita
-                dolor amet dolor ipsum vero ea ea eos. Invidunt sed diam dolores
-                takimata dolor dolore dolore sit. Sit ipsum erat amet lorem et,
-                magna sea at sed et eos. Accusam eirmod kasd lorem clita sanctus
-                ut consetetur et. Et duo tempor sea kasd clita ipsum et.
-                Takimata kasd diam justo est eos erat aliquyam et ut. Ea sed
-                sadipscing no justo et eos labore, gubergren ipsum magna dolor
-                lorem dolore, elitr aliquyam takimata sea kasd dolores diam,
-                amet et est accusam labore eirmod vero et voluptua. Amet labore
-                clita duo et no.
+                As temperatures drop, preparation is everything. Establish a snow removal contract before the first snowfall, inspect exterior lighting and heating systems, clean gutters to prevent ice damming, and schedule a pre-winter building audit to catch any vulnerabilities. Fraser Facility Services offers proactive seasonal programs that take the guesswork out of year-round property care — one partner, every service.
               </p>
             </div>
 
@@ -248,16 +203,10 @@
             <div
               class="d-flex flex-column text-center bg-secondary rounded mb-5 py-5 px-4"
             >
-              <img
-                src="./assets/img/user.jpg"
-                class="img-fluid rounded-circle mx-auto mb-3"
-                style="width: 100px"
-              />
-              <h3 class="text-white mb-3">John Doe</h3>
+              <i class="fa fa-5x fa-handshake text-white mb-4"></i>
+              <h3 class="text-white mb-3">Fraser Facility Services</h3>
               <p class="text-white m-0">
-                Conset elitr erat vero dolor ipsum et diam, eos dolor lorem
-                ipsum, ipsum ipsum sit no ut est. Guber ea ipsum erat kasd amet
-                est elitr ea sit.
+                One Partner. Complete Facility Solutions. Serving the Lower Mainland with integrated janitorial, maintenance, exterior, and mechanical services.
               </p>
             </div>
             <div class="mb-5">
@@ -282,46 +231,25 @@
                   class="mb-1 py-2 px-3 bg-light d-flex justify-content-between align-items-center"
                 >
                   <a class="text-dark" href="#"
-                    ><i class="fa fa-angle-right text-secondary mr-2"></i>Web
-                    Design</a
+                    ><i class="fa fa-angle-right text-secondary mr-2"></i>Facility Care</a
                   >
-                  <span class="badge badge-primary badge-pill">150</span>
+                  <span class="badge badge-primary badge-pill">2</span>
                 </li>
                 <li
                   class="mb-1 py-2 px-3 bg-light d-flex justify-content-between align-items-center"
                 >
                   <a class="text-dark" href="#"
-                    ><i class="fa fa-angle-right text-secondary mr-2"></i>Web
-                    Development</a
+                    ><i class="fa fa-angle-right text-secondary mr-2"></i>Strata & Multi-Family</a
                   >
-                  <span class="badge badge-primary badge-pill">131</span>
+                  <span class="badge badge-primary badge-pill">1</span>
                 </li>
                 <li
                   class="mb-1 py-2 px-3 bg-light d-flex justify-content-between align-items-center"
                 >
                   <a class="text-dark" href="#"
-                    ><i class="fa fa-angle-right text-secondary mr-2"></i>Online
-                    Marketing</a
+                    ><i class="fa fa-angle-right text-secondary mr-2"></i>Commercial</a
                   >
-                  <span class="badge badge-primary badge-pill">78</span>
-                </li>
-                <li
-                  class="mb-1 py-2 px-3 bg-light d-flex justify-content-between align-items-center"
-                >
-                  <a class="text-dark" href="#"
-                    ><i class="fa fa-angle-right text-secondary mr-2"></i
-                    >Keyword Research</a
-                  >
-                  <span class="badge badge-primary badge-pill">56</span>
-                </li>
-                <li
-                  class="py-2 px-3 bg-light d-flex justify-content-between align-items-center"
-                >
-                  <a class="text-dark" href="#"
-                    ><i class="fa fa-angle-right text-secondary mr-2"></i>Email
-                    Marketing</a
-                  >
-                  <span class="badge badge-primary badge-pill">98</span>
+                  <span class="badge badge-primary badge-pill">1</span>
                 </li>
               </ul>
             </div>
@@ -342,115 +270,13 @@
                   alt=""
                 />
                 <div class="d-flex flex-column pl-3">
-                  <a class="text-dark mb-2" href=""
-                    >Elitr diam amet sit elitr magna ipsum ipsum dolor</a
+                  <a class="text-dark mb-2" href="single.php"
+                    >Seasonal Property Maintenance Checklist</a
                   >
                   <div class="d-flex">
-                    <small
-                      ><a
-                        class="text-secondary text-uppercase font-weight-medium"
-                        href=""
-                        >Admin</a
-                      ></small
-                    >
+                    <small><a class="text-secondary text-uppercase font-weight-medium" href="">Fraser</a></small>
                     <small class="text-primary px-2">|</small>
-                    <small
-                      ><a
-                        class="text-secondary text-uppercase font-weight-medium"
-                        href=""
-                        >Cleaning</a
-                      ></small
-                    >
-                  </div>
-                </div>
-              </div>
-              <div class="d-flex align-items-center border-bottom mb-3 pb-3">
-                <img
-                  class="img-fluid rounded"
-                  src="./assets/img/blog-2.jpg"
-                  style="width: 80px; height: 80px; object-fit: cover"
-                  alt=""
-                />
-                <div class="d-flex flex-column pl-3">
-                  <a class="text-dark mb-2" href=""
-                    >Elitr diam amet sit elitr magna ipsum ipsum dolor</a
-                  >
-                  <div class="d-flex">
-                    <small
-                      ><a
-                        class="text-secondary text-uppercase font-weight-medium"
-                        href=""
-                        >Admin</a
-                      ></small
-                    >
-                    <small class="text-primary px-2">|</small>
-                    <small
-                      ><a
-                        class="text-secondary text-uppercase font-weight-medium"
-                        href=""
-                        >Cleaning</a
-                      ></small
-                    >
-                  </div>
-                </div>
-              </div>
-              <div class="d-flex align-items-center border-bottom mb-3 pb-3">
-                <img
-                  class="img-fluid rounded"
-                  src="./assets/img/blog-3.jpg"
-                  style="width: 80px; height: 80px; object-fit: cover"
-                  alt=""
-                />
-                <div class="d-flex flex-column pl-3">
-                  <a class="text-dark mb-2" href=""
-                    >Elitr diam amet sit elitr magna ipsum ipsum dolor</a
-                  >
-                  <div class="d-flex">
-                    <small
-                      ><a
-                        class="text-secondary text-uppercase font-weight-medium"
-                        href=""
-                        >Admin</a
-                      ></small
-                    >
-                    <small class="text-primary px-2">|</small>
-                    <small
-                      ><a
-                        class="text-secondary text-uppercase font-weight-medium"
-                        href=""
-                        >Cleaning</a
-                      ></small
-                    >
-                  </div>
-                </div>
-              </div>
-              <div class="d-flex align-items-center border-bottom mb-3 pb-3">
-                <img
-                  class="img-fluid rounded"
-                  src="./assets/img/blog-1.jpg"
-                  style="width: 80px; height: 80px; object-fit: cover"
-                  alt=""
-                />
-                <div class="d-flex flex-column pl-3">
-                  <a class="text-dark mb-2" href=""
-                    >Elitr diam amet sit elitr magna ipsum ipsum dolor</a
-                  >
-                  <div class="d-flex">
-                    <small
-                      ><a
-                        class="text-secondary text-uppercase font-weight-medium"
-                        href=""
-                        >Admin</a
-                      ></small
-                    >
-                    <small class="text-primary px-2">|</small>
-                    <small
-                      ><a
-                        class="text-secondary text-uppercase font-weight-medium"
-                        href=""
-                        >Cleaning</a
-                      ></small
-                    >
+                    <small><a class="text-secondary text-uppercase font-weight-medium" href="">Facility Care</a></small>
                   </div>
                 </div>
               </div>
@@ -462,25 +288,13 @@
                   alt=""
                 />
                 <div class="d-flex flex-column pl-3">
-                  <a class="text-dark mb-2" href=""
-                    >Elitr diam amet sit elitr magna ipsum ipsum dolor</a
+                  <a class="text-dark mb-2" href="single.php"
+                    >Choosing a Facility Services Partner for Your Strata</a
                   >
                   <div class="d-flex">
-                    <small
-                      ><a
-                        class="text-secondary text-uppercase font-weight-medium"
-                        href=""
-                        >Admin</a
-                      ></small
-                    >
+                    <small><a class="text-secondary text-uppercase font-weight-medium" href="">Fraser</a></small>
                     <small class="text-primary px-2">|</small>
-                    <small
-                      ><a
-                        class="text-secondary text-uppercase font-weight-medium"
-                        href=""
-                        >Cleaning</a
-                      ></small
-                    >
+                    <small><a class="text-secondary text-uppercase font-weight-medium" href="">Strata</a></small>
                   </div>
                 </div>
               </div>
@@ -495,12 +309,12 @@
             <div class="mb-5">
               <h3 class="mb-4 section-title">Tag Cloud</h3>
               <div class="d-flex flex-wrap m-n1">
-                <a href="" class="btn btn-outline-secondary m-1">Design</a>
-                <a href="" class="btn btn-outline-secondary m-1">Development</a>
-                <a href="" class="btn btn-outline-secondary m-1">Marketing</a>
-                <a href="" class="btn btn-outline-secondary m-1">SEO</a>
-                <a href="" class="btn btn-outline-secondary m-1">Writing</a>
-                <a href="" class="btn btn-outline-secondary m-1">Consulting</a>
+                <a href="" class="btn btn-outline-secondary m-1">Facility Care</a>
+                <a href="" class="btn btn-outline-secondary m-1">Strata</a>
+                <a href="" class="btn btn-outline-secondary m-1">Commercial</a>
+                <a href="" class="btn btn-outline-secondary m-1">Residential</a>
+                <a href="" class="btn btn-outline-secondary m-1">Maintenance</a>
+                <a href="" class="btn btn-outline-secondary m-1">Seasonal</a>
               </div>
             </div>
             <div class="mb-5">
