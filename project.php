@@ -2,7 +2,10 @@
 <html lang="en">
 
 <head>
-    <?php include 'components/head.php'; ?>
+    <?php 
+    $pageTitle = "Projects - Klean Cleaning Services";
+    include 'components/head.php'; 
+    ?>
 </head>
 
 <body>
