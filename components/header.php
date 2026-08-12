@@ -1,4 +1,4 @@
-<div class="container-fluid">
+<div id="header" class="container-fluid">
     <div class="row">
         <div class="col-lg-2 col-md-6 col-sm-6 col-xs-6 d-none d-lg-block">
             <a href="" class="navbar-brand w-100 h-100 m-0 p-0 d-flex align-items-center justify-content-center">
@@ -65,3 +65,90 @@
         </div>
     </div>
 </div>
+
+<!-- Narrow Navbar (Hidden by default, shown on scroll) -->
+<div id="narrow-header" class="shadow-sm">
+    <nav class="navbar navbar-expand-lg navbar-light p-0">
+        <a href="index.php" class="navbar-brand d-block d-lg-none pl-4">
+            <h1 class="m-0 display-5 text-primary">Klean</h1>
+        </a>
+        <button type="button" class="navbar-toggler mr-4 my-2" data-toggle="collapse" data-target="#narrowNavbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="narrowNavbarCollapse">
+            <div class="navbar-nav py-0">
+                <a href="index.php" class="nav-item nav-link active">Home</a>
+                <a href="about.php" class="nav-item nav-link">About</a>
+                <a href="service.php" class="nav-item nav-link">Service</a>
+                <a href="project.php" class="nav-item nav-link">Project</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
+                    <div class="dropdown-menu rounded-0 m-0">
+                        <a href="blog.php" class="dropdown-item">Latest Blog</a>
+                        <a href="single.php" class="dropdown-item">Blog Detail</a>
+                    </div>
+                </div>
+                <a href="contact.php" class="nav-item nav-link">Contact</a>
+            </div>
+        </div>
+    </nav>
+</div>
+
+<style>
+    #header {
+        position: sticky;
+        top: 0;
+        z-index: 1020;
+        transition: transform 0.6s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+        background-color: #fff;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    #header.hide {
+        transform: translateY(-100%);
+    }
+
+    #narrow-header {
+        position: fixed;
+        top: 20px;
+        left: 50%;
+        transform: translate(-50%, -150px) scale(0.9);
+        z-index: 1030;
+        width: 90%;
+        max-width: 800px;
+        background: rgba(255, 255, 255, 0.95);
+        backdrop-filter: blur(10px);
+        border-radius: 50px;
+        transition: transform 0.6s cubic-bezier(0.68, -0.55, 0.27, 1.55), opacity 0.5s ease;
+        opacity: 0;
+        pointer-events: none;
+    }
+
+    #narrow-header.show {
+        transform: translate(-50%, 0) scale(1);
+        opacity: 1;
+        pointer-events: auto;
+    }
+
+    #narrow-header .navbar-nav .nav-link {
+        padding: 12px 25px;
+        font-weight: 500;
+    }
+
+    @media (max-width: 992px) {
+        #narrow-header {
+            top: 10px;
+            border-radius: 25px;
+        }
+
+        #narrow-header .navbar-collapse {
+            background: #fff;
+            border-radius: 15px;
+            padding: 10px;
+            margin-top: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+    }
+</style>
+
+<script src="./assets/js/header.js"></script>
