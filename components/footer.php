@@ -43,15 +43,15 @@
             </div>
         </div>
     </div>
-    
+
     <div class="row pt-4 mt-4 border-top" style="border-color: rgba(256, 256, 256, .1) !important;">
         <div class="col-12 text-center">
             <h5 class="text-white mb-3">Let's Build a Better Environment Together.</h5>
             <p class="m-0">
-                <i class="fa fa-phone-alt text-primary mr-2"></i>604-123-4567 
-                <span class="mx-3 text-white-50">|</span> 
-                <i class="fa fa-envelope text-primary mr-2"></i>info@fraserfacilityservices.ca 
-                <span class="mx-3 text-white-50">|</span> 
+                <i class="fa fa-phone-alt text-primary mr-2"></i>604-123-4567
+                <span class="mx-3 text-white-50">|</span>
+                <i class="fa fa-envelope text-primary mr-2"></i>info@fraserfacilityservices.ca
+                <span class="mx-3 text-white-50">|</span>
                 <i class="fa fa-globe text-primary mr-2"></i>fraserfacilityservices.ca
             </p>
         </div>

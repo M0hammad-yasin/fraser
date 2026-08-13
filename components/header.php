@@ -2,7 +2,7 @@
     <div class="row">
         <div class="col-lg-2 col-md-6 col-sm-6 col-xs-6 d-none d-lg-block">
             <a href="" class="navbar-brand w-100 h-100 m-0 p-0 d-flex align-items-center justify-content-center">
-                <img src="./assets/img/logo.png" alt="logo" class="img-fluid" style="height: 120px;">
+                <img src="./assets/img/logo-primary.png" alt="logo" class="img-fluid" style="height: 120px;">
             </a>
         </div>
         <div class="col-lg-10">
