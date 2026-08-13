@@ -49,8 +49,8 @@
                         <a href="index.php" class="nav-item nav-link active">Home</a>
                         <a href="about.php" class="nav-item nav-link">About</a>
                         <a href="service.php" class="nav-item nav-link">Service</a>
-                        <a href="project.php" class="nav-item nav-link">Project</a>
                         <a href="blogs.php" class="nav-item nav-link">Blog</a>
+                        <a href="faq.php" class="nav-item nav-link">FAQ</a>
                         <a href="contact.php" class="nav-item nav-link">Contact</a>
                     </div>
                     <a href="" class="btn btn-primary mr-3 d-none d-lg-block">Get A Quote</a>
@@ -76,6 +76,7 @@
                 <a href="service.php" class="nav-item nav-link">Service</a>
                 <a href="project.php" class="nav-item nav-link">Project</a>
                 <a href="blogs.php" class="nav-item nav-link">Blog</a>
+                <a href="faq.php" class="nav-item nav-link">FAQ</a>
                 <a href="contact.php" class="nav-item nav-link">Contact</a>
             </div>
         </div>

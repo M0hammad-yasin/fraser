@@ -75,7 +75,7 @@
                     <a class="nav-link text-white py-0" href="#">Terms</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white py-0" href="#">FAQs</a>
+                    <a class="nav-link text-white py-0" href="faq.php">FAQs</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link text-white py-0" href="#">Help</a>
