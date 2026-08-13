@@ -1,0 +1,115 @@
+.fraser-services-bg {
+  background: linear-gradient(135deg, #0a1026 0%, #0f1d3a 60%, #0a1026 100%);
+}
+.fraser-service-card {
+  position: relative;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 198, 0, 0.15);
+  border-radius: 16px;
+  padding: 40px 32px 36px;
+  overflow: hidden;
+  transition:
+    transform 0.35s ease,
+    box-shadow 0.35s ease,
+    border-color 0.35s ease,
+    background 0.35s ease;
+}
+.fraser-service-card:hover {
+  transform: translateY(-10px);
+  background: rgba(255, 198, 0, 0.07);
+  border-color: rgba(255, 198, 0, 0.55);
+  box-shadow:
+    0 24px 60px rgba(0, 0, 0, 0.45),
+    0 0 0 1px rgba(255, 198, 0, 0.2);
+}
+.fraser-card-accent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, #ffc600 0%, #23a036 100%);
+  border-radius: 16px 16px 0 0;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.4s ease;
+}
+.fraser-service-card:hover .fraser-card-accent {
+  transform: scaleX(1);
+}
+.fraser-card-icon {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #ffc600 0%, #e6b000 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 24px;
+  box-shadow: 0 8px 24px rgba(255, 198, 0, 0.35);
+  transition:
+    transform 0.35s ease,
+    box-shadow 0.35s ease;
+}
+.fraser-card-icon i {
+  font-size: 1.55rem;
+  color: #0a1026;
+}
+.fraser-service-card:hover .fraser-card-icon {
+  transform: scale(1.12) rotate(-6deg);
+  box-shadow: 0 12px 36px rgba(255, 198, 0, 0.55);
+}
+.fraser-card-title {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 1.1rem;
+  margin-bottom: 14px;
+  line-height: 1.35;
+}
+.fraser-card-text {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 0.88rem;
+  line-height: 1.75;
+  margin-bottom: 24px;
+}
+.fraser-card-link {
+  display: inline-flex;
+  align-items: center;
+  color: #23a036;
+  font-weight: 600;
+  font-size: 0.875rem;
+  text-decoration: none;
+  letter-spacing: 0.5px;
+  transition:
+    color 0.2s ease,
+    letter-spacing 0.2s ease;
+}
+.fraser-card-link:hover {
+  color: #ffc600;
+  text-decoration: none;
+  letter-spacing: 1.5px;
+}
+.fraser-service-card::after {
+  content: "";
+  position: absolute;
+  bottom: -60px;
+  right: -60px;
+  width: 140px;
+  height: 140px;
+  background: radial-gradient(
+    circle,
+    rgba(255, 198, 0, 0.12) 0%,
+    transparent 70%
+  );
+  border-radius: 50%;
+  opacity: 0;
+  transition: opacity 0.35s ease;
+}
+.fraser-service-card:hover::after {
+  opacity: 1;
+}
+.fraser-services-label {
+  color: #ffc600;
+  letter-spacing: 3px;
+  font-size: 0.8rem;
+}

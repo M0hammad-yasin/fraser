@@ -3,7 +3,8 @@
 
 <head>
     <?php
-    $pageTitle = "Home - Klean Cleaning Services";
+    $customCss = "./assets/css/index.css";
+    $pageTitle = "Fraser ";
     include 'components/head.php';
     ?>
 </head>
@@ -151,55 +152,83 @@
 
 
     <!-- Services Start -->
-    <div class="container-fluid bg-service py-5">
+    <!-- Service Cards Section -->
+    <div class="container-fluid fraser-services-bg py-5">
         <div class="container py-5">
-            <div class="row align-items-center">
-                <div class="col-lg-12 text-center mb-5">
-                    <h6 class="text-secondary font-weight-semi-bold text-uppercase mb-3">Our Services</h6>
+
+            <!-- Section Header -->
+            <div class="row justify-content-center mb-5">
+                <div class="col-lg-7 text-center">
+                    <h6 class="fraser-services-label font-weight-semi-bold text-uppercase mb-3">Our Services</h6>
                     <h1 class="mb-4 section-title text-white">Complete Facility Solutions For You</h1>
-                    <p class="text-white mx-auto" style="max-width: 800px;">One Partner. Every Service. We provide a full suite of services to ensure your property remains clean, safe, and fully operational.</p>
-                    <a href="service.php" class="btn btn-primary mt-3 py-2 px-4">All Services</a>
+                    <p class="mb-4" style="color: rgba(255,255,255,0.6);">One Partner. Every Service. We provide a full suite of services to ensure your property remains clean, safe, and fully operational.</p>
+                    <a href="service.php" class="btn btn-primary py-2 px-5 font-weight-semi-bold">View All Services &nbsp;<i class="fa fa-arrow-right"></i></a>
                 </div>
-                <div class="col-lg-12 pt-5 pt-lg-0">
-                    <div class="owl-carousel service-carousel position-relative">
-                        <div class="d-flex flex-column align-items-center text-center bg-white rounded overflow-hidden pt-4">
-                            <div class="icon-box bg-light text-secondary shadow mt-2 mb-4">
-                                <i class="fa fa-2x fa-broom"></i>
-                            </div>
-                            <h5 class="font-weight-bold mb-4 px-4">Janitorial & Custodial</h5>
-                            <p class="px-4">Commercial & residential cleaning, floor care, carpet & window cleaning.</p>
+            </div>
+
+            <!-- Row 1 -->
+            <div class="row mb-4">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="fraser-service-card h-100">
+                        <div class="fraser-card-accent"></div>
+                        <div class="fraser-card-icon">
+                            <i class="fa fa-broom"></i>
                         </div>
-                        <div class="d-flex flex-column align-items-center text-center bg-white rounded overflow-hidden pt-4">
-                            <div class="icon-box bg-light text-secondary shadow mt-2 mb-4">
-                                <i class="fa fa-2x fa-tools"></i>
-                            </div>
-                            <h5 class="font-weight-bold mb-4 px-4">Building Maintenance</h5>
-                            <p class="px-4">General repairs, painting, drywall, lock & hardware repairs.</p>
+                        <h5 class="fraser-card-title">Janitorial & Custodial</h5>
+                        <p class="fraser-card-text">Commercial & residential cleaning, floor care, carpet & window cleaning, disinfection, and day porter services.</p>
+                        <a href="service.php" class="fraser-card-link">Learn More &nbsp;<i class="fa fa-angle-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="fraser-service-card h-100">
+                        <div class="fraser-card-accent"></div>
+                        <div class="fraser-card-icon">
+                            <i class="fa fa-tools"></i>
                         </div>
-                        <div class="d-flex flex-column align-items-center text-center bg-white rounded overflow-hidden pt-4">
-                            <div class="icon-box bg-light text-secondary shadow mt-2 mb-4">
-                                <i class="fa fa-2x fa-leaf"></i>
-                            </div>
-                            <h5 class="font-weight-bold mb-4 px-4">Exterior Services</h5>
-                            <p class="px-4">Snow plowing, landscaping, pressure washing, seasonal cleanup.</p>
+                        <h5 class="fraser-card-title">Building Maintenance</h5>
+                        <p class="fraser-card-text">General repairs, painting, drywall & ceiling repairs, door & lock hardware, and preventive maintenance programs.</p>
+                        <a href="service.php" class="fraser-card-link">Learn More &nbsp;<i class="fa fa-angle-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="fraser-service-card h-100">
+                        <div class="fraser-card-accent"></div>
+                        <div class="fraser-card-icon">
+                            <i class="fa fa-leaf"></i>
                         </div>
-                        <div class="d-flex flex-column align-items-center text-center bg-white rounded overflow-hidden pt-4">
-                            <div class="icon-box bg-light text-secondary shadow mt-2 mb-4">
-                                <i class="fa fa-2x fa-wrench"></i>
-                            </div>
-                            <h5 class="font-weight-bold mb-4 px-4">Mechanical & Support</h5>
-                            <p class="px-4">Plumbing, electrical & HVAC, preventive maintenance programs.</p>
-                        </div>
-                        <div class="d-flex flex-column align-items-center text-center bg-white rounded overflow-hidden pt-4">
-                            <div class="icon-box bg-light text-secondary shadow mt-2 mb-4">
-                                <i class="fa fa-2x fa-hard-hat"></i>
-                            </div>
-                            <h5 class="font-weight-bold mb-4 px-4">Specialized Services</h5>
-                            <p class="px-4">Construction site cleanup, high dusting & power washing.</p>
-                        </div>
+                        <h5 class="fraser-card-title">Exterior Services</h5>
+                        <p class="fraser-card-text">Snow plowing & ice management, landscaping, lawn care, pressure washing, and seasonal property cleanup.</p>
+                        <a href="service.php" class="fraser-card-link">Learn More &nbsp;<i class="fa fa-angle-right"></i></a>
                     </div>
                 </div>
             </div>
+
+            <!-- Row 2 -->
+            <div class="row justify-content-center">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="fraser-service-card h-100">
+                        <div class="fraser-card-accent"></div>
+                        <div class="fraser-card-icon">
+                            <i class="fa fa-wrench"></i>
+                        </div>
+                        <h5 class="fraser-card-title">Mechanical & Facility Support</h5>
+                        <p class="fraser-card-text">Plumbing, electrical & HVAC services, preventive maintenance programs, fixture installation and facility inspections.</p>
+                        <a href="service.php" class="fraser-card-link">Learn More &nbsp;<i class="fa fa-angle-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="fraser-service-card h-100">
+                        <div class="fraser-card-accent"></div>
+                        <div class="fraser-card-icon">
+                            <i class="fa fa-hard-hat"></i>
+                        </div>
+                        <h5 class="fraser-card-title">Specialized Services</h5>
+                        <p class="fraser-card-text">Construction site cleanup, warehouse & industrial cleaning, high dusting, power washing, and custom programs.</p>
+                        <a href="service.php" class="fraser-card-link">Learn More &nbsp;<i class="fa fa-angle-right"></i></a>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
     <!-- Services End -->
@@ -244,7 +273,7 @@
 
 
     <!-- Portfolio Start -->
-    <div class="container-fluid bg-portfolio py-5">
+    <!-- <div class="container-fluid bg-portfolio py-5">
         <div class="container py-5">
             <div class="row m-0 portfolio-container">
                 <div class="col-lg-4 col-md-6 col-sm-12 p-0 portfolio-item">
@@ -358,7 +387,7 @@
             </div>
         </div>
     </div>
-    </div>
+    </div> -->
     <!-- Portfolio End -->
 
 
