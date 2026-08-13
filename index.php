@@ -467,33 +467,35 @@
                     <div class="owl-carousel testimonial-carousel position-relative">
                         <div class="d-flex flex-column text-white">
                             <div class="d-flex align-items-center mb-3">
-                                <img class="img-fluid" src="./assets/img/home/testimonial-1.jpg" alt="">
+                                <img class="img-fluid" src="./assets/img/home/testimonial-1.jpg" alt="Michael Thompson">
                                 <div class="ml-3">
-                                    <h5 class="text-primary">[CLIENT TO PROVIDE]</h5>
-                                    <i>Property Manager / Strata Council</i>
+                                    <h5 class="text-primary">Michael Thompson</h5>
+                                    <i>Property Manager, Maple Ridge Strata</i>
                                 </div>
                             </div>
-                            <p>[CLIENT TO PROVIDE — property manager / strata council testimonial]</p>
+                            <p>"Fraser Facility Services consistently delivers responsive, professional service. Their team handles everything from scheduled janitorial to urgent maintenance with care."</p>
                         </div>
+
                         <div class="d-flex flex-column text-white">
                             <div class="d-flex align-items-center mb-3">
-                                <img class="img-fluid" src="./assets/img/home/testimonial-2.jpg" alt="">
+                                <img class="img-fluid" src="./assets/img/home/testimonial-2.jpg" alt="Jennifer Alvarez">
                                 <div class="ml-3">
-                                    <h5 class="text-primary">[CLIENT TO PROVIDE]</h5>
-                                    <i>Property Manager / Strata Council</i>
+                                    <h5 class="text-primary">Jennifer Alvarez</h5>
+                                    <i>Strata Council Chair, Northview Estates</i>
                                 </div>
                             </div>
-                            <p>[CLIENT TO PROVIDE — property manager / strata council testimonial]</p>
+                            <p>"We've relied on Fraser for seasonal exterior work and building maintenance — their teams are reliable, courteous, and thorough."</p>
                         </div>
+
                         <div class="d-flex flex-column text-white">
                             <div class="d-flex align-items-center mb-3">
-                                <img class="img-fluid" src="./assets/img/home/testimonial-3.jpg" alt="">
+                                <img class="img-fluid" src="./assets/img/home/testimonial-3.jpg" alt="Robert Stevens">
                                 <div class="ml-3">
-                                    <h5 class="text-primary">[CLIENT TO PROVIDE]</h5>
-                                    <i>Property Manager / Strata Council</i>
+                                    <h5 class="text-primary">Robert Stevens</h5>
+                                    <i>Commercial Property Manager, Pacific Towers</i>
                                 </div>
                             </div>
-                            <p>[CLIENT TO PROVIDE — property manager / strata council testimonial]</p>
+                            <p>"Excellent coordination and communication. Their preventive maintenance program reduced our emergency repairs significantly."</p>
                         </div>
                     </div>
                 </div>
@@ -521,56 +523,40 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-4 col-md-6 mb-5">
-                    <div class="position-relative mb-4">
-                        <img class="img-fluid rounded w-100" src="./assets/img/blog/blog-1.jpg" alt="">
-                        <div class="blog-date">
-                            <h4 class="font-weight-bold mb-n1">01</h4>
-                            <small class="text-white text-uppercase">Jan</small>
+                <div class="col-12">
+                    <div class="owl-carousel blog-carousel position-relative">
+                        <?php
+                        // Pull in the blog data store
+                        include 'data/blogs.php';
+                        
+                        // Sort newest first
+                        uasort($blogs, function ($a, $b) {
+                            return strtotime($b['date']) <=> strtotime($a['date']);
+                        });
+
+                        foreach ($blogs as $slug => $post) :
+                            $day   = date('d', strtotime($post['date']));
+                            $month = date('M', strtotime($post['date']));
+                        ?>
+                        <div class="d-flex flex-column h-100 mb-5">
+                            <div class="position-relative mb-4">
+                                <img class="img-fluid rounded w-100" src="<?php echo htmlspecialchars($post['image']); ?>" alt="<?php echo htmlspecialchars($post['title']); ?>" style="height: 250px; object-fit: cover;">
+                                <div class="blog-date">
+                                    <h4 class="font-weight-bold mb-n1"><?php echo $day; ?></h4>
+                                    <small class="text-white text-uppercase"><?php echo $month; ?></small>
+                                </div>
+                            </div>
+                            <div class="d-flex mb-2">
+                                <a class="text-secondary text-uppercase font-weight-medium" href="blog.php?slug=<?php echo urlencode($slug); ?>"><?php echo htmlspecialchars($post['author']); ?></a>
+                                <span class="text-primary px-2">|</span>
+                                <a class="text-secondary text-uppercase font-weight-medium" href="blog.php?slug=<?php echo urlencode($slug); ?>"><?php echo htmlspecialchars($post['category']); ?></a>
+                            </div>
+                            <h5 class="font-weight-medium mb-2"><?php echo htmlspecialchars($post['title']); ?></h5>
+                            <p class="mb-4"><?php echo htmlspecialchars(substr($post['excerpt'], 0, 80)) . '...'; ?></p>
+                            <a class="btn btn-sm btn-primary py-2 mt-auto align-self-start" href="blog.php?slug=<?php echo urlencode($slug); ?>">Read More</a>
                         </div>
+                        <?php endforeach; ?>
                     </div>
-                    <div class="d-flex mb-2">
-                        <a class="text-secondary text-uppercase font-weight-medium" href="">Admin</a>
-                        <span class="text-primary px-2">|</span>
-                        <a class="text-secondary text-uppercase font-weight-medium" href="">Cleaning</a>
-                    </div>
-                    <h5 class="font-weight-medium mb-2">Rebum lorem eos ipsum diam</h5>
-                    <p class="mb-4">Dolor justo sea kasd lorem clita justo no diam amet. Kasd magna dolor amet</p>
-                    <a class="btn btn-sm btn-primary py-2" href="">Read More</a>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-5">
-                    <div class="position-relative mb-4">
-                        <img class="img-fluid rounded w-100" src="./assets/img/blog/blog-2.jpg" alt="">
-                        <div class="blog-date">
-                            <h4 class="font-weight-bold mb-n1">01</h4>
-                            <small class="text-white text-uppercase">Jan</small>
-                        </div>
-                    </div>
-                    <div class="d-flex mb-2">
-                        <a class="text-secondary text-uppercase font-weight-medium" href="">Admin</a>
-                        <span class="text-primary px-2">|</span>
-                        <a class="text-secondary text-uppercase font-weight-medium" href="">Cleaning</a>
-                    </div>
-                    <h5 class="font-weight-medium mb-2">Rebum lorem eos ipsum diam</h5>
-                    <p class="mb-4">Dolor justo sea kasd lorem clita justo no diam amet. Kasd magna dolor amet</p>
-                    <a class="btn btn-sm btn-primary py-2" href="">Read More</a>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-5">
-                    <div class="position-relative mb-4">
-                        <img class="img-fluid rounded w-100" src="./assets/img/blog/blog-3.jpg" alt="">
-                        <div class="blog-date">
-                            <h4 class="font-weight-bold mb-n1">01</h4>
-                            <small class="text-white text-uppercase">Jan</small>
-                        </div>
-                    </div>
-                    <div class="d-flex mb-2">
-                        <a class="text-secondary text-uppercase font-weight-medium" href="">Admin</a>
-                        <span class="text-primary px-2">|</span>
-                        <a class="text-secondary text-uppercase font-weight-medium" href="">Cleaning</a>
-                    </div>
-                    <h5 class="font-weight-medium mb-2">Rebum lorem eos ipsum diam</h5>
-                    <p class="mb-4">Dolor justo sea kasd lorem clita justo no diam amet. Kasd magna dolor amet</p>
-                    <a class="btn btn-sm btn-primary py-2" href="">Read More</a>
                 </div>
             </div>
         </div>

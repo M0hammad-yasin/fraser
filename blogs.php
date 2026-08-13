@@ -85,7 +85,7 @@
           $day   = date('d', strtotime($post['date']));
           $month = date('M', strtotime($post['date']));
         ?>
-          <div class="col-lg-6 col-md-6 mb-5">
+          <div class="col-lg-6 col-md-6 mb-5 d-flex flex-column h-100">
             <div class="position-relative mb-4">
               <img
                 class="img-fluid rounded w-100"
@@ -103,7 +103,7 @@
             </div>
             <h5 class="font-weight-medium mb-2"><?php echo htmlspecialchars($post['title']); ?></h5>
             <p class="mb-4"><?php echo htmlspecialchars($post['excerpt']); ?></p>
-            <a class="btn btn-sm btn-primary py-2" href="blog.php?slug=<?php echo urlencode($slug); ?>">Read More</a>
+            <a class="btn btn-sm btn-primary py-2 mt-auto align-self-start" href="blog.php?slug=<?php echo urlencode($slug); ?>">Read More</a>
           </div>
         <?php endforeach; ?>
 
