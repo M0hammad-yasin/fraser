@@ -2,14 +2,14 @@
     <div class="row">
         <div class="col-lg-3 col-md-6 mb-5">
             <a href="index.php" class="navbar-brand">
-                <img src="./assets/img/logo.png" alt="Logo" class="w-50 h-50">
+                <img src="./assets/img/logo-secondary.png" alt="Logo" class="w-50 h-50">
             </a>
             <p>
                 Fraser Facility Services provides integrated solutions that keep your property clean, safe, and operating at its best.
             </p>
-            <h5 class="font-weight-semi-bold text-white mb-2">Opening Hours:</h5>
+            <!-- <h5 class="font-weight-semi-bold text-white mb-2">Opening Hours:</h5>
             <p class="mb-1">Mon – Sat, 8AM – 5PM</p>
-            <p class="mb-0">Sunday: Closed</p>
+            <p class="mb-0">Sunday: Closed</p> -->
         </div>
         <div class="col-lg-3 col-md-6 mb-5">
             <h4 class="font-weight-semi-bold text-primary mb-4">Get In Touch</h4>
