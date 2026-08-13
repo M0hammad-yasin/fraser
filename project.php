@@ -2,9 +2,9 @@
 <html lang="en">
 
 <head>
-    <?php 
+    <?php
     $pageTitle = "Projects - Fraser Facility Services";
-    include 'components/head.php'; 
+    include 'components/head.php';
     ?>
 </head>
 
@@ -55,7 +55,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12 p-0 portfolio-item first">
                     <div class="position-relative overflow-hidden">
                         <div class="portfolio-img">
-                            <img class="img-fluid w-100" src="./assets/img/portfolio-1.jpg" alt="">
+                            <img class="img-fluid w-100" src="./assets/project/portfolio-1.jpg" alt="">
                         </div>
                         <div class="portfolio-text bg-primary">
                             <h4 class="font-weight-bold mb-4">Office Buildings</h4>
@@ -63,7 +63,7 @@
                                 <a class="btn btn-sm btn-secondary m-1" href="">
                                     <i class="fa fa-link"></i>
                                 </a>
-                                <a class="btn btn-sm btn-secondary m-1" href="img/portfolio-1.jpg" data-lightbox="portfolio">
+                                <a class="btn btn-sm btn-secondary m-1" href="img/project/portfolio-1.jpg" data-lightbox="portfolio">
                                     <i class="fa fa-eye"></i>
                                 </a>
                             </div>
@@ -73,7 +73,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12 p-0 portfolio-item second">
                     <div class="position-relative overflow-hidden">
                         <div class="portfolio-img">
-                            <img class="img-fluid w-100" src="./assets/img/portfolio-2.jpg" alt="">
+                            <img class="img-fluid w-100" src="./assets/project/portfolio-2.jpg" alt="">
                         </div>
                         <div class="portfolio-text bg-primary">
                             <h4 class="font-weight-bold mb-4">Retail & Restaurants</h4>
@@ -91,7 +91,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12 p-0 portfolio-item third">
                     <div class="position-relative overflow-hidden">
                         <div class="portfolio-img">
-                            <img class="img-fluid w-100" src="./assets/img/portfolio-3.jpg" alt="">
+                            <img class="img-fluid w-100" src="./assets/project/portfolio-3.jpg" alt="">
                         </div>
                         <div class="portfolio-text bg-primary">
                             <h4 class="font-weight-bold mb-4">Medical & Dental Offices</h4>
@@ -109,7 +109,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12 p-0 portfolio-item first">
                     <div class="position-relative overflow-hidden">
                         <div class="portfolio-img">
-                            <img class="img-fluid w-100" src="./assets/img/portfolio-4.jpg" alt="">
+                            <img class="img-fluid w-100" src="./assets/project/portfolio-4.jpg" alt="">
                         </div>
                         <div class="portfolio-text bg-primary">
                             <h4 class="font-weight-bold mb-4">Strata & Multi-Family</h4>
@@ -127,7 +127,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12 p-0 portfolio-item second">
                     <div class="position-relative overflow-hidden">
                         <div class="portfolio-img">
-                            <img class="img-fluid w-100" src="./assets/img/portfolio-5.jpg" alt="">
+                            <img class="img-fluid w-100" src="./assets/project/portfolio-5.jpg" alt="">
                         </div>
                         <div class="portfolio-text bg-primary">
                             <h4 class="font-weight-bold mb-4">Warehouses & Industrial</h4>
@@ -145,7 +145,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12 p-0 portfolio-item third">
                     <div class="position-relative overflow-hidden">
                         <div class="portfolio-img">
-                            <img class="img-fluid w-100" src="./assets/img/portfolio-6.jpg" alt="">
+                            <img class="img-fluid w-100" src="./assets/project/portfolio-6.jpg" alt="">
                         </div>
                         <div class="portfolio-text bg-primary">
                             <h4 class="font-weight-bold mb-4">Property Management</h4>
@@ -162,7 +162,7 @@
                 </div>
             </div>
         </div>
-        </div>
+    </div>
     </div>
     <!-- Portfolio End -->
 

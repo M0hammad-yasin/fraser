@@ -2,9 +2,9 @@
 <html lang="en">
 
 <head>
-    <?php 
+    <?php
     $pageTitle = "Home - Klean Cleaning Services";
-    include 'components/head.php'; 
+    include 'components/head.php';
     ?>
 </head>
 
@@ -24,7 +24,7 @@
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="img-fluid" src="./assets/img/carousel-1.jpg" alt="Image">
+                    <img class="img-fluid" src="./assets/img/home/carousel-1.jpg" alt="Image">
                     <div class="carousel-caption d-flex align-items-center justify-content-center">
                         <div class="p-5" style="width: 100%; max-width: 900px;">
                             <h5 class="text-primary text-uppercase mb-md-3">Fraser Facility Services</h5>
@@ -36,7 +36,7 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="img-fluid" src="./assets/img/carousel-2.jpg" alt="Image">
+                    <img class="img-fluid" src="./assets/img/home/carousel-2.jpg" alt="Image">
                     <div class="carousel-caption d-flex align-items-center justify-content-center">
                         <div class="p-5" style="width: 100%; max-width: 900px;">
                             <h5 class="text-primary text-uppercase mb-md-3">Fraser Facility Services</h5>
@@ -48,7 +48,7 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="img-fluid" src="./assets/img/carousel-3.jpg" alt="Image">
+                    <img class="img-fluid" src="./assets/img/home/carousel-3.jpg" alt="Image">
                     <div class="carousel-caption d-flex align-items-center justify-content-center">
                         <div class="p-5" style="width: 100%; max-width: 900px;">
                             <h5 class="text-primary text-uppercase mb-md-3">Fraser Facility Services</h5>
@@ -138,10 +138,10 @@
                 <div class="modal-body">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
-                    </button>        
+                    </button>
                     <!-- 16:9 aspect ratio -->
                     <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" src="" id="video"  allowscriptaccess="always" allow="autoplay"></iframe>
+                        <iframe class="embed-responsive-item" src="" id="video" allowscriptaccess="always" allow="autoplay"></iframe>
                     </div>
                 </div>
             </div>
@@ -234,7 +234,7 @@
                 </div>
                 <div class="col-lg-5" style="min-height: 400px;">
                     <div class="position-relative h-100 rounded overflow-hidden">
-                        <img class="position-absolute w-100 h-100" src="./assets/img/feature.jpg" style="object-fit: cover;">
+                        <img class="position-absolute w-100 h-100" src="./assets/img/about_us/feature.jpg" style="object-fit: cover;">
                     </div>
                 </div>
             </div>
@@ -250,7 +250,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12 p-0 portfolio-item">
                     <div class="position-relative overflow-hidden">
                         <div class="portfolio-img">
-                            <img class="img-fluid w-100" src="./assets/img/portfolio-1.jpg" alt="">
+                            <img class="img-fluid w-100" src="./assets/img/project/portfolio-1.jpg" alt="">
                         </div>
                         <div class="portfolio-text bg-primary">
                             <h4 class="font-weight-bold mb-4">Office Buildings</h4>
@@ -258,7 +258,7 @@
                                 <a class="btn btn-sm btn-secondary m-1" href="">
                                     <i class="fa fa-link"></i>
                                 </a>
-                                <a class="btn btn-sm btn-secondary m-1" href="img/portfolio-1.jpg" data-lightbox="portfolio">
+                                <a class="btn btn-sm btn-secondary m-1" href="img/project/portfolio-1.jpg" data-lightbox="portfolio">
                                     <i class="fa fa-eye"></i>
                                 </a>
                             </div>
@@ -268,7 +268,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12 p-0 portfolio-item">
                     <div class="position-relative overflow-hidden">
                         <div class="portfolio-img">
-                            <img class="img-fluid w-100" src="./assets/img/portfolio-2.jpg" alt="">
+                            <img class="img-fluid w-100" src="./assets/img/project/portfolio-2.jpg" alt="">
                         </div>
                         <div class="portfolio-text bg-primary">
                             <h4 class="font-weight-bold mb-4">Retail & Restaurants</h4>
@@ -286,7 +286,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12 p-0 portfolio-item">
                     <div class="position-relative overflow-hidden">
                         <div class="portfolio-img">
-                            <img class="img-fluid w-100" src="./assets/img/portfolio-3.jpg" alt="">
+                            <img class="img-fluid w-100" src="./assets/img/project/portfolio-3.jpg" alt="">
                         </div>
                         <div class="portfolio-text bg-primary">
                             <h4 class="font-weight-bold mb-4">Medical & Dental Offices</h4>
@@ -304,7 +304,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12 p-0 portfolio-item">
                     <div class="position-relative overflow-hidden">
                         <div class="portfolio-img">
-                            <img class="img-fluid w-100" src="./assets/img/portfolio-4.jpg" alt="">
+                            <img class="img-fluid w-100" src="./assets/img/project/portfolio-4.jpg" alt="">
                         </div>
                         <div class="portfolio-text bg-primary">
                             <h4 class="font-weight-bold mb-4">Property Management</h4>
@@ -322,7 +322,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12 p-0 portfolio-item">
                     <div class="position-relative overflow-hidden">
                         <div class="portfolio-img">
-                            <img class="img-fluid w-100" src="./assets/img/portfolio-5.jpg" alt="">
+                            <img class="img-fluid w-100" src="./assets/img/project/portfolio-5.jpg" alt="">
                         </div>
                         <div class="portfolio-text bg-primary">
                             <h4 class="font-weight-bold mb-4">Warehouses & Industrial</h4>
@@ -340,7 +340,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12 p-0 portfolio-item">
                     <div class="position-relative overflow-hidden">
                         <div class="portfolio-img">
-                            <img class="img-fluid w-100" src="./assets/img/portfolio-6.jpg" alt="">
+                            <img class="img-fluid w-100" src="./assets/img/project/portfolio-6.jpg" alt="">
                         </div>
                         <div class="portfolio-text bg-primary">
                             <h4 class="font-weight-bold mb-4">Strata & Multi-Family</h4>
@@ -357,7 +357,7 @@
                 </div>
             </div>
         </div>
-        </div>
+    </div>
     </div>
     <!-- Portfolio End -->
 
@@ -388,7 +388,7 @@
                     <div class="owl-carousel testimonial-carousel position-relative">
                         <div class="d-flex flex-column text-white">
                             <div class="d-flex align-items-center mb-3">
-                                <img class="img-fluid" src="./assets/img/testimonial-1.jpg" alt="">
+                                <img class="img-fluid" src="./assets/img/home/testimonial-1.jpg" alt="">
                                 <div class="ml-3">
                                     <h5 class="text-primary">[CLIENT TO PROVIDE]</h5>
                                     <i>Property Manager / Strata Council</i>
@@ -398,7 +398,7 @@
                         </div>
                         <div class="d-flex flex-column text-white">
                             <div class="d-flex align-items-center mb-3">
-                                <img class="img-fluid" src="./assets/img/testimonial-2.jpg" alt="">
+                                <img class="img-fluid" src="./assets/img/home/testimonial-2.jpg" alt="">
                                 <div class="ml-3">
                                     <h5 class="text-primary">[CLIENT TO PROVIDE]</h5>
                                     <i>Property Manager / Strata Council</i>
@@ -408,7 +408,7 @@
                         </div>
                         <div class="d-flex flex-column text-white">
                             <div class="d-flex align-items-center mb-3">
-                                <img class="img-fluid" src="./assets/img/testimonial-3.jpg" alt="">
+                                <img class="img-fluid" src="./assets/img/home/testimonial-3.jpg" alt="">
                                 <div class="ml-3">
                                     <h5 class="text-primary">[CLIENT TO PROVIDE]</h5>
                                     <i>Property Manager / Strata Council</i>
@@ -420,7 +420,7 @@
                 </div>
                 <div class="col-lg-5" style="min-height: 400px;">
                     <div class="position-relative h-100 rounded overflow-hidden">
-                        <img class="position-absolute w-100 h-100" src="./assets/img/testimonial.jpg" style="object-fit: cover;">
+                        <img class="position-absolute w-100 h-100" src="./assets/img/home/testimonial.jpg" style="object-fit: cover;">
                     </div>
                 </div>
             </div>
@@ -444,7 +444,7 @@
             <div class="row">
                 <div class="col-lg-4 col-md-6 mb-5">
                     <div class="position-relative mb-4">
-                        <img class="img-fluid rounded w-100" src="./assets/img/blog-1.jpg" alt="">
+                        <img class="img-fluid rounded w-100" src="./assets/img/blog/blog-1.jpg" alt="">
                         <div class="blog-date">
                             <h4 class="font-weight-bold mb-n1">01</h4>
                             <small class="text-white text-uppercase">Jan</small>
@@ -461,7 +461,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 mb-5">
                     <div class="position-relative mb-4">
-                        <img class="img-fluid rounded w-100" src="./assets/img/blog-2.jpg" alt="">
+                        <img class="img-fluid rounded w-100" src="./assets/img/blog/blog-2.jpg" alt="">
                         <div class="blog-date">
                             <h4 class="font-weight-bold mb-n1">01</h4>
                             <small class="text-white text-uppercase">Jan</small>
@@ -478,7 +478,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 mb-5">
                     <div class="position-relative mb-4">
-                        <img class="img-fluid rounded w-100" src="./assets/img/blog-3.jpg" alt="">
+                        <img class="img-fluid rounded w-100" src="./assets/img/blog/blog-3.jpg" alt="">
                         <div class="blog-date">
                             <h4 class="font-weight-bold mb-n1">01</h4>
                             <small class="text-white text-uppercase">Jan</small>
