@@ -16,9 +16,9 @@
             <p>
                 <i class="fa fa-map-marker-alt text-primary mr-2"></i>Serving the Lower Mainland, BC and surrounding areas
             </p>
-            <p><i class="fa fa-phone-alt text-primary mr-2"></i>+1 778-886-1491</p>
+            <p><i class="fa fa-phone-alt text-primary mr-2"></i><a href="tel:17788861491" class="text-white">+1 778-886-1491</a></p>
             <p>
-                <i class="fa fa-envelope text-primary mr-2"></i>operations@fraserfacilityservices.ca
+                <i class="fa fa-envelope text-primary mr-2"></i><a href="mailto:operations@fraserfacilityservices.ca" class="text-white">operations@fraserfacilityservices.ca</a>
             </p>
             <!-- Social icons removed as per client request -->
         </div>
@@ -48,11 +48,11 @@
         <div class="col-12 text-center">
             <h5 class="text-white mb-3">Let's Build a Better Environment Together.</h5>
             <p class="m-0">
-                <i class="fa fa-phone-alt text-primary mr-2"></i>+1 778-886-1491
+                <i class="fa fa-phone-alt text-primary mr-2"></i><a href="tel:17788861491" class="text-white">+1 778-886-1491</a>
                 <span class="mx-3 text-white-50">|</span>
-                <i class="fa fa-envelope text-primary mr-2"></i>operations@fraserfacilityservices.ca
+                <i class="fa fa-envelope text-primary mr-2"></i><a href="mailto:operations@fraserfacilityservices.ca" class="text-white">operations@fraserfacilityservices.ca</a>
                 <span class="mx-3 text-white-50">|</span>
-                <i class="fa fa-globe text-primary mr-2"></i>fraserfacilityservices.ca
+                <i class="fa fa-globe text-primary mr-2"></i><a href="https://fraserfacilityservices.ca" class="text-white">fraserfacilityservices.ca</a>
             </p>
         </div>
     </div>

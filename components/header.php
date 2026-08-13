@@ -10,11 +10,11 @@
                 <div class="col-lg-7 text-left text-white">
                     <div class="h-100 d-inline-flex align-items-center border-right border-primary py-2 px-3">
                         <i class="fa fa-envelope text-primary mr-2"></i>
-                        <small>operations@fraserfacilityservices.ca</small>
+                        <small><a href="mailto:operations@fraserfacilityservices.ca" class="text-white">operations@fraserfacilityservices.ca</a></small>
                     </div>
                     <div class="h-100 d-inline-flex align-items-center py-2 px-2">
                         <i class="fa fa-phone-alt text-primary mr-2"></i>
-                        <small>+1 778-886-1491</small>
+                        <small><a href="tel:17788861491" class="text-white">+1 778-886-1491</a></small>
                     </div>
                 </div>
                 <div class="col-lg-5 text-right">
