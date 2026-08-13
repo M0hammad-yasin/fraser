@@ -16,7 +16,7 @@
             <p>
                 <i class="fa fa-map-marker-alt text-primary mr-2"></i>Serving the Lower Mainland, BC and surrounding areas
             </p>
-            <p><i class="fa fa-phone-alt text-primary mr-2"></i>604-123-4567</p>
+            <p><i class="fa fa-phone-alt text-primary mr-2"></i>+1 778-886-1491</p>
             <p>
                 <i class="fa fa-envelope text-primary mr-2"></i>operations@fraserfacilityservices.ca
             </p>
@@ -48,7 +48,7 @@
         <div class="col-12 text-center">
             <h5 class="text-white mb-3">Let's Build a Better Environment Together.</h5>
             <p class="m-0">
-                <i class="fa fa-phone-alt text-primary mr-2"></i>604-123-4567
+                <i class="fa fa-phone-alt text-primary mr-2"></i>+1 778-886-1491
                 <span class="mx-3 text-white-50">|</span>
                 <i class="fa fa-envelope text-primary mr-2"></i>operations@fraserfacilityservices.ca
                 <span class="mx-3 text-white-50">|</span>

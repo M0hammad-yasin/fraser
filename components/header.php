@@ -14,7 +14,7 @@
                     </div>
                     <div class="h-100 d-inline-flex align-items-center py-2 px-2">
                         <i class="fa fa-phone-alt text-primary mr-2"></i>
-                        <small>604-123-4567</small>
+                        <small>+1 778-886-1491</small>
                     </div>
                 </div>
                 <div class="col-lg-5 text-right">

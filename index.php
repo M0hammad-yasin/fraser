@@ -392,17 +392,67 @@
 
 
     <!-- Team Start -->
-    <div class="container-fluid py-5 bg-light">
-        <div class="container py-5">
-            <div class="row justify-content-center text-center">
-                <div class="col-lg-8">
-                    <i class="fa fa-5x fa-handshake text-primary mb-4"></i>
-                    <h1 class="section-title mb-3">One Partner. Every Service.</h1>
-                    <h4 class="font-weight-normal text-muted mb-4">Simplify your operations with a single, trusted partner for all your facility needs.</h4>
-                    <a href="contact.php" class="btn btn-primary py-3 px-5">Partner With Us</a>
+    <div class="fraser-cta-section">
+
+        <!-- Left: dark panel -->
+        <div class="fraser-cta-left">
+            <!-- Decorative dots -->
+            <div class="fraser-cta-dots" aria-hidden="true"></div>
+
+            <div class="fraser-cta-left-inner">
+                <span class="fraser-cta-eyebrow">Ready to Get Started?</span>
+                <h2 class="fraser-cta-headline">
+                    One Call. <br>Every&nbsp;Facility&nbsp;Need<span class="fraser-cta-dot">.</span>
+                </h2>
+                <p class="fraser-cta-subtext">
+                    Stop juggling multiple contractors. Fraser Facility Services is your single point of contact for janitorial, maintenance, exterior care, and more — serving the Lower Mainland since day&nbsp;one.
+                </p>
+
+                <!-- Primary CTA -->
+                <a href="contact.php" class="fraser-cta-btn-primary" id="ctaEstimateBtn">
+                    <span>Get a Free Estimate</span>
+                    <i class="fa fa-arrow-right ml-2"></i>
+                </a>
+
+                <!-- Phone CTA -->
+                <a href="tel:17788861491" class="fraser-cta-btn-phone">
+                    <div class="fraser-cta-phone-icon">
+                        <i class="fa fa-phone-alt"></i>
+                    </div>
+                    <div>
+                        <small class="d-block" style="opacity:.7; font-size:.72rem; letter-spacing:1px;">CALL US DIRECTLY</small>
+                        <strong style="font-size:1.05rem;">+1 778-886-1491</strong>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <!-- Right: gold stats panel -->
+        <div class="fraser-cta-right">
+            <div class="fraser-cta-stats-grid">
+                <div class="fraser-cta-stat">
+                    <div class="fraser-cta-stat-icon"><i class="fa fa-shield-alt"></i></div>
+                    <div class="fraser-cta-stat-number">100%</div>
+                    <div class="fraser-cta-stat-label">Satisfaction Guarantee</div>
+                </div>
+                <div class="fraser-cta-stat">
+                    <div class="fraser-cta-stat-icon"><i class="fa fa-clock"></i></div>
+                    <div class="fraser-cta-stat-number">24h</div>
+                    <div class="fraser-cta-stat-label">Response Time</div>
+                </div>
+                <div class="fraser-cta-stat">
+                    <div class="fraser-cta-stat-icon"><i class="fa fa-building"></i></div>
+                    <div class="fraser-cta-stat-number">5+</div>
+                    <div class="fraser-cta-stat-label">Service Categories</div>
+                </div>
+                <div class="fraser-cta-stat">
+                    <div class="fraser-cta-stat-icon"><i class="fa fa-map-marker-alt"></i></div>
+                    <div class="fraser-cta-stat-number">BC</div>
+                    <div class="fraser-cta-stat-label">Lower Mainland Focused</div>
                 </div>
             </div>
         </div>
+
     </div>
     <!-- Team End -->
 

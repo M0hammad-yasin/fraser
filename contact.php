@@ -126,7 +126,7 @@
         <div class="col-md-4 text-center mb-4">
           <i class="fa fa-3x fa-phone-alt text-primary mb-3"></i>
           <h5 class="font-weight-semi-bold">Phone</h5>
-          <p><a href="tel:6041234567" class="text-dark">604-123-4567</a></p>
+          <p><a href="tel:17788861491" class="text-dark">+1 778-886-1491</a></p>
         </div>
         <div class="col-md-4 text-center mb-4">
           <i class="fa fa-3x fa-envelope text-primary mb-3"></i>
