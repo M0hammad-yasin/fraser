@@ -45,7 +45,7 @@
             <h1 class="display-2 text-white mb-2" data-toggle="counter-up">
               15
             </h1>
-            <h2 class="text-white m-0 text-center">[CLIENT TO CONFIRM]</h2>
+            <h2 class="text-white m-0 text-center">Years of EXPERIENCE</h2>
           </div>
         </div>
         <div class="col-lg-7 pt-5 pb-lg-5">
