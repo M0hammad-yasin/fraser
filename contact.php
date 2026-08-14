@@ -14,24 +14,17 @@
   <!-- Header End -->
 
   <!-- Page Header Start -->
-  <div class="container-fluid bg-primary py-5 mb-5">
-    <div class="container py-5">
-      <div class="row align-items-center py-4">
-        <div class="col-md-6 text-center text-md-left">
-          <h1 class="display-4 mb-4 mb-md-0 text-secondary text-uppercase">
-            Contact Us
-          </h1>
-        </div>
-        <div class="col-md-6 text-center text-md-right">
-          <div class="d-inline-flex align-items-center">
-            <a class="btn btn-sm btn-outline-light" href="">Home</a>
-            <i class="fas fa-angle-double-right text-light mx-2"></i>
-            <a class="btn btn-sm btn-outline-light disabled" href="">Contact</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+  <?php 
+  $pageHeaderTitle = "Get In Touch With Us";
+  $pageHeaderEyebrow = "Contact Us";
+  $pageHeaderSubtitle = "Reach out to our operations team for custom estimates, facility consultations, and service inquiries.";
+  $pageHeaderBg = "./assets/img/about_us/feature.jpg";
+  $breadcrumbs = [
+      ['label' => 'Home', 'url' => 'index.php'],
+      ['label' => 'Contact', 'url' => '']
+  ];
+  include 'components/page-header.php'; 
+  ?>
   <!-- Page Header End -->
 
   <!-- Contact Start -->

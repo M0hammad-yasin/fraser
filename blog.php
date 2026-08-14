@@ -47,30 +47,28 @@ $allTags = array_keys($allTags);
   <?php include 'components/header.php'; ?>
 
   <!-- Page Header -->
-  <div class="container-fluid bg-primary py-5 mb-5">
-    <div class="container py-5">
-      <div class="row align-items-center py-4">
-        <div class="col-md-6 text-center text-md-left">
-          <h1 class="display-4 mb-4 mb-md-0 text-secondary text-uppercase">
-            Facility Care Tips
-          </h1>
-        </div>
-        <div class="col-md-6 text-center text-md-right">
-          <div class="d-inline-flex align-items-center">
-            <a class="btn btn-sm btn-outline-light" href="index.php">Home</a>
-            <i class="fas fa-angle-double-right text-light mx-2"></i>
-            <a class="btn btn-sm btn-outline-light" href="blogs.php">Blog</a>
-            <?php if ($post): ?>
-              <i class="fas fa-angle-double-right text-light mx-2"></i>
-              <a class="btn btn-sm btn-outline-light disabled" href="#">
-                <?php echo htmlspecialchars($post['category']); ?>
-              </a>
-            <?php endif; ?>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+  <?php 
+  if ($post) {
+      $pageHeaderTitle = "Facility Care Tips";
+      $pageHeaderEyebrow = $post['category'];
+      $pageHeaderSubtitle = $post['title'];
+      $pageHeaderBg = !empty($post['image']) ? $post['image'] : "./assets/img/home/carousel-3.jpg";
+      $breadcrumbs = [
+          ['label' => 'Home', 'url' => 'index.php'],
+          ['label' => 'Blog', 'url' => 'blogs.php'],
+          ['label' => $post['category'], 'url' => '']
+      ];
+  } else {
+      $pageHeaderTitle = "Post Not Found";
+      $pageHeaderBg = "./assets/img/home/carousel-1.jpg";
+      $breadcrumbs = [
+          ['label' => 'Home', 'url' => 'index.php'],
+          ['label' => 'Blog', 'url' => 'blogs.php'],
+          ['label' => '404', 'url' => '']
+      ];
+  }
+  include 'components/page-header.php'; 
+  ?>
 
   <!-- Main Content -->
   <div class="container-fluid py-5">

@@ -8,24 +8,17 @@ include 'components/head.php';
   <!-- Header End -->
 
   <!-- Page Header Start -->
-  <div class="container-fluid bg-primary py-5 mb-5">
-    <div class="container py-5">
-      <div class="row align-items-center py-4">
-        <div class="col-md-6 text-center text-md-left">
-          <h1 class="display-4 mb-4 mb-md-0 text-secondary text-uppercase">
-            Frequently Asked Questions
-          </h1>
-        </div>
-        <div class="col-md-6 text-center text-md-right">
-          <div class="d-inline-flex align-items-center">
-            <a class="btn btn-sm btn-outline-light" href="index.php">Home</a>
-            <i class="fas fa-angle-double-right text-light mx-2"></i>
-            <a class="btn btn-sm btn-outline-light disabled" href="faq.php">FAQs</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+  <?php 
+  $pageHeaderTitle = "Frequently Asked Questions";
+  $pageHeaderEyebrow = "Help & FAQ";
+  $pageHeaderSubtitle = "Find clear answers to common questions about our property maintenance and facility services.";
+  $pageHeaderBg = "./assets/img/home/carousel-1.jpg";
+  $breadcrumbs = [
+      ['label' => 'Home', 'url' => 'index.php'],
+      ['label' => 'FAQs', 'url' => '']
+  ];
+  include 'components/page-header.php'; 
+  ?>
   <!-- Page Header End -->
 
   <!-- FAQ Section Start -->
