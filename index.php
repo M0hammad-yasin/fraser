@@ -27,7 +27,7 @@
                 <div class="carousel-item active">
                     <img class="img-fluid" src="./assets/img/home/carousel-1.jpg" alt="Image">
                     <div class="carousel-caption d-flex align-items-center justify-content-center">
-                        <div class="p-5" style="width: 100%; max-width: 900px;">
+                        <div class="p-3 p-md-5" style="width: 100%; max-width: 900px;">
                             <h5 class="text-primary text-uppercase mb-md-3">Fraser Facility Services</h5>
                             <h1 class="display-3 text-white mb-md-4">One Partner. Complete Facility Solutions.</h1>
                             <p class="text-white mb-4 d-none d-md-block" style="font-size: 1.2rem;">Fraser Facility Services provides integrated janitorial, maintenance, exterior, and mechanical solutions that keep your property clean, safe, and operating at its best.</p>
@@ -39,7 +39,7 @@
                 <div class="carousel-item">
                     <img class="img-fluid" src="./assets/img/home/carousel-2.jpg" alt="Image">
                     <div class="carousel-caption d-flex align-items-center justify-content-center">
-                        <div class="p-5" style="width: 100%; max-width: 900px;">
+                        <div class="p-3 p-md-5" style="width: 100%; max-width: 900px;">
                             <h5 class="text-primary text-uppercase mb-md-3">Fraser Facility Services</h5>
                             <h1 class="display-3 text-white mb-md-4">Commercial & Residential — One Trusted Team.</h1>
                             <p class="text-white mb-4 d-none d-md-block" style="font-size: 1.2rem;">From office towers to strata buildings, we deliver reliable, professional facility care across the Fraser region.</p>
@@ -51,7 +51,7 @@
                 <div class="carousel-item">
                     <img class="img-fluid" src="./assets/img/home/carousel-3.jpg" alt="Image">
                     <div class="carousel-caption d-flex align-items-center justify-content-center">
-                        <div class="p-5" style="width: 100%; max-width: 900px;">
+                        <div class="p-3 p-md-5" style="width: 100%; max-width: 900px;">
                             <h5 class="text-primary text-uppercase mb-md-3">Fraser Facility Services</h5>
                             <h1 class="display-3 text-white mb-md-4">Proudly Serving the Fraser Region.</h1>
                             <p class="text-white mb-4 d-none d-md-block" style="font-size: 1.2rem;">Lower Mainland-wide coverage, responsive scheduling, and a single point of contact for every service.</p>
