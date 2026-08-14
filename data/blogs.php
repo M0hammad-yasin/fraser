@@ -13,16 +13,16 @@
 
 $blogs = [
 
-    'hidden-cost-of-deferred-maintenance' => [
-        'title'             => 'The Hidden Cost of Deferred Maintenance',
-        'excerpt'           => "Small repairs left unaddressed don't stay small. Here's why deferred maintenance costs property managers and strata councils more — and how to stay ahead of it.",
-        'meta_description'  => "Small repairs left unaddressed don't stay small. Here's why deferred maintenance costs property managers and strata councils more — and how to stay ahead of it.",
-        'author'            => 'Fraser Facility Services',
-        'category'          => 'Facility Care',
-        'tags'              => ['Facility Care', 'Maintenance', 'Property Management'],
-        'date'              => '2026-08-15',
-        'image'             => './assets/img/blog/blog-hidden-cost-of-deferred-maintenance.jpeg',
-        'content'           => <<<HTML
+  'hidden-cost-of-deferred-maintenance' => [
+    'title'             => 'The Hidden Cost of Deferred Maintenance',
+    'excerpt'           => "Small repairs left unaddressed don't stay small. Here's why deferred maintenance costs property managers and strata councils more — and how to stay ahead of it.",
+    'meta_description'  => "Small repairs left unaddressed don't stay small. Here's why deferred maintenance costs property managers and strata councils more — and how to stay ahead of it.",
+    'author'            => 'Fraser Facility Services',
+    'category'          => 'Facility Care',
+    'tags'              => ['Facility Care', 'Maintenance', 'Property Management'],
+    'date'              => '2026-08-15',
+    'image'             => './assets/img/blog/blog-hidden-cost-of-deferred-maintenance.jpeg',
+    'content'           => <<<HTML
       <p>A dripping faucet. A hairline crack in the parkade slab. A door closer that's a little slow to catch. None of it looks urgent. All of it can wait until next quarter's budget — or so the thinking goes.</p>
       <p>It's the most expensive assumption in property management.</p>
 
@@ -52,18 +52,18 @@ $blogs = [
       <p>The question isn't whether maintenance costs money. It always does. The real question is whether you want to control when and how much — or let deferred issues decide that for you.</p>
       <p><strong>Fraser Facility Services runs preventive building maintenance programs across the Lower Mainland</strong>, so small issues get caught while they're still small. If your property's maintenance plan is more reactive than proactive right now, let's talk about what a structured program would look like for your building.</p>
       HTML,
-    ],
+  ],
 
-    'commercial-vs-residential-cleaning' => [
-        'title'             => 'Commercial vs. Residential Cleaning — Why One Approach Doesn\'t Fit All',
-        'excerpt'           => 'Office towers, medical clinics, and residential strata buildings all need very different cleaning approaches. Here\'s what actually changes, and why it matters.',
-        'meta_description'  => 'Office towers, medical clinics, and residential strata buildings all need very different cleaning approaches. Here\'s what actually changes, and why it matters.',
-        'author'            => 'Fraser Facility Services',
-        'category'          => 'Janitorial',
-        'tags'              => ['Janitorial', 'Commercial', 'Residential'],
-        'date'              => '2026-08-08',
-        'image'             => './assets/img/blog/blog-commercial-vs-residential-cleaning.jpeg',
-        'content'           => <<<HTML
+  'commercial-vs-residential-cleaning' => [
+    'title'             => 'Commercial vs. Residential Cleaning — Why One Approach Doesn\'t Fit All',
+    'excerpt'           => 'Office towers, medical clinics, and residential strata buildings all need very different cleaning approaches. Here\'s what actually changes, and why it matters.',
+    'meta_description'  => 'Office towers, medical clinics, and residential strata buildings all need very different cleaning approaches. Here\'s what actually changes, and why it matters.',
+    'author'            => 'Fraser Facility Services',
+    'category'          => 'Janitorial',
+    'tags'              => ['Janitorial', 'Commercial', 'Residential'],
+    'date'              => '2026-08-08',
+    'image'             => './assets/img/blog/blog-commercial-vs-residential-cleaning.jpeg',
+    'content'           => <<<HTML
       <p>"Cleaning is cleaning" is one of the more expensive myths in facility management. A janitorial program built for a warehouse won't work in a medical clinic. A residential strata building has different expectations, schedules, and compliance needs than a retail storefront. Treating them the same is how properties end up under-serviced in the areas that matter most — and over-serviced in the ones that don't.</p>
 
       <h2 class="mb-4 mt-5">Office Buildings</h2>
@@ -88,18 +88,18 @@ $blogs = [
       <p>Every one of these needs a team that adjusts its approach to the property, not a template applied everywhere. That's the difference between a cleaning vendor and a facility services partner.</p>
       <p><strong>Fraser Facility Services builds janitorial programs around the property, not the other way around</strong> — covering office, retail, medical, industrial, strata, and residential clients across the Fraser region. Tell us what you're working with, and we'll tell you what the right program actually looks like.</p>
       HTML,
-    ],
+  ],
 
-    'winter-proofing-your-property' => [
-        'title'             => 'Winter-Proofing Your Property — A Lower Mainland Snow & Ice Checklist',
-        'excerpt'           => 'A practical snow and ice management checklist for Lower Mainland property managers and homeowners — what to prep before the first freeze.',
-        'meta_description'  => 'A practical snow and ice management checklist for Lower Mainland property managers and homeowners — what to prep before the first freeze.',
-        'author'            => 'Fraser Facility Services',
-        'category'          => 'Exterior Services',
-        'tags'              => ['Exterior Services', 'Seasonal', 'Snow & Ice'],
-        'date'              => '2026-08-01',
-        'image'             => './assets/img/blog/blog-winter-proofing-your-property.jpeg',
-        'content'           => <<<HTML
+  'winter-proofing-your-property' => [
+    'title'             => 'Winter-Proofing Your Property — A Lower Mainland Snow & Ice Checklist',
+    'excerpt'           => 'A practical snow and ice management checklist for Lower Mainland property managers and homeowners — what to prep before the first freeze.',
+    'meta_description'  => 'A practical snow and ice management checklist for Lower Mainland property managers and homeowners — what to prep before the first freeze.',
+    'author'            => 'Fraser Facility Services',
+    'category'          => 'Exterior Services',
+    'tags'              => ['Exterior Services', 'Seasonal', 'Snow & Ice'],
+    'date'              => '2026-08-01',
+    'image'             => './assets/img/blog/blog-winter-proofing-your-property.jpeg',
+    'content'           => <<<HTML
       <p>The Lower Mainland doesn't get harsh winters, and that's exactly the problem. Properties here are rarely built or maintained for snow and ice the way colder regions are, so a single unexpected freeze can catch a building completely unprepared — and an unprepared entryway or parking lot isn't just an inconvenience, it's a liability.</p>
       <p>Here's what a property should have sorted before the first cold snap.</p>
 
@@ -122,18 +122,18 @@ $blogs = [
       <p>The properties that handle winter well aren't the ones scrambling to find a contractor after the first snowfall — they're the ones with a snow and ice management plan already in place before the season starts.</p>
       <p><strong>Fraser Facility Services manages snow plowing, ice control, and seasonal exterior upkeep for properties across the Lower Mainland.</strong> If your building doesn't have a winter response plan locked in yet, now's the time — not in the middle of the first storm.</p>
       HTML,
-    ],
+  ],
 
-    'how-to-choose-a-facility-services-partner' => [
-        'title'             => 'How to Choose a Facility Services Partner (Instead of Juggling Five Vendors)',
-        'excerpt'           => 'Separate contracts for cleaning, maintenance, landscaping, and snow removal cost more than money. Here\'s what to look for in a single facility services partner.',
-        'meta_description'  => 'Separate contracts for cleaning, maintenance, landscaping, and snow removal cost more than money. Here\'s what to look for in a single facility services partner.',
-        'author'            => 'Fraser Facility Services',
-        'category'          => 'Facility Partnership',
-        'tags'              => ['Facility Partnership', 'Property Management'],
-        'date'              => '2026-07-25',
-        'image'             => './assets/img/blog/blog-how-to-choose-a-facility-services-partner.jpeg',
-        'content'           => <<<HTML
+  'how-to-choose-a-facility-services-partner' => [
+    'title'             => 'How to Choose a Facility Services Partner (Instead of Juggling Five Vendors)',
+    'excerpt'           => 'Separate contracts for cleaning, maintenance, landscaping, and snow removal cost more than money. Here\'s what to look for in a single facility services partner.',
+    'meta_description'  => 'Separate contracts for cleaning, maintenance, landscaping, and snow removal cost more than money. Here\'s what to look for in a single facility services partner.',
+    'author'            => 'Fraser Facility Services',
+    'category'          => 'Facility Partnership',
+    'tags'              => ['Facility Partnership', 'Property Management'],
+    'date'              => '2026-07-25',
+    'image'             => './assets/img/blog/blog-how-to-choose-a-facility-services-partner.jpeg',
+    'content'           => <<<HTML
       <p>Most properties don't start out with one vendor for everything. They end up there gradually — a cleaning company for janitorial, a separate contractor for repairs, a landscaper for the grounds, someone else for snow removal, and a fifth number to call when the HVAC acts up.</p>
       <p>Each hire made sense on its own. Together, they create a management problem nobody signed up for.</p>
 
@@ -156,18 +156,18 @@ $blogs = [
       <p>Ask any prospective partner one question: if something falls outside your usual scope, what happens next? A single vendor with a narrow scope says "that's not us." A true facility services partner says "we'll handle it, or connect you directly with someone who will" — because they're accountable for the whole property, not just their slice of it.</p>
       <p><strong>Fraser Facility Services was built around that idea</strong> — one partner, every service, one number to call for janitorial, maintenance, exterior, and mechanical needs across the Fraser region.</p>
       HTML,
-    ],
+  ],
 
-    'whats-included-in-a-facility-maintenance-program' => [
-        'title'             => "What's Actually Included in a Facility Maintenance Program?",
-        'excerpt'           => "A plain-English breakdown of what plumbing, electrical, and HVAC preventive maintenance actually covers — for building owners who aren't technical.",
-        'meta_description'  => "A plain-English breakdown of what plumbing, electrical, and HVAC preventive maintenance actually covers — for building owners who aren't technical.",
-        'author'            => 'Fraser Facility Services',
-        'category'          => 'Mechanical & Facility Support',
-        'tags'              => ['Mechanical', 'HVAC', 'Maintenance'],
-        'date'              => '2026-07-18',
-        'image'             => './assets/img/blog/blog-whats-included-in-a-facility-maintenance-program.jpeg',
-        'content'           => <<<HTML
+  'whats-included-in-a-facility-maintenance-program' => [
+    'title'             => "What's Actually Included in a Facility Maintenance Program?",
+    'excerpt'           => "A plain-English breakdown of what plumbing, electrical, and HVAC preventive maintenance actually covers — for building owners who aren't technical.",
+    'meta_description'  => "A plain-English breakdown of what plumbing, electrical, and HVAC preventive maintenance actually covers — for building owners who aren't technical.",
+    'author'            => 'Fraser Facility Services',
+    'category'          => 'Mechanical & Facility Support',
+    'tags'              => ['Mechanical', 'HVAC', 'Maintenance'],
+    'date'              => '2026-07-18',
+    'image'             => './assets/img/blog/blog-whats-included-in-a-facility-maintenance-program.jpeg',
+    'content'           => <<<HTML
       <p>"Facility maintenance program" sounds like something only an engineer would understand. It isn't. Strip away the jargon and it's a simple idea: the mechanical systems that keep a building running get checked and serviced on a schedule, instead of being left alone until something breaks.</p>
       <p>Here's what that actually covers, in plain terms.</p>
 
@@ -206,6 +206,6 @@ $blogs = [
       <p>Buildings don't fail all at once. They fail one deferred inspection at a time. A maintenance program isn't an extra cost — it's the mechanism that keeps small, cheap fixes from turning into large, disruptive ones.</p>
       <p><strong>Fraser Facility Services runs mechanical and facility support programs — plumbing, electrical, HVAC, and inspections — for commercial and residential properties across the Lower Mainland.</strong> If your building's maintenance is more "wait and see" than "scheduled and tracked," that's worth a conversation.</p>
       HTML,
-    ],
+  ],
 
 ];
