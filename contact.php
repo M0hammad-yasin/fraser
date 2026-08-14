@@ -47,7 +47,7 @@
       <div class="row">
         <div class="col-lg-7 mb-5 mb-lg-0">
           <div class="contact-form">
-            <div id="success"></div>
+            <div id="success" class="mb-3"></div>
             <form name="sentMessage" id="contactForm" novalidate="novalidate">
               <div class="form-row">
                 <div class="col-sm-6 control-group">
@@ -55,6 +55,7 @@
                     type="text"
                     class="form-control p-4"
                     id="name"
+                    name="name"
                     placeholder="Your Name"
                     required="required"
                     data-validation-required-message="Please enter your name" />
@@ -65,6 +66,7 @@
                     type="email"
                     class="form-control p-4"
                     id="email"
+                    name="email"
                     placeholder="Your Email"
                     required="required"
                     data-validation-required-message="Please enter your email" />
@@ -76,6 +78,7 @@
                   type="text"
                   class="form-control p-4"
                   id="subject"
+                  name="subject"
                   placeholder="Subject"
                   required="required"
                   data-validation-required-message="Please enter a subject" />
@@ -86,6 +89,7 @@
                   class="form-control p-4"
                   rows="6"
                   id="message"
+                  name="message"
                   placeholder="Message"
                   required="required"
                   data-validation-required-message="Please enter your message"></textarea>
@@ -96,7 +100,8 @@
                   class="btn btn-primary btn-block py-3 px-5"
                   type="submit"
                   id="sendMessageButton">
-                  Send Message
+                  <span id="btnText">Send Message</span>
+                  <span id="btnSpinner" class="spinner-border spinner-border-sm ml-2" role="status" aria-hidden="true" style="display:none;"></span>
                 </button>
               </div>
             </form>

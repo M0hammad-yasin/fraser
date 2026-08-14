@@ -1,0 +1,8 @@
+# Mail credentials – NEVER commit this
+/mail/config.php
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
