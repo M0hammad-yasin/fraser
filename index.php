@@ -158,11 +158,10 @@
 
             <!-- Section Header -->
             <div class="row justify-content-center mb-5">
-                <div class="col-lg-7 text-center">
-                    <h6 class="fraser-services-label font-weight-semi-bold text-uppercase mb-3">Our Services</h6>
+                <div class="col-lg-7">
+                    <h6 class="fraser-services-label text-center font-weight-semi-bold text-uppercase mb-3">Our Services</h6>
                     <h1 class="mb-4 section-title text-white">Complete Facility Solutions For You</h1>
                     <p class="mb-4" style="color: rgba(255,255,255,0.6);">One Partner. Every Service. We provide a full suite of services to ensure your property remains clean, safe, and fully operational.</p>
-                    <a href="service.php" class="btn btn-primary py-2 px-5 font-weight-semi-bold">View All Services &nbsp;<i class="fa fa-arrow-right"></i></a>
                 </div>
             </div>
 
@@ -528,7 +527,7 @@
                         <?php
                         // Pull in the blog data store
                         include 'data/blogs.php';
-                        
+
                         // Sort newest first
                         uasort($blogs, function ($a, $b) {
                             return strtotime($b['date']) <=> strtotime($a['date']);
@@ -538,23 +537,23 @@
                             $day   = date('d', strtotime($post['date']));
                             $month = date('M', strtotime($post['date']));
                         ?>
-                        <div class="d-flex flex-column h-100 mb-5">
-                            <div class="position-relative mb-4">
-                                <img class="img-fluid rounded w-100" src="<?php echo htmlspecialchars($post['image']); ?>" alt="<?php echo htmlspecialchars($post['title']); ?>" style="height: 250px; object-fit: cover;">
-                                <div class="blog-date">
-                                    <h4 class="font-weight-bold mb-n1"><?php echo $day; ?></h4>
-                                    <small class="text-white text-uppercase"><?php echo $month; ?></small>
+                            <div class="d-flex flex-column h-100 mb-5">
+                                <div class="position-relative mb-4">
+                                    <img class="img-fluid rounded w-100" src="<?php echo htmlspecialchars($post['image']); ?>" alt="<?php echo htmlspecialchars($post['title']); ?>" style="height: 250px; object-fit: cover;">
+                                    <div class="blog-date">
+                                        <h4 class="font-weight-bold mb-n1"><?php echo $day; ?></h4>
+                                        <small class="text-white text-uppercase"><?php echo $month; ?></small>
+                                    </div>
                                 </div>
+                                <div class="d-flex mb-2">
+                                    <a class="text-secondary text-uppercase font-weight-medium" href="blog.php?slug=<?php echo urlencode($slug); ?>"><?php echo htmlspecialchars($post['author']); ?></a>
+                                    <span class="text-primary px-2">|</span>
+                                    <a class="text-secondary text-uppercase font-weight-medium" href="blog.php?slug=<?php echo urlencode($slug); ?>"><?php echo htmlspecialchars($post['category']); ?></a>
+                                </div>
+                                <h5 class="font-weight-medium mb-2"><?php echo htmlspecialchars($post['title']); ?></h5>
+                                <p class="mb-4"><?php echo htmlspecialchars(substr($post['excerpt'], 0, 80)) . '...'; ?></p>
+                                <a class="btn btn-sm btn-primary py-2 mt-auto align-self-start" href="blog.php?slug=<?php echo urlencode($slug); ?>">Read More</a>
                             </div>
-                            <div class="d-flex mb-2">
-                                <a class="text-secondary text-uppercase font-weight-medium" href="blog.php?slug=<?php echo urlencode($slug); ?>"><?php echo htmlspecialchars($post['author']); ?></a>
-                                <span class="text-primary px-2">|</span>
-                                <a class="text-secondary text-uppercase font-weight-medium" href="blog.php?slug=<?php echo urlencode($slug); ?>"><?php echo htmlspecialchars($post['category']); ?></a>
-                            </div>
-                            <h5 class="font-weight-medium mb-2"><?php echo htmlspecialchars($post['title']); ?></h5>
-                            <p class="mb-4"><?php echo htmlspecialchars(substr($post['excerpt'], 0, 80)) . '...'; ?></p>
-                            <a class="btn btn-sm btn-primary py-2 mt-auto align-self-start" href="blog.php?slug=<?php echo urlencode($slug); ?>">Read More</a>
-                        </div>
                         <?php endforeach; ?>
                     </div>
                 </div>

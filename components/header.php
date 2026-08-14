@@ -1,6 +1,7 @@
 <?php
 $currentScript = basename($_SERVER['PHP_SELF']);
-function isActiveNav($pages, $currentScript) {
+function isActiveNav($pages, $currentScript)
+{
     if (is_array($pages)) {
         return in_array($currentScript, $pages) ? 'active' : '';
     }
@@ -48,7 +49,7 @@ function isActiveNav($pages, $currentScript) {
             </div>
             <nav class="navbar navbar-expand-lg bg-white navbar-light p-0">
                 <a href="index.php" class="navbar-brand d-block d-lg-none">
-                    <h1 class="m-0 display-4 text-primary">Fraser Facility Services</h1>
+                    <h1 class="m-0 display-5 text-primary">Fraser Facility <br> Services</h1>
                 </a>
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                     <span class="navbar-toggler-icon"></span>
@@ -73,7 +74,7 @@ function isActiveNav($pages, $currentScript) {
 <div id="narrow-header" class="shadow-sm">
     <nav class="navbar navbar-expand-lg navbar-light p-0">
         <a href="index.php" class="navbar-brand d-block d-lg-none pl-4">
-            <h1 class="m-0 display-5 text-primary">Fraser Facility Services</h1>
+            <h1 class="m-0 display-5 text-primary">Fraser Facility <br> Services</h1>
         </a>
         <button type="button" class="navbar-toggler mr-4 my-2" data-toggle="collapse" data-target="#narrowNavbarCollapse">
             <span class="navbar-toggler-icon"></span>

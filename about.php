@@ -156,20 +156,63 @@
   </div>
   <!-- Features End -->
 
-  <!-- Team Start -->
-  <div class="container-fluid py-5 bg-light">
+  <!-- CTA Estimation Section Start -->
+  <div class="container-fluid py-5" style="background: linear-gradient(135deg, #0a1026 0%, #101e3f 100%);">
     <div class="container py-5">
       <div class="row justify-content-center text-center">
-        <div class="col-lg-8">
-          <i class="fa fa-5x fa-handshake text-primary mb-4"></i>
-          <h1 class="section-title mb-3">One Partner. Every Service.</h1>
-          <h4 class="font-weight-normal text-muted mb-4">Simplify your operations with a single, trusted partner for all your facility needs.</h4>
-          <a href="contact.php" class="btn btn-primary py-3 px-5">Partner With Us</a>
+        <div class="col-lg-9">
+          <span class="badge badge-pill badge-primary text-uppercase font-weight-bold px-3 py-2 mb-3" style="letter-spacing: 2px; font-size: 0.8rem; background-color: #ffc600; color: #0a1026;">Free Facility Consultation</span>
+          <h1 class="display-4 font-weight-bold text-white mb-3">Ready to Elevate Your Property?</h1>
+          <p class="lead text-white-50 mb-5 mx-auto" style="max-width: 650px; font-size: 1.05rem;">
+            Get a comprehensive, itemized estimate tailored specifically to your building or strata facility. Fast turnaround with zero obligation.
+          </p>
+
+          <!-- 3 Quick Value Badges -->
+          <div class="row justify-content-center mb-5 text-left">
+            <div class="col-md-4 mb-3 mb-md-0">
+              <div class="d-flex align-items-center p-3 rounded h-100" style="background: rgba(255,255,255,0.05); border: 1px solid rgba(255,198,0,0.25);">
+                <i class="fa fa-2x fa-stopwatch text-primary mr-3"></i>
+                <div>
+                  <h6 class="text-white mb-0 font-weight-bold">24h Turnaround</h6>
+                  <small class="text-white-50">Fast, accurate proposals</small>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-3 mb-md-0">
+              <div class="d-flex align-items-center p-3 rounded h-100" style="background: rgba(255,255,255,0.05); border: 1px solid rgba(255,198,0,0.25);">
+                <i class="fa fa-2x fa-clipboard-check text-primary mr-3"></i>
+                <div>
+                  <h6 class="text-white mb-0 font-weight-bold">Free Site Audit</h6>
+                  <small class="text-white-50">Detailed property walkthrough</small>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="d-flex align-items-center p-3 rounded h-100" style="background: rgba(255,255,255,0.05); border: 1px solid rgba(255,198,0,0.25);">
+                <i class="fa fa-2x fa-shield-alt text-primary mr-3"></i>
+                <div>
+                  <h6 class="text-white mb-0 font-weight-bold">100% Guaranteed</h6>
+                  <small class="text-white-50">Consistent quality care</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Action Buttons -->
+          <div class="d-flex flex-column flex-sm-row justify-content-center align-items-center">
+            <a href="contact.php" class="btn btn-primary py-3 px-5 font-weight-bold mr-sm-3 mb-3 mb-sm-0 shadow-sm" style="border-radius: 50px; font-size: 1rem;">
+              Get a Free Estimate <i class="fa fa-arrow-right ml-2"></i>
+            </a>
+            <a href="tel:17788861491" class="btn btn-outline-light py-3 px-4 font-weight-bold" style="border-radius: 50px; font-size: 1rem;">
+              <i class="fa fa-phone-alt text-primary mr-2"></i>+1 778-886-1491
+            </a>
+          </div>
+
         </div>
       </div>
     </div>
   </div>
-  <!-- Team End -->
+  <!-- CTA Estimation Section End -->
 
   <!-- Footer Start -->
   <?php include 'components/footer.php'; ?>
