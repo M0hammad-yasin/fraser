@@ -28,7 +28,7 @@
                 <a class="text-white mb-2" href="index.php"><i class="fa fa-angle-right mr-2"></i>Home</a>
                 <a class="text-white mb-2" href="about.php"><i class="fa fa-angle-right mr-2"></i>About Us</a>
                 <a class="text-white mb-2" href="service.php"><i class="fa fa-angle-right mr-2"></i>Services</a>
-                <a class="text-white mb-2" href="project.php"><i class="fa fa-angle-right mr-2"></i>Projects</a>
+                <a class="text-white mb-2" href="faq.php"><i class="fa fa-angle-right mr-2"></i>FAQs</a>
                 <a class="text-white" href="contact.php"><i class="fa fa-angle-right mr-2"></i>Contact Us</a>
             </div>
         </div>

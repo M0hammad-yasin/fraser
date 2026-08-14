@@ -1,7 +1,16 @@
+<?php
+$currentScript = basename($_SERVER['PHP_SELF']);
+function isActiveNav($pages, $currentScript) {
+    if (is_array($pages)) {
+        return in_array($currentScript, $pages) ? 'active' : '';
+    }
+    return ($currentScript === $pages || ($pages === 'index.php' && ($currentScript === '' || $currentScript === 'index.php'))) ? 'active' : '';
+}
+?>
 <div id="header" class="container-fluid">
     <div class="row">
         <div class="col-lg-2 col-md-6 col-sm-6 col-xs-6 d-none d-lg-block">
-            <a href="" class="navbar-brand w-100 h-100 m-0 p-0 d-flex align-items-center justify-content-center">
+            <a href="index.php" class="navbar-brand w-100 h-100 m-0 p-0 d-flex align-items-center justify-content-center">
                 <img src="./assets/img/logo-primary.png" alt="logo" class="img-fluid" style="height: 120px;">
             </a>
         </div>
@@ -38,7 +47,7 @@
                 </div>
             </div>
             <nav class="navbar navbar-expand-lg bg-white navbar-light p-0">
-                <a href="" class="navbar-brand d-block d-lg-none">
+                <a href="index.php" class="navbar-brand d-block d-lg-none">
                     <h1 class="m-0 display-4 text-primary">Fraser Facility Services</h1>
                 </a>
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
@@ -46,14 +55,14 @@
                 </button>
                 <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                     <div class="navbar-nav mr-auto py-0">
-                        <a href="index.php" class="nav-item nav-link active">Home</a>
-                        <a href="about.php" class="nav-item nav-link">About</a>
-                        <a href="service.php" class="nav-item nav-link">Service</a>
-                        <a href="blogs.php" class="nav-item nav-link">Blog</a>
-                        <a href="faq.php" class="nav-item nav-link">FAQ</a>
-                        <a href="contact.php" class="nav-item nav-link">Contact</a>
+                        <a href="index.php" class="nav-item nav-link <?php echo isActiveNav('index.php', $currentScript); ?>">Home</a>
+                        <a href="about.php" class="nav-item nav-link <?php echo isActiveNav('about.php', $currentScript); ?>">About</a>
+                        <a href="service.php" class="nav-item nav-link <?php echo isActiveNav('service.php', $currentScript); ?>">Service</a>
+                        <a href="blogs.php" class="nav-item nav-link <?php echo isActiveNav(['blogs.php', 'blog.php', 'single.php'], $currentScript); ?>">Blog</a>
+                        <a href="faq.php" class="nav-item nav-link <?php echo isActiveNav('faq.php', $currentScript); ?>">FAQ</a>
+                        <a href="contact.php" class="nav-item nav-link <?php echo isActiveNav('contact.php', $currentScript); ?>">Contact</a>
                     </div>
-                    <a href="" class="btn btn-primary mr-3 d-none d-lg-block">Get A Quote</a>
+                    <a href="contact.php" class="btn btn-primary mr-3 d-none d-lg-block">Get A Quote</a>
                 </div>
             </nav>
         </div>
@@ -71,12 +80,12 @@
         </button>
         <div class="collapse navbar-collapse justify-content-center" id="narrowNavbarCollapse">
             <div class="navbar-nav py-0">
-                <a href="index.php" class="nav-item nav-link active">Home</a>
-                <a href="about.php" class="nav-item nav-link">About</a>
-                <a href="service.php" class="nav-item nav-link">Service</a>
-                <a href="blogs.php" class="nav-item nav-link">Blog</a>
-                <a href="faq.php" class="nav-item nav-link">FAQ</a>
-                <a href="contact.php" class="nav-item nav-link">Contact</a>
+                <a href="index.php" class="nav-item nav-link <?php echo isActiveNav('index.php', $currentScript); ?>">Home</a>
+                <a href="about.php" class="nav-item nav-link <?php echo isActiveNav('about.php', $currentScript); ?>">About</a>
+                <a href="service.php" class="nav-item nav-link <?php echo isActiveNav('service.php', $currentScript); ?>">Service</a>
+                <a href="blogs.php" class="nav-item nav-link <?php echo isActiveNav(['blogs.php', 'blog.php', 'single.php'], $currentScript); ?>">Blog</a>
+                <a href="faq.php" class="nav-item nav-link <?php echo isActiveNav('faq.php', $currentScript); ?>">FAQ</a>
+                <a href="contact.php" class="nav-item nav-link <?php echo isActiveNav('contact.php', $currentScript); ?>">Contact</a>
             </div>
         </div>
     </nav>
@@ -121,6 +130,13 @@
     #narrow-header .navbar-nav .nav-link {
         padding: 12px 25px;
         font-weight: 500;
+        transition: color 0.2s ease;
+    }
+
+    #narrow-header .navbar-nav .nav-link:hover,
+    #narrow-header .navbar-nav .nav-link.active {
+        color: #23a036 !important;
+        font-weight: 600;
     }
 
     @media (max-width: 992px) {
