@@ -136,7 +136,7 @@ function isActiveNav($pages, $currentScript)
 
     #narrow-header .navbar-nav .nav-link:hover,
     #narrow-header .navbar-nav .nav-link.active {
-        color: #23a036 !important;
+        color: #3F6B45 !important;
         font-weight: 600;
     }
 

@@ -152,11 +152,11 @@
 
 
     <!-- Services Start -->
-    <?php 
+    <?php
     $servicesSectionEyebrow = "Our Services";
     $servicesSectionTitle = "Complete Facility Solutions For You";
     $servicesSectionDesc = "One Partner. Every Service. We provide a full suite of services to ensure your property remains clean, safe, and fully operational.";
-    include 'components/services-section.php'; 
+    include 'components/services-section.php';
     ?>
     <!-- Services End -->
 
@@ -465,7 +465,7 @@
                             $day   = date('d', strtotime($post['date']));
                             $month = date('M', strtotime($post['date']));
                         ?>
-                            <div class="d-flex flex-column h-100 mb-5">
+                            <div class="d-flex flex-column h-100 pb-auto mb-5">
                                 <div class="position-relative mb-4">
                                     <img class="img-fluid rounded w-100" src="<?php echo htmlspecialchars($post['image']); ?>" alt="<?php echo htmlspecialchars($post['title']); ?>" style="height: 250px; object-fit: cover;">
                                     <div class="blog-date">
@@ -473,16 +473,17 @@
                                         <small class="text-white text-uppercase"><?php echo $month; ?></small>
                                     </div>
                                 </div>
-                                <div class="d-flex mb-2">
-                                    <a class="text-secondary text-uppercase font-weight-medium" href="blog.php?slug=<?php echo urlencode($slug); ?>"><?php echo htmlspecialchars($post['author']); ?></a>
-                                    <span class="text-primary px-2">|</span>
-                                    <a class="text-secondary text-uppercase font-weight-medium" href="blog.php?slug=<?php echo urlencode($slug); ?>"><?php echo htmlspecialchars($post['category']); ?></a>
+                                <div class="d-flex flex-column justify-content-between h-100 mb-auto">
+                                    <div class="d-flex mb-2">
+                                        <a class="text-secondary text-uppercase font-weight-medium" href="blog.php?slug=<?php echo urlencode($slug); ?>"><?php echo htmlspecialchars($post['author']); ?></a>
+                                        <span class="text-primary px-2">|</span>
+                                        <a class="text-secondary text-uppercase font-weight-medium" href="blog.php?slug=<?php echo urlencode($slug); ?>"><?php echo htmlspecialchars($post['category']); ?></a>
+                                    </div>
+                                    <h5 class="font-weight-medium mb-2"><?php echo htmlspecialchars($post['title']); ?></h5>
+                                    <p class="mb-4"><?php echo htmlspecialchars(substr($post['excerpt'], 0, 80)) . '...'; ?></p>
+                                    <a class="btn btn-sm btn-primary py-2 mt-auto align-self-start" href="blog.php?slug=<?php echo urlencode($slug); ?>">Read More</a>
                                 </div>
-                                <h5 class="font-weight-medium mb-2"><?php echo htmlspecialchars($post['title']); ?></h5>
-                                <p class="mb-4"><?php echo htmlspecialchars(substr($post['excerpt'], 0, 80)) . '...'; ?></p>
-                                <a class="btn btn-sm btn-primary py-2 mt-auto align-self-start" href="blog.php?slug=<?php echo urlencode($slug); ?>">Read More</a>
-                            </div>
-                        <?php endforeach; ?>
+                            </div><?php endforeach; ?>
                     </div>
                 </div>
             </div>

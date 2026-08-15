@@ -106,12 +106,10 @@ The visual language reflects trust, safety, and modern facility excellence:
 
 | Token / Role        |        Hex Code         |                             Preview                             | Usage Context                                                   |
 | :------------------ | :---------------------: | :-------------------------------------------------------------: | :-------------------------------------------------------------- |
-| **Primary Gold**    |        `#ffc600`        | ![#ffc600](https://via.placeholder.com/15/ffc600/000000?text=+) | Eyebrow badges, icons, borders, active indicators, CTA buttons  |
-| **Secondary Green** |        `#23a036`        | ![#23a036](https://via.placeholder.com/15/23a036/000000?text=+) | Active nav items, checkmarks, trust accents, gradient endpoints |
-| **Midnight Navy**   |        `#0a1026`        | ![#0a1026](https://via.placeholder.com/15/0a1026/000000?text=+) | Primary dark backgrounds, hero overlays, footer, dark panels    |
-| **Surface Navy**    |        `#0f1d3a`        | ![#0f1d3a](https://via.placeholder.com/15/0f1d3a/000000?text=+) | Card gradients, secondary section backgrounds                   |
-| **Light Slate**     |        `#f8f9fc`        | ![#f8f9fc](https://via.placeholder.com/15/f8f9fc/000000?text=+) | Light section backgrounds, sector cards                         |
-| **Text Muted**      | `rgba(255,255,255,0.7)` | ![#b3b3b3](https://via.placeholder.com/15/b3b3b3/000000?text=+) | Body copy on dark containers                                    |
+| **Gold**            |        `#C9A14A`        | ![#C9A14A](https://via.placeholder.com/15/C9A14A/000000?text=+) | Primary brand color, buttons, badges, icons, highlights        |
+| **Forest Green**    |        `#3F6B45`        | ![#3F6B45](https://via.placeholder.com/15/3F6B45/000000?text=+) | Secondary brand color, active nav items, checkmarks, accents    |
+| **Navy**            |        `#0F2747`        | ![#0F2747](https://via.placeholder.com/15/0F2747/000000?text=+) | Dark backgrounds, typography headings, footer, dark panels      |
+| **Soft Gray**       |        `#F3F5F7`        | ![#F3F5F7](https://via.placeholder.com/15/F3F5F7/000000?text=+) | Light section backgrounds, sector cards, subtle surfaces        |
 
 ---
 

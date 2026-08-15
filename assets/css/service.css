@@ -4,7 +4,7 @@
 
 /* Dark Section Background */
 .fraser-service-dark-bg {
-  background: linear-gradient(135deg, #0a1026 0%, #0f1d3a 60%, #0a1026 100%);
+  background: linear-gradient(135deg, #0F2747 0%, #153761 60%, #0F2747 100%);
   position: relative;
 }
 
@@ -12,7 +12,7 @@
 .fraser-service-card-v2 {
   position: relative;
   background: rgba(255, 255, 255, 0.04);
-  border: 1px solid rgba(255, 198, 0, 0.18);
+  border: 1px solid rgba(201, 161, 74, 0.2);
   border-radius: 16px;
   padding: 36px 30px;
   display: flex;
@@ -26,9 +26,9 @@
 
 .fraser-service-card-v2:hover {
   transform: translateY(-8px);
-  background: rgba(255, 198, 0, 0.08);
-  border-color: rgba(255, 198, 0, 0.6);
-  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.5), 0 0 0 1px rgba(255, 198, 0, 0.25);
+  background: rgba(201, 161, 74, 0.08);
+  border-color: rgba(201, 161, 74, 0.6);
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.5), 0 0 0 1px rgba(201, 161, 74, 0.25);
 }
 
 /* Top Accent Line */
@@ -38,7 +38,7 @@
   left: 0;
   right: 0;
   height: 4px;
-  background: linear-gradient(90deg, #ffc600 0%, #23a036 100%);
+  background: linear-gradient(90deg, #C9A14A 0%, #3F6B45 100%);
   transform: scaleX(0);
   transform-origin: left;
   transition: transform 0.4s ease;
@@ -53,24 +53,24 @@
   width: 68px;
   height: 68px;
   border-radius: 16px;
-  background: linear-gradient(135deg, #ffc600 0%, #e6a800 100%);
+  background: linear-gradient(135deg, #C9A14A 0%, #b38d38 100%);
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 22px;
-  box-shadow: 0 8px 20px rgba(255, 198, 0, 0.3);
+  box-shadow: 0 8px 20px rgba(201, 161, 74, 0.3);
   transition: transform 0.35s ease, box-shadow 0.35s ease;
   flex-shrink: 0;
 }
 
 .fraser-service-icon-box i {
   font-size: 1.6rem;
-  color: #0a1026;
+  color: #0F2747;
 }
 
 .fraser-service-card-v2:hover .fraser-service-icon-box {
   transform: scale(1.1) rotate(-4deg);
-  box-shadow: 0 12px 30px rgba(255, 198, 0, 0.5);
+  box-shadow: 0 12px 30px rgba(201, 161, 74, 0.5);
 }
 
 /* Title & Content */
@@ -99,7 +99,7 @@
 }
 
 .fraser-service-list li i {
-  color: #ffc600;
+  color: #C9A14A;
   font-size: 0.95rem;
   margin-right: 10px;
   margin-top: 3px;
@@ -116,7 +116,7 @@
 .fraser-service-btn {
   display: inline-flex;
   align-items: center;
-  color: #ffc600;
+  color: #C9A14A;
   font-weight: 600;
   font-size: 0.88rem;
   text-decoration: none;
@@ -131,13 +131,13 @@
 
 /* Highlight / Custom Plan Card */
 .fraser-service-card-v2.custom-plan-card {
-  background: linear-gradient(145deg, rgba(255, 198, 0, 0.12) 0%, rgba(35, 160, 54, 0.1) 100%);
-  border: 1px solid rgba(255, 198, 0, 0.4);
+  background: linear-gradient(145deg, rgba(201, 161, 74, 0.12) 0%, rgba(63, 107, 69, 0.1) 100%);
+  border: 1px solid rgba(201, 161, 74, 0.4);
 }
 
 .fraser-service-card-v2.custom-plan-card:hover {
-  background: linear-gradient(145deg, rgba(255, 198, 0, 0.18) 0%, rgba(35, 160, 54, 0.16) 100%);
-  border-color: #ffc600;
+  background: linear-gradient(145deg, rgba(201, 161, 74, 0.18) 0%, rgba(63, 107, 69, 0.16) 100%);
+  border-color: #C9A14A;
 }
 
 /* ============================================
@@ -145,18 +145,18 @@
    ============================================ */
 
 .who-we-serve-bg {
-  background-color: #f8f9fc;
+  background-color: #F3F5F7;
 }
 
 .serve-card {
   background: #ffffff;
-  border: 1px solid #edf0f5;
+  border: 1px solid #e2e6ec;
   border-radius: 14px;
   padding: 32px 24px;
   height: 100%;
   display: flex;
   flex-direction: column;
-  box-shadow: 0 6px 20px rgba(10, 16, 38, 0.04);
+  box-shadow: 0 6px 20px rgba(15, 39, 71, 0.04);
   transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
   position: relative;
   overflow: hidden;
@@ -164,16 +164,16 @@
 
 .serve-card:hover {
   transform: translateY(-6px);
-  box-shadow: 0 16px 36px rgba(10, 16, 38, 0.09);
-  border-color: rgba(255, 198, 0, 0.5);
+  box-shadow: 0 16px 36px rgba(15, 39, 71, 0.09);
+  border-color: rgba(201, 161, 74, 0.5);
 }
 
 .serve-card-icon {
   width: 56px;
   height: 56px;
   border-radius: 12px;
-  background: rgba(255, 198, 0, 0.15);
-  color: #0a1026;
+  background: rgba(201, 161, 74, 0.15);
+  color: #0F2747;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -183,15 +183,15 @@
 }
 
 .serve-card:hover .serve-card-icon {
-  background: #ffc600;
-  color: #0a1026;
+  background: #C9A14A;
+  color: #0F2747;
   transform: scale(1.08);
 }
 
 .serve-card-title {
   font-size: 1.15rem;
   font-weight: 700;
-  color: #0a1026;
+  color: #0F2747;
   margin-bottom: 10px;
 }
 
@@ -210,7 +210,7 @@
   right: -20px;
   width: 90px;
   height: 90px;
-  background: radial-gradient(circle, rgba(255, 198, 0, 0.08) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(201, 161, 74, 0.08) 0%, transparent 70%);
   border-radius: 50%;
   opacity: 0;
   transition: opacity 0.3s ease;

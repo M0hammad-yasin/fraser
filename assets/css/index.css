@@ -1,10 +1,10 @@
 .fraser-services-bg {
-  background: linear-gradient(135deg, #0a1026 0%, #0f1d3a 60%, #0a1026 100%);
+  background: linear-gradient(135deg, #0F2747 0%, #153761 60%, #0F2747 100%);
 }
 .fraser-service-card {
   position: relative;
   background: rgba(255, 255, 255, 0.04);
-  border: 1px solid rgba(255, 198, 0, 0.15);
+  border: 1px solid rgba(201, 161, 74, 0.2);
   border-radius: 16px;
   padding: 40px 32px 36px;
   overflow: hidden;
@@ -16,11 +16,11 @@
 }
 .fraser-service-card:hover {
   transform: translateY(-10px);
-  background: rgba(255, 198, 0, 0.07);
-  border-color: rgba(255, 198, 0, 0.55);
+  background: rgba(201, 161, 74, 0.07);
+  border-color: rgba(201, 161, 74, 0.6);
   box-shadow:
     0 24px 60px rgba(0, 0, 0, 0.45),
-    0 0 0 1px rgba(255, 198, 0, 0.2);
+    0 0 0 1px rgba(201, 161, 74, 0.25);
 }
 .fraser-card-accent {
   position: absolute;
@@ -28,7 +28,7 @@
   left: 0;
   right: 0;
   height: 4px;
-  background: linear-gradient(90deg, #ffc600 0%, #23a036 100%);
+  background: linear-gradient(90deg, #C9A14A 0%, #3F6B45 100%);
   border-radius: 16px 16px 0 0;
   transform: scaleX(0);
   transform-origin: left;
@@ -41,23 +41,23 @@
   width: 72px;
   height: 72px;
   border-radius: 50%;
-  background: linear-gradient(135deg, #ffc600 0%, #e6b000 100%);
+  background: linear-gradient(135deg, #C9A14A 0%, #b38d38 100%);
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 24px;
-  box-shadow: 0 8px 24px rgba(255, 198, 0, 0.35);
+  box-shadow: 0 8px 24px rgba(201, 161, 74, 0.35);
   transition:
     transform 0.35s ease,
     box-shadow 0.35s ease;
 }
 .fraser-card-icon i {
   font-size: 1.55rem;
-  color: #0a1026;
+  color: #0F2747;
 }
 .fraser-service-card:hover .fraser-card-icon {
   transform: scale(1.12) rotate(-6deg);
-  box-shadow: 0 12px 36px rgba(255, 198, 0, 0.55);
+  box-shadow: 0 12px 36px rgba(201, 161, 74, 0.55);
 }
 .fraser-card-title {
   color: #ffffff;
@@ -75,7 +75,7 @@
 .fraser-card-link {
   display: inline-flex;
   align-items: center;
-  color: #23a036;
+  color: #3F6B45;
   font-weight: 600;
   font-size: 0.875rem;
   text-decoration: none;
@@ -85,7 +85,7 @@
     letter-spacing 0.2s ease;
 }
 .fraser-card-link:hover {
-  color: #ffc600;
+  color: #C9A14A;
   text-decoration: none;
   letter-spacing: 1.5px;
 }
@@ -98,7 +98,7 @@
   height: 140px;
   background: radial-gradient(
     circle,
-    rgba(255, 198, 0, 0.12) 0%,
+    rgba(201, 161, 74, 0.12) 0%,
     transparent 70%
   );
   border-radius: 50%;
@@ -109,7 +109,7 @@
   opacity: 1;
 }
 .fraser-services-label {
-  color: #ffc600;
+  color: #C9A14A;
   letter-spacing: 3px;
   font-size: 0.8rem;
 }
@@ -127,7 +127,7 @@
 .fraser-cta-left {
   position: relative;
   flex: 1 1 55%;
-  background: linear-gradient(130deg, #0a1026 0%, #101e3f 100%);
+  background: linear-gradient(130deg, #0F2747 0%, #153761 100%);
   padding: 80px 64px 80px 80px;
   display: flex;
   align-items: center;
@@ -138,7 +138,7 @@
 .fraser-cta-dots {
   position: absolute;
   inset: 0;
-  background-image: radial-gradient(rgba(255, 198, 0, 0.18) 1px, transparent 1px);
+  background-image: radial-gradient(rgba(201, 161, 74, 0.2) 1px, transparent 1px);
   background-size: 28px 28px;
   pointer-events: none;
 }
@@ -151,8 +151,8 @@
 
 .fraser-cta-eyebrow {
   display: inline-block;
-  background: rgba(255, 198, 0, 0.12);
-  color: #ffc600;
+  background: rgba(201, 161, 74, 0.15);
+  color: #C9A14A;
   font-size: 0.72rem;
   font-weight: 700;
   letter-spacing: 2.5px;
@@ -160,7 +160,7 @@
   padding: 6px 16px;
   border-radius: 100px;
   margin-bottom: 22px;
-  border: 1px solid rgba(255, 198, 0, 0.25);
+  border: 1px solid rgba(201, 161, 74, 0.3);
 }
 
 .fraser-cta-headline {
@@ -172,11 +172,11 @@
 }
 
 .fraser-cta-dot {
-  color: #ffc600;
+  color: #C9A14A;
 }
 
 .fraser-cta-subtext {
-  color: rgba(255, 255, 255, 0.62);
+  color: rgba(255, 255, 255, 0.65);
   font-size: 0.95rem;
   line-height: 1.75;
   margin-bottom: 36px;
@@ -187,25 +187,25 @@
   position: relative;
   display: inline-flex;
   align-items: center;
-  background: linear-gradient(135deg, #ffc600 0%, #e6a800 100%);
-  color: #0a1026;
+  background: linear-gradient(135deg, #C9A14A 0%, #b38d38 100%);
+  color: #0F2747;
   font-weight: 700;
   font-size: 0.95rem;
   padding: 16px 36px;
   border-radius: 100px;
   text-decoration: none;
   letter-spacing: 0.4px;
-  box-shadow: 0 8px 28px rgba(255, 198, 0, 0.4);
+  box-shadow: 0 8px 28px rgba(201, 161, 74, 0.4);
   transition: transform 0.25s ease, box-shadow 0.25s ease;
   margin-right: 20px;
   margin-bottom: 20px;
 }
 
 .fraser-cta-btn-primary:hover {
-  color: #0a1026;
+  color: #0F2747;
   text-decoration: none;
   transform: translateY(-3px);
-  box-shadow: 0 14px 40px rgba(255, 198, 0, 0.55);
+  box-shadow: 0 14px 40px rgba(201, 161, 74, 0.55);
 }
 
 /* pulse ring on button */
@@ -214,7 +214,7 @@
   position: absolute;
   inset: -4px;
   border-radius: 100px;
-  border: 2px solid rgba(255, 198, 0, 0.5);
+  border: 2px solid rgba(201, 161, 74, 0.5);
   animation: ctaPulse 2.2s ease-out infinite;
   opacity: 0;
 }
@@ -241,15 +241,15 @@
 .fraser-cta-btn-phone:hover {
   color: #ffffff;
   text-decoration: none;
-  border-color: rgba(255, 198, 0, 0.5);
-  background: rgba(255, 198, 0, 0.06);
+  border-color: rgba(201, 161, 74, 0.5);
+  background: rgba(201, 161, 74, 0.08);
 }
 
 .fraser-cta-phone-icon {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background: #23a036;
+  background: #3F6B45;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -261,7 +261,7 @@
 /* ---- Right gold panel ---- */
 .fraser-cta-right {
   flex: 1 1 45%;
-  background: linear-gradient(145deg, #ffc600 0%, #e6a800 100%);
+  background: linear-gradient(145deg, #C9A14A 0%, #b38d38 100%);
   padding: 60px 56px;
   display: flex;
   align-items: center;
@@ -325,17 +325,17 @@
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  background: #0a1026;
+  background: #0F2747;
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 0 auto 12px;
   font-size: 1rem;
-  color: #ffc600;
+  color: #C9A14A;
 }
 
 .fraser-cta-stat-number {
-  color: #0a1026;
+  color: #0F2747;
   font-size: 1.9rem;
   font-weight: 800;
   line-height: 1;
@@ -343,7 +343,7 @@
 }
 
 .fraser-cta-stat-label {
-  color: rgba(10, 16, 38, 0.72);
+  color: rgba(15, 39, 71, 0.78);
   font-size: 0.75rem;
   font-weight: 600;
   line-height: 1.3;
@@ -407,8 +407,8 @@
     padding: 20px 20px 55px 20px !important;
     background: linear-gradient(
       180deg,
-      rgba(10, 16, 38, 0.45) 0%,
-      rgba(10, 16, 38, 0.85) 100%
+      rgba(15, 39, 71, 0.45) 0%,
+      rgba(15, 39, 71, 0.88) 100%
     );
   }
 
@@ -431,13 +431,13 @@
     height: 10px !important;
     margin: 0 5px !important;
     border-radius: 50% !important;
-    background-color: rgba(255, 198, 0, 0.6) !important;
+    background-color: rgba(201, 161, 74, 0.6) !important;
     border: none;
     transition: all 0.3s ease;
   }
 
   #header-carousel .carousel-indicators li.active {
-    background-color: #23a036 !important;
+    background-color: #3F6B45 !important;
     width: 24px !important;
     border-radius: 10px !important;
   }
@@ -462,4 +462,3 @@
     margin-bottom: 5px;
   }
 }
-

@@ -157,11 +157,11 @@
   <!-- Features End -->
 
   <!-- CTA Estimation Section Start -->
-  <div class="container-fluid py-5" style="background: linear-gradient(135deg, #0a1026 0%, #101e3f 100%);">
+  <div class="container-fluid py-5" style="background: linear-gradient(135deg, #0F2747 0%, #153761 100%);">
     <div class="container py-5">
       <div class="row justify-content-center text-center">
         <div class="col-lg-9">
-          <span class="badge badge-pill badge-primary text-uppercase font-weight-bold px-3 py-2 mb-3" style="letter-spacing: 2px; font-size: 0.8rem; background-color: #ffc600; color: #0a1026;">Free Facility Consultation</span>
+          <span class="badge badge-pill badge-primary text-uppercase font-weight-bold px-3 py-2 mb-3" style="letter-spacing: 2px; font-size: 0.8rem; background-color: #C9A14A; color: #0F2747;">Free Facility Consultation</span>
           <h1 class="display-4 font-weight-bold text-white mb-3">Ready to Elevate Your Property?</h1>
           <p class="lead text-white-50 mb-5 mx-auto" style="max-width: 650px; font-size: 1.05rem;">
             Get a comprehensive, itemized estimate tailored specifically to your building or strata facility. Fast turnaround with zero obligation.
@@ -170,7 +170,7 @@
           <!-- 3 Quick Value Badges -->
           <div class="row justify-content-center mb-5 text-left">
             <div class="col-md-4 mb-3 mb-md-0">
-              <div class="d-flex align-items-center p-3 rounded h-100" style="background: rgba(255,255,255,0.05); border: 1px solid rgba(255,198,0,0.25);">
+              <div class="d-flex align-items-center p-3 rounded h-100" style="background: rgba(255,255,255,0.05); border: 1px solid rgba(201,161,74,0.3);">
                 <i class="fa fa-2x fa-stopwatch text-primary mr-3"></i>
                 <div>
                   <h6 class="text-white mb-0 font-weight-bold">24h Turnaround</h6>
@@ -179,7 +179,7 @@
               </div>
             </div>
             <div class="col-md-4 mb-3 mb-md-0">
-              <div class="d-flex align-items-center p-3 rounded h-100" style="background: rgba(255,255,255,0.05); border: 1px solid rgba(255,198,0,0.25);">
+              <div class="d-flex align-items-center p-3 rounded h-100" style="background: rgba(255,255,255,0.05); border: 1px solid rgba(201,161,74,0.3);">
                 <i class="fa fa-2x fa-clipboard-check text-primary mr-3"></i>
                 <div>
                   <h6 class="text-white mb-0 font-weight-bold">Free Site Audit</h6>
@@ -188,7 +188,7 @@
               </div>
             </div>
             <div class="col-md-4">
-              <div class="d-flex align-items-center p-3 rounded h-100" style="background: rgba(255,255,255,0.05); border: 1px solid rgba(255,198,0,0.25);">
+              <div class="d-flex align-items-center p-3 rounded h-100" style="background: rgba(255,255,255,0.05); border: 1px solid rgba(201,161,74,0.3);">
                 <i class="fa fa-2x fa-shield-alt text-primary mr-3"></i>
                 <div>
                   <h6 class="text-white mb-0 font-weight-bold">100% Guaranteed</h6>

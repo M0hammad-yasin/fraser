@@ -5,7 +5,7 @@
 <meta content="<?php echo isset($pageDesc) ? htmlspecialchars($pageDesc) : 'Fraser Facility Services provides integrated solutions that keep your property clean, safe, and operating at its best.'; ?>" name="description">
 
 <!-- Favicon -->
-<link href="./assets/img/favicon.ico" rel="icon">
+<link href="./assets/img/logo-secondary.png" rel="icon">
 
 <!-- Google Web Fonts -->
 <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -21,9 +21,9 @@
 <!-- Customized Bootstrap Stylesheet -->
 <link href="./assets/css/style.css" rel="stylesheet">
 
-<?php if(isset($customCss)): ?>
-    <?php if(is_array($customCss)): ?>
-        <?php foreach($customCss as $css): ?>
+<?php if (isset($customCss)): ?>
+    <?php if (is_array($customCss)): ?>
+        <?php foreach ($customCss as $css): ?>
             <link href="<?php echo htmlspecialchars($css); ?>" rel="stylesheet">
         <?php endforeach; ?>
     <?php else: ?>
@@ -31,9 +31,9 @@
     <?php endif; ?>
 <?php endif; ?>
 
-<?php if(isset($customJs)): ?>
-    <?php if(is_array($customJs)): ?>
-        <?php foreach($customJs as $js): ?>
+<?php if (isset($customJs)): ?>
+    <?php if (is_array($customJs)): ?>
+        <?php foreach ($customJs as $js): ?>
             <script src="<?php echo htmlspecialchars($js); ?>"></script>
         <?php endforeach; ?>
     <?php else: ?>
