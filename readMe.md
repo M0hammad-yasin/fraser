@@ -77,8 +77,8 @@
 ```plaintext
 fraser/
 ├── assets/                  # CSS, images, JS assets
-├── components/              # Reusable PHP partials (header, footer, head, etc.)
-├── data/                    # JSON/Data files for site content
+├── components/              # Reusable PHP partials (header, footer, head, page-header, services-section)
+├── data/                    # JSON/Data files for site content (blogs.php)
 ├── lib/                     # UI libraries (owl carousel, isotope, lightbox, waypoints, etc.)
 ├── mail/                    # Mail handling backend & scripts
 │   ├── config.php           # SMTP configuration & credentials (DO NOT COMMIT)

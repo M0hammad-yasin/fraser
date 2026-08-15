@@ -54,8 +54,8 @@ function isActiveNav($pages, $currentScript)
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
-                    <div class="navbar-nav mr-auto py-0">
+                <div class="collapse navbar-collapse w-100 d-flex justify-content-between" id="navbarCollapse">
+                    <div class="navbar-nav mx-auto py-0">
                         <a href="index.php" class="nav-item nav-link <?php echo isActiveNav('index.php', $currentScript); ?>">Home</a>
                         <a href="about.php" class="nav-item nav-link <?php echo isActiveNav('about.php', $currentScript); ?>">About</a>
                         <a href="service.php" class="nav-item nav-link <?php echo isActiveNav('service.php', $currentScript); ?>">Service</a>
@@ -63,7 +63,7 @@ function isActiveNav($pages, $currentScript)
                         <a href="faq.php" class="nav-item nav-link <?php echo isActiveNav('faq.php', $currentScript); ?>">FAQ</a>
                         <a href="contact.php" class="nav-item nav-link <?php echo isActiveNav('contact.php', $currentScript); ?>">Contact</a>
                     </div>
-                    <a href="contact.php" class="btn btn-primary mr-3 d-none d-lg-block">Get A Quote</a>
+                    <a href="contact.php" class="btn btn-primary ml-auto d-none d-lg-block">Get A Quote</a>
                 </div>
             </nav>
         </div>
