@@ -18,7 +18,7 @@
             </p>
             <p><i class="fa fa-phone-alt text-primary mr-2"></i><a href="tel:17788861491" class="text-white">+1 778-886-1491</a></p>
             <p>
-                <i class="fa fa-envelope text-primary mr-2"></i><a href="mailto:operations@fraserfacilityservices.ca" class="text-white">operations@fraserfacilityservices.ca</a>
+                <i class="fa fa-envelope text-primary mr-2"></i><a href="mailto:info@fraserfacilityservices.ca" class="text-white">info@fraserfacilityservices.ca</a>
             </p>
             <!-- Social icons removed as per client request -->
         </div>
@@ -50,7 +50,7 @@
             <p class="m-0">
                 <i class="fa fa-phone-alt text-primary mr-2"></i><a href="tel:17788861491" class="text-white">+1 778-886-1491</a>
                 <span class="mx-3 text-white-50">|</span>
-                <i class="fa fa-envelope text-primary mr-2"></i><a href="mailto:operations@fraserfacilityservices.ca" class="text-white">operations@fraserfacilityservices.ca</a>
+                <i class="fa fa-envelope text-primary mr-2"></i><a href="mailto:info@fraserfacilityservices.ca" class="text-white">info@fraserfacilityservices.ca</a>
                 <span class="mx-3 text-white-50">|</span>
                 <i class="fa fa-globe text-primary mr-2"></i><a href="https://fraserfacilityservices.ca" class="text-white">fraserfacilityservices.ca</a>
             </p>

@@ -14,16 +14,16 @@
   <!-- Header End -->
 
   <!-- Page Header Start -->
-  <?php 
+  <?php
   $pageHeaderTitle = "Get In Touch With Us";
   $pageHeaderEyebrow = "Contact Us";
   $pageHeaderSubtitle = "Reach out to our operations team for custom estimates, facility consultations, and service inquiries.";
   $pageHeaderBg = "./assets/img/about_us/feature.jpg";
   $breadcrumbs = [
-      ['label' => 'Home', 'url' => 'index.php'],
-      ['label' => 'Contact', 'url' => '']
+    ['label' => 'Home', 'url' => 'index.php'],
+    ['label' => 'Contact', 'url' => '']
   ];
-  include 'components/page-header.php'; 
+  include 'components/page-header.php';
   ?>
   <!-- Page Header End -->
 
@@ -129,7 +129,7 @@
         <div class="col-md-4 text-center mb-4">
           <i class="fa fa-3x fa-envelope text-primary mb-3"></i>
           <h5 class="font-weight-semi-bold">Email</h5>
-          <p><a href="mailto:operations@fraserfacilityservices.ca" class="text-dark">operations@fraserfacilityservices.ca</a></p>
+          <p><a href="mailto:info@fraserfacilityservices.ca" class="text-dark">info@fraserfacilityservices.ca</a></p>
         </div>
         <div class="col-md-4 text-center mb-4">
           <i class="fa fa-3x fa-map-marker-alt text-primary mb-3"></i>

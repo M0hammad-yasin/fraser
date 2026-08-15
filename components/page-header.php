@@ -25,7 +25,7 @@ if (!isset($breadcrumbs) || !is_array($breadcrumbs)) {
 }
 ?>
 
-<div class="container-fluid fraser-page-header mb-5 py-5" style="background-image: url('<?php echo htmlspecialchars($bgImage); ?>');">
+<div class="container-fluid fraser-page-header  py-5" style="background-image: url('<?php echo htmlspecialchars($bgImage); ?>');">
   <div class="container py-3 position-relative" style="z-index: 2;">
 
     <!-- Top-Left Breadcrumbs -->

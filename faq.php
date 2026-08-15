@@ -2,22 +2,23 @@
 $pageTitle = "FAQ - Fraser Facility Services";
 include 'components/head.php';
 ?>
+
 <body>
   <!-- Header Start -->
   <?php include 'components/header.php'; ?>
   <!-- Header End -->
 
   <!-- Page Header Start -->
-  <?php 
+  <?php
   $pageHeaderTitle = "Frequently Asked Questions";
   $pageHeaderEyebrow = "Help & FAQ";
   $pageHeaderSubtitle = "Find clear answers to common questions about our property maintenance and facility services.";
   $pageHeaderBg = "./assets/img/home/carousel-1.jpg";
   $breadcrumbs = [
-      ['label' => 'Home', 'url' => 'index.php'],
-      ['label' => 'FAQs', 'url' => '']
+    ['label' => 'Home', 'url' => 'index.php'],
+    ['label' => 'FAQs', 'url' => '']
   ];
-  include 'components/page-header.php'; 
+  include 'components/page-header.php';
   ?>
   <!-- Page Header End -->
 
@@ -32,7 +33,7 @@ include 'components/head.php';
           </div>
 
           <div class="accordion" id="faqAccordion">
-            
+
             <!-- Question 1 -->
             <div class="card border-0 mb-3 shadow-sm rounded">
               <div class="card-header bg-white p-0 border-0" id="headingOne">
@@ -113,7 +114,7 @@ include 'components/head.php';
               </div>
               <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#faqAccordion">
                 <div class="card-body text-muted px-4 pb-4 pt-0">
-                  Getting a quote is easy. You can call us directly at <strong>+1 778-886-1491</strong>, email <strong>operations@fraserfacilityservices.ca</strong>, or use the form on our <a href="contact.php">Contact Us</a> page. We will schedule a free on-site assessment and provide a customized, detailed proposal.
+                  Getting a quote is easy. You can call us directly at <strong>+1 778-886-1491</strong>, email <strong>info@fraserfacilityservices.ca</strong>, or use the form on our <a href="contact.php">Contact Us</a> page. We will schedule a free on-site assessment and provide a customized, detailed proposal.
                 </div>
               </div>
             </div>
@@ -127,11 +128,11 @@ include 'components/head.php';
 
   <!-- CTA Banner Start -->
   <div class="container-fluid py-5 bg-dark">
-      <div class="container py-5 text-center">
-          <h2 class="text-white mb-4">Still have questions?</h2>
-          <p class="text-white-50 mb-4 mx-auto" style="max-width: 600px;">Our team is ready to discuss your specific property requirements and how we can tailor our services to meet your needs.</p>
-          <a href="contact.php" class="btn btn-primary py-3 px-5">Contact Us Today</a>
-      </div>
+    <div class="container py-5 text-center">
+      <h2 class="text-white mb-4">Still have questions?</h2>
+      <p class="text-white-50 mb-4 mx-auto" style="max-width: 600px;">Our team is ready to discuss your specific property requirements and how we can tailor our services to meet your needs.</p>
+      <a href="contact.php" class="btn btn-primary py-3 px-5">Contact Us Today</a>
+    </div>
   </div>
   <!-- CTA Banner End -->
 
@@ -153,15 +154,16 @@ include 'components/head.php';
   <script src="lib/lightbox/js/lightbox.min.js"></script>
 
   <script>
-      // Rotate the caret icon on collapse/expand
-      $('.collapse').on('show.bs.collapse', function () {
-          $(this).parent().find(".fa-angle-down").removeClass("fa-angle-down").addClass("fa-angle-up");
-      }).on('hide.bs.collapse', function () {
-          $(this).parent().find(".fa-angle-up").removeClass("fa-angle-up").addClass("fa-angle-down");
-      });
+    // Rotate the caret icon on collapse/expand
+    $('.collapse').on('show.bs.collapse', function() {
+      $(this).parent().find(".fa-angle-down").removeClass("fa-angle-down").addClass("fa-angle-up");
+    }).on('hide.bs.collapse', function() {
+      $(this).parent().find(".fa-angle-up").removeClass("fa-angle-up").addClass("fa-angle-down");
+    });
   </script>
 
   <!-- Template Javascript -->
   <script src="./assets/js/main.js"></script>
 </body>
+
 </html>

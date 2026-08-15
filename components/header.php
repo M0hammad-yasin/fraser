@@ -20,7 +20,7 @@ function isActiveNav($pages, $currentScript)
                 <div class="col-lg-7 text-left text-white">
                     <div class="h-100 d-inline-flex align-items-center border-right border-primary py-2 px-3">
                         <i class="fa fa-envelope text-primary mr-2"></i>
-                        <small><a href="mailto:operations@fraserfacilityservices.ca" class="text-white">operations@fraserfacilityservices.ca</a></small>
+                        <small><a href="mailto:info@fraserfacilityservices.ca" class="text-white">info@fraserfacilityservices.ca</a></small>
                     </div>
                     <div class="h-100 d-inline-flex align-items-center py-2 px-2">
                         <i class="fa fa-phone-alt text-primary mr-2"></i>
@@ -54,7 +54,7 @@ function isActiveNav($pages, $currentScript)
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse w-100 d-flex justify-content-between" id="navbarCollapse">
+                <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                     <div class="navbar-nav mx-auto py-0">
                         <a href="index.php" class="nav-item nav-link <?php echo isActiveNav('index.php', $currentScript); ?>">Home</a>
                         <a href="about.php" class="nav-item nav-link <?php echo isActiveNav('about.php', $currentScript); ?>">About</a>
@@ -141,6 +141,17 @@ function isActiveNav($pages, $currentScript)
     }
 
     @media (max-width: 992px) {
+        #header .navbar-collapse {
+            background: #fff;
+            padding: 15px 20px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+            border-top: 1px solid #f0f0f0;
+        }
+
+        #header .navbar-nav .nav-link {
+            padding: 10px 0;
+        }
+
         #narrow-header {
             top: 10px;
             border-radius: 25px;

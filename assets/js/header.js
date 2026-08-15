@@ -30,6 +30,18 @@ document.addEventListener("DOMContentLoaded", function () {
     window.addEventListener("scroll", () => {
         const currentScrollY = window.scrollY;
         
+        // Auto-close open mobile collapse menus on scroll
+        if (Math.abs(currentScrollY - lastScrollY) > 10) {
+            const openCollapses = document.querySelectorAll(".navbar-collapse.show");
+            openCollapses.forEach(el => {
+                if (typeof $ !== 'undefined' && $(el).collapse) {
+                    $(el).collapse('hide');
+                } else {
+                    el.classList.remove("show");
+                }
+            });
+        }
+
         if (currentScrollY > 150) {
             if (currentScrollY > lastScrollY) {
                 // Scrolling down
