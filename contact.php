@@ -112,10 +112,11 @@
             <!-- Map centred on Lower Mainland, BC -->
             <iframe
               style="width: 100%; height: 100%; min-height: 400px; object-fit: cover; border: 0"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d661547.7993019937!2d-123.3272376!3d49.2577143!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548673d45a4c375b%3A0x9d7f0e9dced3cf67!2sLower%20Mainland%2C%20BC!5e0!3m2!1sen!2sca!4v1691000000000!5m2!1sen!2sca"
+              src="https://www.google.com/maps?q=Unit+16,+18855+72+Avenue,+Surrey,+BC+V4N+6X2&output=embed"
               allowfullscreen=""
               aria-hidden="false"
-              tabindex="0"></iframe>
+              tabindex="0">
+            </iframe>
           </div>
         </div>
       </div>
