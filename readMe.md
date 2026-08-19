@@ -38,7 +38,7 @@
 
 ### 2. 🧭 Dual Adaptive Navigation System
 
-- **Desktop Main Header**: Features instant-access operational contacts (`+1 778-886-1491` & `operations@fraserfacilityservices.ca`) with automated active page detection.
+- **Desktop Main Header**: Features instant-access operational contacts (`+1 778-886-1491` & `info@fraserfacilityservices.ca`) with automated active page detection.
 - **Scroll-Triggered Narrow Floating Navbar (`#narrow-header`)**:
   - Automatically emerges on scroll with backdrop blur (`backdrop-filter: blur(10px)`) and rounded pill styling.
   - Senses scroll direction: seamlessly tucks away on scroll-down and expands on scroll-up.
@@ -104,12 +104,12 @@ fraser/
 
 The visual language reflects trust, safety, and modern facility excellence:
 
-| Token / Role        |        Hex Code         |                             Preview                             | Usage Context                                                   |
-| :------------------ | :---------------------: | :-------------------------------------------------------------: | :-------------------------------------------------------------- |
-| **Gold**            |        `#C9A14A`        | ![#C9A14A](https://via.placeholder.com/15/C9A14A/000000?text=+) | Primary brand color, buttons, badges, icons, highlights        |
-| **Forest Green**    |        `#3F6B45`        | ![#3F6B45](https://via.placeholder.com/15/3F6B45/000000?text=+) | Secondary brand color, active nav items, checkmarks, accents    |
-| **Navy**            |        `#0F2747`        | ![#0F2747](https://via.placeholder.com/15/0F2747/000000?text=+) | Dark backgrounds, typography headings, footer, dark panels      |
-| **Soft Gray**       |        `#F3F5F7`        | ![#F3F5F7](https://via.placeholder.com/15/F3F5F7/000000?text=+) | Light section backgrounds, sector cards, subtle surfaces        |
+| Token / Role     | Hex Code  |                             Preview                             | Usage Context                                                |
+| :--------------- | :-------: | :-------------------------------------------------------------: | :----------------------------------------------------------- |
+| **Gold**         | `#C9A14A` | ![#C9A14A](https://via.placeholder.com/15/C9A14A/000000?text=+) | Primary brand color, buttons, badges, icons, highlights      |
+| **Forest Green** | `#3F6B45` | ![#3F6B45](https://via.placeholder.com/15/3F6B45/000000?text=+) | Secondary brand color, active nav items, checkmarks, accents |
+| **Navy**         | `#0F2747` | ![#0F2747](https://via.placeholder.com/15/0F2747/000000?text=+) | Dark backgrounds, typography headings, footer, dark panels   |
+| **Soft Gray**    | `#F3F5F7` | ![#F3F5F7](https://via.placeholder.com/15/F3F5F7/000000?text=+) | Light section backgrounds, sector cards, subtle surfaces     |
 
 ---
 
@@ -155,7 +155,7 @@ define('MAIL_ENCRYPTION', 'tls');
 // ─── Sender & Recipient Headers ─────────────────────────────────────────────
 define('MAIL_FROM_NAME',  'Fraser Facility Services – Web Portal');
 define('MAIL_FROM',       'your-notifications-account@gmail.com');
-define('MAIL_TO',         'operations@fraserfacilityservices.ca');
+define('MAIL_TO',         'info@fraserfacilityservices.ca');
 define('MAIL_TO_NAME',    'Fraser Operations Team');
 ```
 
@@ -206,7 +206,7 @@ _The platform will automatically generate the post page, count categories, popul
 For operational inquiries or property management support:
 
 - **Phone**: [+1 778-886-1491](tel:17788861491)
-- **Email**: [operations@fraserfacilityservices.ca](mailto:operations@fraserfacilityservices.ca)
+- **Email**: [info@fraserfacilityservices.ca](mailto:info@fraserfacilityservices.ca)
 - **Website**: [fraserfacilityservices.ca](https://fraserfacilityservices.ca)
 - **Region**: Serving the Lower Mainland, BC and surrounding areas.
 

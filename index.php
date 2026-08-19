@@ -114,9 +114,18 @@
                 </div>
                 <div class="col-lg-7 pt-5 pb-lg-5">
                     <h6 class="text-secondary font-weight-semi-bold text-uppercase mb-3">About Fraser Facility Services</h6>
-                    <h1 class="mb-4 section-title">One Partner. Complete Facility Solutions.</h1>
-                    <h5 class="text-muted font-weight-normal mb-3">Fraser Facility Services provides integrated solutions that keep your property clean, safe, and operating at its best.</h5>
-                    <p>One partner, every service — so you can focus on what matters most. We deliver reliable, professional facility care across the Fraser region.</p>
+                    <h1 class="mb-4 section-title">
+                        About Us
+                    </h1>
+                    <p>
+                        Fraser Facility Services is a family-owned and locally operated company providing dependable cleaning and facility solutions to businesses, properties, and homes across the Lower Mainland.<br>
+
+                        We started with a simple belief: good service is built on trust, consistency, and taking pride in the work you leave behind. Every space we care for represents someone’s business, home, or livelihood, and we believe that responsibility deserves to be taken seriously.<br>
+
+                        Our approach is grounded in high standards, reliable service, and attention to detail. We take pride in doing the job properly, maintaining the quality of our work, and building long-term relationships through the service we provide. We’re proud to serve our local communities and grow alongside the people and businesses that call the Lower Mainland home.<br>
+
+                        Reliable service. Genuine care. Built for the communities we serve.
+                    </p>
                     <div class="d-flex align-items-center pt-4">
                         <a href="about.php" class="btn btn-primary mr-5">Learn More</a>
                         <button type="button" class="btn-play" data-toggle="modal"

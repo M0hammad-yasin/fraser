@@ -114,7 +114,92 @@ include 'components/head.php';
               </div>
               <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#faqAccordion">
                 <div class="card-body text-muted px-4 pb-4 pt-0">
-                  Getting a quote is easy. You can call us directly at <strong>+1 778-886-1491</strong>, email <strong>info@fraserfacilityservices.ca</strong>, or use the form on our <a href="contact.php">Contact Us</a> page. We will schedule a free on-site assessment and provide a customized, detailed proposal.
+                  Getting a quote is easy. You can call us directly at <a href="tel:17788861491" class="font-weight-bold text-dark">+1 778-886-1491</a>, email <a href="mailto:operations@fraserfacilityservices.ca" class="font-weight-bold text-dark">operations@fraserfacilityservices.ca</a>, or use the form on our <a href="contact.php" class="text-primary font-weight-bold">Contact Us</a> page. We will schedule a free on-site assessment and provide a customized, detailed proposal with 24-hour turnaround.
+                </div>
+              </div>
+            </div>
+
+            <!-- Question 6 -->
+            <div class="card border-0 mb-3 shadow-sm rounded">
+              <div class="card-header bg-white p-0 border-0" id="headingSix">
+                <h2 class="mb-0">
+                  <button class="btn btn-block text-left text-dark font-weight-bold p-4 collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix" style="font-size: 1.1rem; outline: none; box-shadow: none;">
+                    What geographic areas across British Columbia do you serve?
+                    <i class="fa fa-angle-down float-right text-primary mt-1"></i>
+                  </button>
+                </h2>
+              </div>
+              <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#faqAccordion">
+                <div class="card-body text-muted px-4 pb-4 pt-0">
+                  We proudly service the entire Lower Mainland and Fraser Valley region, including Vancouver, Burnaby, Richmond, Surrey, Langley, Coquitlam, Delta, New Westminster, Abbotsford, and surrounding municipalities. If you manage properties in multiple locations, we can service all your sites under a single streamlined contract.
+                </div>
+              </div>
+            </div>
+
+            <!-- Question 7 -->
+            <div class="card border-0 mb-3 shadow-sm rounded">
+              <div class="card-header bg-white p-0 border-0" id="headingSeven">
+                <h2 class="mb-0">
+                  <button class="btn btn-block text-left text-dark font-weight-bold p-4 collapsed" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven" style="font-size: 1.1rem; outline: none; box-shadow: none;">
+                    Do you provide eco-friendly and green cleaning solutions?
+                    <i class="fa fa-angle-down float-right text-primary mt-1"></i>
+                  </button>
+                </h2>
+              </div>
+              <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#faqAccordion">
+                <div class="card-body text-muted px-4 pb-4 pt-0">
+                  Yes, we are committed to environmental sustainability. Upon request, we utilize certified non-toxic, biodegradable, and EcoLogo-approved cleaning solutions along with HEPA-filtered vacuum systems and microfiber technology to improve indoor air quality while safeguarding building occupants and pets.
+                </div>
+              </div>
+            </div>
+
+            <!-- Question 8 -->
+            <div class="card border-0 mb-3 shadow-sm rounded">
+              <div class="card-header bg-white p-0 border-0" id="headingEight">
+                <h2 class="mb-0">
+                  <button class="btn btn-block text-left text-dark font-weight-bold p-4 collapsed" type="button" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight" style="font-size: 1.1rem; outline: none; box-shadow: none;">
+                    Can you customize maintenance schedules for our building or strata council?
+                    <i class="fa fa-angle-down float-right text-primary mt-1"></i>
+                  </button>
+                </h2>
+              </div>
+              <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#faqAccordion">
+                <div class="card-body text-muted px-4 pb-4 pt-0">
+                  Absolutely. We offer flexible scheduling designed around your building's unique requirements and peak traffic hours. Options include daily day-porter services, after-hours commercial cleaning, weekly common area upkeep, and monthly or quarterly preventive maintenance inspections tailored specifically for strata councils and property managers.
+                </div>
+              </div>
+            </div>
+
+            <!-- Question 9 -->
+            <div class="card border-0 mb-3 shadow-sm rounded">
+              <div class="card-header bg-white p-0 border-0" id="headingNine">
+                <h2 class="mb-0">
+                  <button class="btn btn-block text-left text-dark font-weight-bold p-4 collapsed" type="button" data-toggle="collapse" data-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine" style="font-size: 1.1rem; outline: none; box-shadow: none;">
+                    Do you provide bundled multi-service contracts with a single point of contact?
+                    <i class="fa fa-angle-down float-right text-primary mt-1"></i>
+                  </button>
+                </h2>
+              </div>
+              <div id="collapseNine" class="collapse" aria-labelledby="headingNine" data-parent="#faqAccordion">
+                <div class="card-body text-muted px-4 pb-4 pt-0">
+                  Yes! One of our core value propositions is eliminating the headache of juggling multiple vendors. You receive a dedicated Account Manager who oversees your janitorial, exterior landscaping, pressure washing, and general maintenance under one consolidated agreement with clear, itemized invoicing.
+                </div>
+              </div>
+            </div>
+
+            <!-- Question 10 -->
+            <div class="card border-0 mb-3 shadow-sm rounded">
+              <div class="card-header bg-white p-0 border-0" id="headingTen">
+                <h2 class="mb-0">
+                  <button class="btn btn-block text-left text-dark font-weight-bold p-4 collapsed" type="button" data-toggle="collapse" data-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen" style="font-size: 1.1rem; outline: none; box-shadow: none;">
+                    What is your contract flexibility and onboarding process?
+                    <i class="fa fa-angle-down float-right text-primary mt-1"></i>
+                  </button>
+                </h2>
+              </div>
+              <div id="collapseTen" class="collapse" aria-labelledby="headingTen" data-parent="#faqAccordion">
+                <div class="card-body text-muted px-4 pb-4 pt-0">
+                  We provide flexible terms ranging from one-off specialized project work to long-term service agreements. Our seamless onboarding process includes a comprehensive site audit, custom Standard Operating Procedures (SOPs), staff site orientation, and immediate integration without any disruption to your day-to-day operations.
                 </div>
               </div>
             </div>

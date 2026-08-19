@@ -14,16 +14,16 @@
   <!-- Header End -->
 
   <!-- Page Header Start -->
-  <?php 
+  <?php
   $pageHeaderTitle = "About Fraser Facility Services";
   $pageHeaderEyebrow = "Who We Are";
   $pageHeaderSubtitle = "Integrated facility solutions delivering excellence across the Lower Mainland.";
   $pageHeaderBg = "./assets/img/about_us/about.jpg";
   $breadcrumbs = [
-      ['label' => 'Home', 'url' => 'index.php'],
-      ['label' => 'About Us', 'url' => '']
+    ['label' => 'Home', 'url' => 'index.php'],
+    ['label' => 'About Us', 'url' => '']
   ];
-  include 'components/page-header.php'; 
+  include 'components/page-header.php';
   ?>
   <!-- Page Header End -->
 
@@ -47,13 +47,16 @@
             About Fraser Facility Services
           </h6>
           <h1 class="mb-4 section-title">
-            One Partner. Complete Facility Solutions.
+            About Us
           </h1>
-          <h5 class="text-muted font-weight-normal mb-3">
-            Fraser Facility Services provides integrated solutions that keep your property clean, safe, and operating at its best.
-          </h5>
           <p>
-            One partner for commercial and residential facility needs across the Fraser region. We emphasize reliability, professionalism, and long-term partnership so you can focus on what matters most.
+            Fraser Facility Services is a family-owned and locally operated company providing dependable cleaning and facility solutions to businesses, properties, and homes across the Lower Mainland.<br>
+
+            We started with a simple belief: good service is built on trust, consistency, and taking pride in the work you leave behind. Every space we care for represents someone’s business, home, or livelihood, and we believe that responsibility deserves to be taken seriously.<br>
+
+            Our approach is grounded in high standards, reliable service, and attention to detail. We take pride in doing the job properly, maintaining the quality of our work, and building long-term relationships through the service we provide. We’re proud to serve our local communities and grow alongside the people and businesses that call the Lower Mainland home.<br>
+
+            Reliable service. Genuine care. Built for the communities we serve.
           </p>
           <div class="d-flex align-items-center pt-4">
             <a href="" class="btn btn-primary mr-5">Learn More</a>
