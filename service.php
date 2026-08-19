@@ -15,28 +15,115 @@
   <!-- Header End -->
 
   <!-- Page Header Start -->
-  <?php 
-    $pageHeaderTitle = "Complete Facility Solutions";
-    $pageHeaderEyebrow = "Our Services";
-    $pageHeaderSubtitle = "One Partner. Every Service. Comprehensive property care engineered for excellence.";
-    $pageHeaderBg = "./assets/img/home/carousel-2.jpg";
-    $breadcrumbs = [
-        ['label' => 'Home', 'url' => 'index.php'],
-        ['label' => 'Services', 'url' => '']
-    ];
-    include 'components/page-header.php'; 
-    ?>
+  <?php
+  $pageHeaderTitle = "Complete Facility Solutions";
+  $pageHeaderEyebrow = "Our Services";
+  $pageHeaderSubtitle = "One Partner. Every Service. Comprehensive property care engineered for excellence.";
+  $pageHeaderBg = "./assets/img/home/carousel-2.jpg";
+  $breadcrumbs = [
+    ['label' => 'Home', 'url' => 'index.php'],
+    ['label' => 'Services', 'url' => '']
+  ];
+  include 'components/page-header.php';
+  ?>
   <!-- Page Header End -->
 
+  <!-- Fraser Advantage (Sleek Service Pillars) Start -->
+  <section class="container-fluid bg-white py-5 border-bottom fraser-compact-advantage">
+    <div class="container py-2">
+      <div class="row">
+        <!-- Col 1: Integrated Management -->
+        <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+          <div class="compact-adv-item h-100 p-3 rounded">
+            <div class="d-flex align-items-center mb-3">
+              <div class="compact-adv-icon mr-3">
+                <i class="fa fa-layer-group"></i>
+              </div>
+              <div>
+                <h6 class="mb-0 font-weight-bold text-dark">One-Partner Care</h6>
+                <small class="text-secondary font-weight-bold">End-to-End Solutions</small>
+              </div>
+            </div>
+            <ul class="compact-adv-list list-unstyled mb-0">
+              <li><i class="fa fa-check text-primary mr-2"></i>Janitorial & Day Porter</li>
+              <li><i class="fa fa-check text-primary mr-2"></i>General Handyman Repairs</li>
+              <li><i class="fa fa-check text-primary mr-2"></i>Consolidated Invoicing</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Col 2: Rapid Response & Grounds -->
+        <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+          <div class="compact-adv-item h-100 p-3 rounded">
+            <div class="d-flex align-items-center mb-3">
+              <div class="compact-adv-icon mr-3">
+                <i class="fa fa-bolt"></i>
+              </div>
+              <div>
+                <h6 class="mb-0 font-weight-bold text-dark">Rapid Dispatch</h6>
+                <small class="text-secondary font-weight-bold">24/7 Lower Mainland</small>
+              </div>
+            </div>
+            <ul class="compact-adv-list list-unstyled mb-0">
+              <li><i class="fa fa-check text-primary mr-2"></i>Snow & Ice Management</li>
+              <li><i class="fa fa-check text-primary mr-2"></i>Urgent Maintenance Calls</li>
+              <li><i class="fa fa-check text-primary mr-2"></i>Priority Emergency Line</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Col 3: Compliance & Mechanical -->
+        <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+          <div class="compact-adv-item h-100 p-3 rounded">
+            <div class="d-flex align-items-center mb-3">
+              <div class="compact-adv-icon mr-3">
+                <i class="fa fa-shield-alt"></i>
+              </div>
+              <div>
+                <h6 class="mb-0 font-weight-bold text-dark">Vetted & Insured</h6>
+                <small class="text-secondary font-weight-bold">Safety & Compliance</small>
+              </div>
+            </div>
+            <ul class="compact-adv-list list-unstyled mb-0">
+              <li><i class="fa fa-check text-primary mr-2"></i>WorkSafeBC Certified</li>
+              <li><i class="fa fa-check text-primary mr-2"></i>HVAC, Plumbing & Electrical</li>
+              <li><i class="fa fa-check text-primary mr-2"></i>Comprehensive Liability</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Col 4: Quality Control & Specialized -->
+        <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+          <div class="compact-adv-item h-100 p-3 rounded">
+            <div class="d-flex align-items-center mb-3">
+              <div class="compact-adv-icon mr-3">
+                <i class="fa fa-clipboard-check"></i>
+              </div>
+              <div>
+                <h6 class="mb-0 font-weight-bold text-dark">Guaranteed Quality</h6>
+                <small class="text-secondary font-weight-bold">Audits & Deep Cleans</small>
+              </div>
+            </div>
+            <ul class="compact-adv-list list-unstyled mb-0">
+              <li><i class="fa fa-check text-primary mr-2"></i>Digital Walkthrough Logs</li>
+              <li><i class="fa fa-check text-primary mr-2"></i>Pressure Washing & Floors</li>
+              <li><i class="fa fa-check text-primary mr-2"></i>Post-Construction Care</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Fraser Advantage End -->
+
   <!-- Services Start -->
-  <?php 
+  <?php
   $servicesSectionEyebrow = "Our Services";
   $servicesSectionTitle = "Complete Facility Solutions";
   $servicesSectionDesc = "One Partner. Every Service. We provide a full suite of services to ensure your property remains clean, safe, and fully operational.";
-  include 'components/services-section.php'; 
+  include 'components/services-section.php';
   ?>
   <!-- Services End -->
-
   <!-- Who We Serve Section (Stacked Beneath) Start -->
   <div class="container-fluid who-we-serve-bg py-5">
     <div class="container py-5">

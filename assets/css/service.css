@@ -219,3 +219,89 @@
 .serve-card:hover::after {
   opacity: 1;
 }
+
+/* ============================================
+   THE FRASER ADVANTAGE (COMPACT SHORT BAR)
+   ============================================ */
+
+.fraser-compact-advantage {
+  background: #ffffff;
+  border-bottom: 1px solid #e9ecef;
+  box-shadow: 0 4px 15px rgba(15, 39, 71, 0.03);
+  position: relative;
+  z-index: 10;
+}
+
+.compact-adv-item {
+  padding: 18px 16px;
+  border-radius: 12px;
+  background: #ffffff;
+  border: 1px solid #edf1f7;
+  transition: all 0.25s ease;
+  box-shadow: 0 4px 14px rgba(15, 39, 71, 0.02);
+}
+
+.compact-adv-item:hover {
+  background: #f8fafd;
+  border-color: rgba(201, 161, 74, 0.35);
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(15, 39, 71, 0.06);
+}
+
+.compact-adv-icon {
+  width: 46px;
+  height: 46px;
+  min-width: 46px;
+  border-radius: 10px;
+  background: rgba(201, 161, 74, 0.14);
+  color: #0F2747;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  transition: all 0.25s ease;
+}
+
+.compact-adv-item:hover .compact-adv-icon {
+  background: #C9A14A;
+  color: #0F2747;
+  transform: scale(1.06);
+}
+
+.compact-adv-item h6 {
+  font-size: 1rem;
+  line-height: 1.2;
+}
+
+.compact-adv-item small {
+  font-size: 0.8rem;
+  display: block;
+  margin-top: 2px;
+}
+
+.compact-adv-list {
+  padding-top: 10px;
+  border-top: 1px dashed #e8edf3;
+}
+
+.compact-adv-list li {
+  font-size: 0.85rem;
+  color: #555e69;
+  font-weight: 500;
+  margin-bottom: 8px;
+  line-height: 1.45;
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.compact-adv-list li:last-child {
+  margin-bottom: 0;
+}
+
+.compact-adv-list li i {
+  font-size: 0.85rem;
+  color: #C9A14A;
+  margin-top: 3px;
+  flex-shrink: 0;
+}
