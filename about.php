@@ -122,27 +122,27 @@
             Why Choose Us
           </h6>
           <h1 class="mb-4 section-title">
-            Your Trusted Facility Partner
+            One Partner. Every Service.
           </h1>
           <p class="mb-4">
-            We provide a single point of contact for all your facility needs, ensuring peace of mind and exceptional results.
+            We provide a single point of contact for complete facility solutions, ensuring quality, safety, and accountability across every property we serve.
           </p>
           <div class="row">
             <div class="col-sm-6 mb-4">
-              <h5 class="font-weight-semi-bold"><i class="fa fa-check text-primary mr-2"></i>Trusted & Reliable</h5>
-              <p class="mb-0">We show up, follow through, and stand behind our work.</p>
+              <h5 class="font-weight-semi-bold"><i class="fa fa-shield-alt text-primary mr-2"></i>Fully Insured</h5>
+              <p class="mb-0">Comprehensive commercial liability coverage for complete peace of mind.</p>
             </div>
             <div class="col-sm-6 mb-4">
-              <h5 class="font-weight-semi-bold"><i class="fa fa-check text-primary mr-2"></i>Experienced Team</h5>
-              <p class="mb-0">Skilled professionals committed to quality and safety.</p>
+              <h5 class="font-weight-semi-bold"><i class="fa fa-user-graduate text-primary mr-2"></i>WHMIS Trained</h5>
+              <p class="mb-0">Certified staff trained in chemical safety and health protocols.</p>
             </div>
             <div class="col-sm-6 mb-4">
-              <h5 class="font-weight-semi-bold"><i class="fa fa-check text-primary mr-2"></i>Responsive & Flexible</h5>
-              <p class="mb-0">Quick response times and custom solutions that fit your needs.</p>
+              <h5 class="font-weight-semi-bold"><i class="fa fa-check-circle text-primary mr-2"></i>WorkSafeBC Registered</h5>
+              <p class="mb-0">Full compliance with British Columbia occupational safety regulations.</p>
             </div>
             <div class="col-sm-6 mb-4">
-              <h5 class="font-weight-semi-bold"><i class="fa fa-check text-primary mr-2"></i>Quality & Care</h5>
-              <p class="mb-0">We treat your property like it's our own.</p>
+              <h5 class="font-weight-semi-bold"><i class="fa fa-handshake text-primary mr-2"></i>Single Point of Contact</h5>
+              <p class="mb-0">One partner managing janitorial, maintenance, and seasonal services.</p>
             </div>
           </div>
         </div>

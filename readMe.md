@@ -53,10 +53,17 @@
   - **Tag Cloud**: Dynamically aggregates all unique tags across the entire data store.
 - **Homepage Carousel (`index.php`)**: Dynamically loops over `$blogs`, sorting newest-first in an interactive 3-card touch-swipeable carousel.
 
-### 4. 🏢 3-Column Service Grid & Sector Taxonomy
+### 4. 🏢 2-Column Split Service Grid & Market Taxonomy
 
-- **Interactive Service Cards**: 6 modular service packages with glowing top gradient accents, animated icon rotations, customized checkmark badges, and direct quotation links.
-- **"Who We Serve" Sector Grid**: Dedicated card-based presentation for Office Buildings, Retail & Restaurants, Medical Clinics, Strata Complexes, Warehouses, and Asset Managers.
+- **Interactive 2-Column Split Cards (`components/services-section.php`)**: 6 core service packages matching the official company brochure:
+  1. *Janitorial & Custodial Services*
+  2. *Floor Care (Carpet extraction, stripping, waxing, tile & grout)*
+  3. *Property & Building Maintenance*
+  4. *Window & Exterior Services (Pressure washing, walkways, entrances)*
+  5. *Facility & Specialty Services (Restocking, seasonal cleanup)*
+  6. *Snow & Ice Management (Salting, de-icing, snow clearing)*
+- **"Markets We Serve" Grid (`service.php`)**: Dedicated card-based presentation for Commercial Offices, Healthcare Facilities, Retail, Strata & Multi-Unit, Property Management, Residential, and Construction & Renovation Projects.
+- **"Areas We Serve" Regional Coverage**: Full coverage across 17 municipalities in Lower Mainland & Fraser Valley.
 
 ### 5. 📬 Enterprise SMTP AJAX Contact System
 

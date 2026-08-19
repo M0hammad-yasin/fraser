@@ -36,10 +36,11 @@
             <h4 class="font-weight-semi-bold text-primary mb-4">Services</h4>
             <div class="d-flex flex-column justify-content-start">
                 <a class="text-white mb-2" href="service.php"><i class="fa fa-angle-right mr-2"></i>Janitorial & Custodial</a>
+                <a class="text-white mb-2" href="service.php"><i class="fa fa-angle-right mr-2"></i>Floor Care</a>
                 <a class="text-white mb-2" href="service.php"><i class="fa fa-angle-right mr-2"></i>Building Maintenance</a>
-                <a class="text-white mb-2" href="service.php"><i class="fa fa-angle-right mr-2"></i>Exterior Services</a>
-                <a class="text-white mb-2" href="service.php"><i class="fa fa-angle-right mr-2"></i>Mechanical & Support</a>
-                <a class="text-white" href="service.php"><i class="fa fa-angle-right mr-2"></i>Specialized Services</a>
+                <a class="text-white mb-2" href="service.php"><i class="fa fa-angle-right mr-2"></i>Window & Exterior</a>
+                <a class="text-white mb-2" href="service.php"><i class="fa fa-angle-right mr-2"></i>Facility & Specialty</a>
+                <a class="text-white" href="service.php"><i class="fa fa-angle-right mr-2"></i>Snow & Ice Management</a>
             </div>
         </div>
     </div>

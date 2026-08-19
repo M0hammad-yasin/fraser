@@ -14,70 +14,71 @@ $serviceItems = [
         'icon'  => 'fa-broom',
         'image' => './assets/img/project/portfolio-1.jpg',
         'bullets' => [
-            'Commercial & residential cleaning',
-            'Floor care, carpet & window cleaning',
-            'Disinfection & sanitization protocols',
-            'Day porter & supply management'
+            'Commercial, office & residential cleaning',
+            'Healthcare & professional facility cleaning',
+            'Routine janitorial and sanitization services',
+            'Deep cleaning & disinfection',
+            'Move-in, move-out & post-construction'
         ],
         'link'  => 'contact.php'
     ],
     [
-        'title' => 'Building Maintenance',
-        'icon'  => 'fa-tools',
+        'title' => 'Floor Care',
+        'icon'  => 'fa-layer-group',
         'image' => './assets/img/project/portfolio-2.jpg',
         'bullets' => [
-            'General repairs & handyman services',
-            'Painting, drywall & ceiling repairs',
-            'Door, lock & hardware maintenance',
-            'Custom preventive maintenance programs'
+            'Carpet cleaning & extraction',
+            'Floor stripping, waxing & polishing',
+            'Tile & grout cleaning',
+            'Hard-floor maintenance & stain treatment'
         ],
         'link'  => 'contact.php'
     ],
     [
-        'title' => 'Exterior Services',
-        'icon'  => 'fa-leaf',
-        'image' => './assets/img/project/portfolio-3.jpg',
-        'bullets' => [
-            'Snow plowing & ice management',
-            'Landscaping & grounds maintenance',
-            'Pressure washing & soft washing',
-            'Seasonal property cleanups'
-        ],
-        'link'  => 'contact.php'
-    ],
-    [
-        'title' => 'Mechanical & Facility Support',
-        'icon'  => 'fa-wrench',
+        'title' => 'Property & Building Maintenance',
+        'icon'  => 'fa-tools',
         'image' => './assets/img/project/portfolio-4.jpg',
         'bullets' => [
-            'Plumbing, electrical & HVAC assistance',
-            'Equipment & fixture installations',
-            'Preventive routine maintenance',
-            'Detailed facility inspections'
+            'General property upkeep & common areas',
+            'Minor repairs & maintenance',
+            'Preventive maintenance programs',
+            'Vendor & service coordination'
         ],
         'link'  => 'contact.php'
     ],
     [
-        'title' => 'Specialized Services',
-        'icon'  => 'fa-hard-hat',
+        'title' => 'Window & Exterior Services',
+        'icon'  => 'fa-spray-can',
+        'image' => './assets/img/project/portfolio-3.jpg',
+        'bullets' => [
+            'Interior & exterior window cleaning',
+            'Glass & entrance cleaning',
+            'High-pressure washing',
+            'Sidewalk, walkway & exterior cleaning'
+        ],
+        'link'  => 'contact.php'
+    ],
+    [
+        'title' => 'Facility & Specialty Services',
+        'icon'  => 'fa-shield-alt',
         'image' => './assets/img/project/portfolio-6.jpg',
         'bullets' => [
-            'Post-construction site cleanups',
-            'Warehouse & industrial deep scrubbing',
-            'High-reach dusting & power washing',
-            'Customized facility programs'
+            'Seasonal property cleanup',
+            'Janitorial supply monitoring & restocking',
+            'Customized facility support',
+            'Specialty cleaning services'
         ],
         'link'  => 'contact.php'
     ],
     [
-        'title' => 'Custom Facility Plans',
-        'icon'  => 'fa-handshake',
+        'title' => 'Snow & Ice Management',
+        'icon'  => 'fa-snowflake',
         'image' => './assets/img/project/portfolio-5.jpg',
         'bullets' => [
-            '24/7 urgent dispatch & response',
-            'Tailored strata & multi-unit packages',
-            'Single point-of-contact management',
-            'Free on-site facility assessment'
+            'Snow clearing & removal',
+            'Sidewalk, walkway & entrance clearing',
+            'Parking area snow management',
+            'Salting & de-icing programs'
         ],
         'link'  => 'contact.php',
         'highlight' => true

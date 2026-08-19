@@ -46,7 +46,7 @@ include 'components/head.php';
               </div>
               <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#faqAccordion">
                 <div class="card-body text-muted px-4 pb-4 pt-0">
-                  We offer a comprehensive range of facility services across the Lower Mainland, including complete janitorial and custodial care, building maintenance, exterior services (like landscaping and pressure washing), and mechanical support. We serve commercial offices, strata & multi-family properties, and industrial sites.
+                  We provide complete facility solutions under a single point of contact across 6 core service areas: (1) <strong>Janitorial & Custodial Services</strong>, (2) <strong>Floor Care</strong> (stripping, waxing, carpet extraction, tile/grout), (3) <strong>Property & Building Maintenance</strong>, (4) <strong>Window & Exterior Cleaning</strong> (including pressure washing), (5) <strong>Facility & Specialty Services</strong>, and (6) <strong>Snow & Ice Management</strong> (salting, de-icing, and clearing).
                 </div>
               </div>
             </div>
@@ -80,7 +80,7 @@ include 'components/head.php';
               </div>
               <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#faqAccordion">
                 <div class="card-body text-muted px-4 pb-4 pt-0">
-                  Absolutely. Every member of our team is fully vetted, highly trained, and WCB insured. We carry comprehensive liability insurance, giving property managers and owners complete peace of mind while we are on site.
+                  Absolutely. Fraser Facility Services is <strong>Fully Insured</strong> with comprehensive commercial liability, our crew is <strong>WHMIS Trained</strong> in chemical and workplace safety, and our company is <strong>WorkSafeBC Registered</strong>, ensuring total compliance and peace of mind on your site.
                 </div>
               </div>
             </div>
@@ -131,7 +131,7 @@ include 'components/head.php';
               </div>
               <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#faqAccordion">
                 <div class="card-body text-muted px-4 pb-4 pt-0">
-                  We proudly service the entire Lower Mainland and Fraser Valley region, including Vancouver, Burnaby, Richmond, Surrey, Langley, Coquitlam, Delta, New Westminster, Abbotsford, and surrounding municipalities. If you manage properties in multiple locations, we can service all your sites under a single streamlined contract.
+                  We proudly service 17 municipalities throughout the Lower Mainland and Fraser Valley: <strong>Vancouver, Burnaby, New Westminster, Richmond, Delta, Surrey, White Rock, West Vancouver, Chilliwack, Langley, Coquitlam, Port Coquitlam, Port Moody, Maple Ridge, Pitt Meadows, North Vancouver, and Abbotsford</strong>. If your municipality isn't listed, contact us to confirm service availability for your site.
                 </div>
               </div>
             </div>
