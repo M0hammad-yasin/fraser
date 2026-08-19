@@ -112,7 +112,7 @@
             <!-- Map centred on Lower Mainland, BC -->
             <iframe
               style="width: 100%; height: 100%; min-height: 400px; object-fit: cover; border: 0"
-              src="https://www.google.com/maps?q=Unit+16,+18855+72+Avenue,+Surrey,+BC+V4N+6X2&output=embed"
+              src="https://www.google.com/maps?q=Surrey,+BC,+Canada&output=embed"
               allowfullscreen=""
               aria-hidden="false"
               tabindex="0">
@@ -134,8 +134,8 @@
         </div>
         <div class="col-md-4 text-center mb-4">
           <i class="fa fa-3x fa-map-marker-alt text-primary mb-3"></i>
-          <h5 class="font-weight-semi-bold">Service Area</h5>
-          <p>Serving the Lower Mainland, BC and surrounding areas</p>
+          <h5 class="font-weight-semi-bold">Location</h5>
+          <p>Surrey, BC</p>
         </div>
       </div>
     </div>

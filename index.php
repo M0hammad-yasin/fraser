@@ -383,8 +383,8 @@
                 </div>
                 <div class="fraser-cta-stat">
                     <div class="fraser-cta-stat-icon"><i class="fa fa-map-marker-alt"></i></div>
-                    <div class="fraser-cta-stat-number">BC</div>
-                    <div class="fraser-cta-stat-label">Lower Mainland Focused</div>
+                    <div class="fraser-cta-stat-number">Surrey</div>
+                    <div class="fraser-cta-stat-label">BC, Canada</div>
                 </div>
             </div>
         </div>
