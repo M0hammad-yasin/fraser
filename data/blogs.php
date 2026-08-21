@@ -7,7 +7,8 @@
  * to render the listing page; blog.php looks up a single entry by the
  * ?slug= query param to render the full post.
  *
- * Image convention: ./assets/img/blog/blog-{slug}.jpeg
+ * Image convention: ./assets/img/blog/blog-{slug}.jpg
+ * 
  * (drop the matching image file in assets/img/blog/ for each post)
  */
 
@@ -21,7 +22,8 @@ $blogs = [
     'category'          => 'Facility Care',
     'tags'              => ['Facility Care', 'Maintenance', 'Property Management'],
     'date'              => '2026-08-15',
-    'image'             => './assets/img/blog/blog-hidden-cost-of-deferred-maintenance.jpeg',
+    'image'             => './assets/img/blog/blog-hidden-cost-of-deferred-maintenance.jpg
+    ',
     'content'           => <<<HTML
       <p>A dripping faucet. A hairline crack in the parkade slab. A door closer that's a little slow to catch. None of it looks urgent. All of it can wait until next quarter's budget — or so the thinking goes.</p>
       <p>It's the most expensive assumption in property management.</p>
@@ -62,7 +64,8 @@ $blogs = [
     'category'          => 'Janitorial',
     'tags'              => ['Janitorial', 'Commercial', 'Residential'],
     'date'              => '2026-08-08',
-    'image'             => './assets/img/blog/blog-commercial-vs-residential-cleaning.jpeg',
+    'image'             => './assets/img/blog/blog-commercial-vs-residential-cleaning.jpg
+    ',
     'content'           => <<<HTML
       <p>"Cleaning is cleaning" is one of the more expensive myths in facility management. A janitorial program built for a warehouse won't work in a medical clinic. A residential strata building has different expectations, schedules, and compliance needs than a retail storefront. Treating them the same is how properties end up under-serviced in the areas that matter most — and over-serviced in the ones that don't.</p>
 
@@ -98,7 +101,8 @@ $blogs = [
     'category'          => 'Exterior Services',
     'tags'              => ['Exterior Services', 'Seasonal', 'Snow & Ice'],
     'date'              => '2026-08-01',
-    'image'             => './assets/img/blog/blog-winter-proofing-your-property.jpeg',
+    'image'             => './assets/img/blog/blog-winter-proofing-your-property.jpg
+    ',
     'content'           => <<<HTML
       <p>The Lower Mainland doesn't get harsh winters, and that's exactly the problem. Properties here are rarely built or maintained for snow and ice the way colder regions are, so a single unexpected freeze can catch a building completely unprepared — and an unprepared entryway or parking lot isn't just an inconvenience, it's a liability.</p>
       <p>Here's what a property should have sorted before the first cold snap.</p>
@@ -132,7 +136,8 @@ $blogs = [
     'category'          => 'Facility Partnership',
     'tags'              => ['Facility Partnership', 'Property Management'],
     'date'              => '2026-07-25',
-    'image'             => './assets/img/blog/blog-how-to-choose-a-facility-services-partner.jpeg',
+    'image'             => './assets/img/blog/blog-how-to-choose-a-facility-services-partner.jpg
+    ',
     'content'           => <<<HTML
       <p>Most properties don't start out with one vendor for everything. They end up there gradually — a cleaning company for janitorial, a separate contractor for repairs, a landscaper for the grounds, someone else for snow removal, and a fifth number to call when the HVAC acts up.</p>
       <p>Each hire made sense on its own. Together, they create a management problem nobody signed up for.</p>
@@ -166,7 +171,8 @@ $blogs = [
     'category'          => 'Mechanical & Facility Support',
     'tags'              => ['Mechanical', 'HVAC', 'Maintenance'],
     'date'              => '2026-07-18',
-    'image'             => './assets/img/blog/blog-whats-included-in-a-facility-maintenance-program.jpeg',
+    'image'             => './assets/img/blog/blog-whats-included-in-a-facility-maintenance-program.jpg
+    ',
     'content'           => <<<HTML
       <p>"Facility maintenance program" sounds like something only an engineer would understand. It isn't. Strip away the jargon and it's a simple idea: the mechanical systems that keep a building running get checked and serviced on a schedule, instead of being left alone until something breaks.</p>
       <p>Here's what that actually covers, in plain terms.</p>
