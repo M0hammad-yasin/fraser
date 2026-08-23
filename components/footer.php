@@ -2,7 +2,7 @@
     <div class="row">
         <div class="col-lg-3 col-md-6 mb-5">
             <a href="index.php" class="navbar-brand">
-                <img src="./assets/img/logo-primary.png" alt="Logo" class="w-50 h-50">
+                <img src="./assets/img/logo-primary-light.png" alt="Logo" class="w-50 h-50">
             </a>
             <p>
                 Fraser Facility Services provides integrated solutions that keep your property clean, safe, and operating at its best.
