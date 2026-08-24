@@ -18,7 +18,7 @@
   <?php
   $pageHeaderTitle = "Complete Facility Solutions";
   $pageHeaderEyebrow = "Our Services";
-  $pageHeaderSubtitle = "One Partner. Every Service. Professional commercial cleaning, property maintenance, and facility support across the Lower Mainland.";
+  $pageHeaderSubtitle = "One Partner. Complete Facility Solutions. Professional commercial cleaning, property maintenance, and facility support across the Lower Mainland.";
   $pageHeaderBg = "./assets/img/home/carousel-2.jpg";
   $breadcrumbs = [
     ['label' => 'Home', 'url' => 'index.php'],
@@ -41,7 +41,7 @@
               </div>
               <div>
                 <h6 class="mb-0 font-weight-bold text-dark">One Partner Care</h6>
-                <small class="text-secondary font-weight-bold">Every Service</small>
+                <small class="text-secondary font-weight-bold">Complete Solutions</small>
               </div>
             </div>
             <ul class="compact-adv-list list-unstyled mb-0">
@@ -120,7 +120,7 @@
   <?php
   $servicesSectionEyebrow = "Our Services";
   $servicesSectionTitle = "Complete Facility Solutions";
-  $servicesSectionDesc = "One Partner. Every Service. We provide a full suite of services to ensure your property remains clean, safe, and fully operational.";
+  $servicesSectionDesc = "One Partner. Complete Facility Solutions. We provide a full suite of services to ensure your property remains clean, safe, and fully operational.";
   include 'components/services-section.php';
   ?>
   <!-- Services End -->

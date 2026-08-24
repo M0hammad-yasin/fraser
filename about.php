@@ -71,7 +71,7 @@
             Safety, Training &amp; Credentials
           </h6>
           <h1 class="mb-4 section-title">
-            One Partner. Every Service.
+            One Partner. Complete Facility Solutions.
           </h1>
           <p class="mb-4 text-muted">
             We provide a single point of contact for complete facility solutions, ensuring quality, safety, and accountability across every property we serve.

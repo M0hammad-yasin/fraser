@@ -151,10 +151,9 @@ $allTags = array_keys($allTags);
               <i class="fa fa-3x fa-handshake text-primary"></i>
             </div>
             <div class="flex-grow-1">
-              <h5 class="text-white mb-1">One Partner. Every Facility Need.</h5>
+              <h5 class="text-white mb-1">One Partner. Complete Facility Solutions.</h5>
               <p class="text-white-50 mb-0 small">
-                Janitorial, maintenance, exterior &amp; mechanical — serving the
-                Lower Mainland from a single point of contact.
+                Commercial cleaning, property maintenance &amp; seasonal facility support — serving the Lower Mainland from a single point of contact.
               </p>
             </div>
             <a href="contact.php" class="btn btn-primary ml-4 flex-shrink-0">

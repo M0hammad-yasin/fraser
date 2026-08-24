@@ -17,9 +17,11 @@ $serviceItems = [
         'bullets' => [
             'Commercial & office cleaning',
             'Strata & multi-unit common-area cleaning',
-            'Medical, dental & professional offices',
-            'Day porter & routine sanitization',
-            'Post-construction & move-in/out cleaning'
+            'Medical, dental & professional office cleaning',
+            'Routine janitorial & sanitization',
+            'Deep cleaning',
+            'Move-in, move-out & post-construction cleaning',
+            'Day porter services'
         ],
         'link'  => 'contact.php'
     ],
@@ -28,11 +30,11 @@ $serviceItems = [
         'icon'  => 'fa-layer-group',
         'image' => './assets/img/project/portfolio-2.jpg',
         'bullets' => [
-            'Carpet cleaning & deep extraction',
-            'Floor stripping and refinishing',
-            'Floor polishing & buffing',
+            'Carpet cleaning & extraction',
+            'Floor stripping & refinishing',
+            'Floor polishing',
             'Tile & grout cleaning',
-            'Scheduled floor-maintenance programs'
+            'Hard-floor maintenance & stain treatment'
         ],
         'link'  => 'contact.php'
     ],
@@ -41,11 +43,11 @@ $serviceItems = [
         'icon'  => 'fa-tools',
         'image' => './assets/img/project/portfolio-4.jpg',
         'bullets' => [
-            'General property upkeep & common areas',
-            'Minor repairs & preventive maintenance',
-            'Fixture & hardware replacement',
-            'Seasonal property preparation',
-            'Trade & vendor coordination*'
+            'General property & common-area upkeep',
+            'Minor repairs & maintenance',
+            'Preventive property maintenance',
+            'Fixture & hardware maintenance',
+            'Vendor & trade coordination*'
         ],
         'link'  => 'contact.php'
     ],
@@ -55,9 +57,10 @@ $serviceItems = [
         'image' => './assets/img/project/portfolio-3.jpg',
         'bullets' => [
             'Interior & exterior window cleaning',
-            'Entrance & storefront glass',
-            'High-pressure power washing',
-            'Sidewalk, walkway & parkade cleaning'
+            'Glass & entrance cleaning',
+            'Pressure washing',
+            'Sidewalk & walkway cleaning',
+            'Exterior common-area cleaning'
         ],
         'link'  => 'contact.php'
     ],
@@ -82,7 +85,8 @@ $serviceItems = [
             'Snow clearing & removal',
             'Sidewalk, walkway & entrance clearing',
             'Parking-area snow management',
-            'Salting & de-icing programs'
+            'Salting & de-icing',
+            'Seasonal snow & ice programs'
         ],
         'link'  => 'contact.php',
         'highlight' => true
@@ -91,7 +95,7 @@ $serviceItems = [
 
 $secEyebrow = $servicesSectionEyebrow ?? 'Our Services';
 $secTitle   = $servicesSectionTitle   ?? 'Complete Facility Solutions';
-$secDesc    = $servicesSectionDesc    ?? 'One Partner. Every Service. We provide a full suite of services to ensure your property remains clean, safe, and fully operational.';
+$secDesc    = $servicesSectionDesc    ?? 'One Partner. Complete Facility Solutions. We provide a full suite of services to ensure your property remains clean, safe, and fully operational.';
 ?>
 
 <!-- Services Start -->

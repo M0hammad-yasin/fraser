@@ -15,7 +15,7 @@
             <h4 class="font-weight-semi-bold text-primary mb-4">Get In Touch</h4>
             <p>
                 <i class="fa fa-map-marker-alt text-primary mr-2"></i>Surrey, BC<br>
-                <small class="text-white-50 ml-4">Serving Lower Mainland & Fraser Valley</small>
+                <small class="text-white-50 ml-1">Serving Lower Mainland & Fraser Valley</small>
             </p>
             <p><i class="fa fa-phone-alt text-primary mr-2"></i><a href="tel:17788861491" class="text-white">+1 778-886-1491</a></p>
             <p>

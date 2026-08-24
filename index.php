@@ -160,7 +160,7 @@
     <?php
     $servicesSectionEyebrow = "Our Services";
     $servicesSectionTitle = "Complete Facility Solutions";
-    $servicesSectionDesc = "One Partner. Every Service. Standardized, professional facility care tailored for commercial properties, strata councils, and business facilities.";
+    $servicesSectionDesc = "One Partner. Complete Facility Solutions. Standardized, professional facility care tailored for commercial properties, strata councils, and business facilities.";
     include 'components/services-section.php';
     ?>
     <!-- 4. Core Services End -->
@@ -259,7 +259,7 @@
             <div class="row align-items-center justify-content-center">
                 <div class="col-lg-7 pt-lg-3 pb-3">
                     <h6 class="text-secondary font-weight-semi-bold text-uppercase mb-3" style="letter-spacing: 2px;">Safety, Training &amp; Credentials</h6>
-                    <h1 class="mb-4 section-title">One Partner. Every Service.</h1>
+                    <h1 class="mb-4 section-title">One Partner. Complete Facility Solutions.</h1>
                     <p class="mb-4 text-muted">We provide a direct, accountable point of contact for complete facility solutions, ensuring consistent standards, workplace safety, and dependable service across every site.</p>
                     <div class="row">
                         <div class="col-sm-6 mb-4">
