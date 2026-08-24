@@ -233,9 +233,23 @@
           <div class="d-flex flex-wrap justify-content-center align-items-center mb-4" style="gap: 10px;">
             <?php
             $brochureAreas = [
-              'Vancouver', 'Burnaby', 'New Westminster', 'Richmond', 'Delta', 'Surrey',
-              'White Rock', 'West Vancouver', 'Chilliwack', 'Langley', 'Coquitlam',
-              'Port Coquitlam', 'Port Moody', 'Maple Ridge', 'Pitt Meadows', 'North Vancouver', 'Abbotsford'
+              'Vancouver',
+              'Burnaby',
+              'New Westminster',
+              'Richmond',
+              'Delta',
+              'Surrey',
+              'White Rock',
+              'West Vancouver',
+              'Chilliwack',
+              'Langley',
+              'Coquitlam',
+              'Port Coquitlam',
+              'Port Moody',
+              'Maple Ridge',
+              'Pitt Meadows',
+              'North Vancouver',
+              'Abbotsford'
             ];
             foreach ($brochureAreas as $area): ?>
               <span class="badge badge-light px-3 py-2 font-weight-bold" style="font-size: 0.95rem; border: 1px solid #e0e4e8; color: #0F2747; background: #F3F5F7;">

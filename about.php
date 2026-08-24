@@ -30,8 +30,8 @@
   <!-- About Start -->
   <div class="container-fluid py-5 mb-5">
     <div class="container">
-      <div class="row align-items-center">
-        <div class="col-lg-5 mb-4 mb-lg-0">
+      <div class="row align-items-center justify-content-center">
+        <div class="col-lg-5 col-md-10 mb-4 mb-lg-0">
           <div class="position-relative rounded overflow-hidden shadow-sm" style="min-height: 420px;">
             <img class="w-100 h-100 position-absolute" src="./assets/img/about_us/about.jpg" alt="About Fraser Facility Services" style="object-fit: cover;">
           </div>
@@ -65,7 +65,7 @@
   <!-- Features (Safety, Training & Credentials) Start -->
   <div class="container-fluid bg-light py-5">
     <div class="container py-5">
-      <div class="row align-items-center">
+      <div class="row align-items-center justify-content-center">
         <div class="col-lg-7 pt-lg-3 pb-3">
           <h6 class="text-secondary font-weight-semi-bold text-uppercase mb-3" style="letter-spacing: 2px;">
             Safety, Training &amp; Credentials
@@ -95,8 +95,8 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-5" style="min-height: 380px">
-          <div class="position-relative h-100 rounded overflow-hidden shadow-sm">
+        <div class="col-lg-5 col-md-10 mt-4 mt-lg-0" style="min-height: 380px;">
+          <div class="position-relative h-100 rounded overflow-hidden shadow-sm" style="min-height: 380px;">
             <img class="position-absolute w-100 h-100" src="./assets/img/about_us/feature.jpg" alt="Safety and Standards" style="object-fit: cover;" />
           </div>
         </div>

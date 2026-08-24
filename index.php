@@ -3,7 +3,10 @@
 
 <head>
     <?php
-    $customCss = "./assets/css/index.css";
+    $customCss = [
+        "./assets/css/service.css",
+        "./assets/css/index.css"
+    ];
     $pageTitle = "Fraser ";
     include 'components/head.php';
     ?>
@@ -164,7 +167,7 @@
 
 
     <!-- 5. Markets We Serve Section Start -->
-    <div class="container-fluid who-we-serve-bg py-5">
+    <div class="container-fluid markets-bg py-5">
         <div class="container py-5">
             <div class="row justify-content-center">
                 <div class="col-lg-8 text-center mb-5">
@@ -174,67 +177,74 @@
                 </div>
             </div>
 
-            <div class="row">
+            <div class="row justify-content-center">
                 <!-- 1. Commercial Properties & Offices -->
                 <div class="col-lg-4 col-md-6 mb-4 d-flex">
-                    <div class="serve-card w-100">
-                        <div class="serve-card-icon"><i class="fa fa-building"></i></div>
-                        <h4 class="serve-card-title">Commercial Properties &amp; Offices</h4>
-                        <p class="serve-card-desc">Office towers, multi-tenant corporate buildings, and professional office suites requiring dependable daily or scheduled custodial upkeep.</p>
+                    <div class="market-card w-100">
+                        <span class="market-card-num">01</span>
+                        <div class="market-card-icon"><i class="fa fa-building"></i></div>
+                        <h4 class="market-card-title">Commercial Properties &amp; Offices</h4>
+                        <p class="market-card-desc">Office towers, multi-tenant corporate buildings, and professional office suites requiring dependable daily or scheduled custodial upkeep.</p>
                     </div>
                 </div>
 
                 <!-- 2. Strata & Multi-Unit Residential -->
                 <div class="col-lg-4 col-md-6 mb-4 d-flex">
-                    <div class="serve-card w-100">
-                        <div class="serve-card-icon"><i class="fa fa-city"></i></div>
-                        <h4 class="serve-card-title">Strata &amp; Multi-Unit Residential</h4>
-                        <p class="serve-card-desc">Condominiums and townhome communities needing consistent common-area cleaning, hallway maintenance, parkade washing, and entrance care.</p>
+                    <div class="market-card w-100">
+                        <span class="market-card-num">02</span>
+                        <div class="market-card-icon"><i class="fa fa-city"></i></div>
+                        <h4 class="market-card-title">Strata &amp; Multi-Unit Residential</h4>
+                        <p class="market-card-desc">Condominiums and townhome communities needing consistent common-area cleaning, hallway maintenance, parkade washing, and entrance care.</p>
                     </div>
                 </div>
 
                 <!-- 3. Property Management Companies -->
                 <div class="col-lg-4 col-md-6 mb-4 d-flex">
-                    <div class="serve-card w-100">
-                        <div class="serve-card-icon"><i class="fa fa-user-tie"></i></div>
-                        <h4 class="serve-card-title">Property Management Companies</h4>
-                        <p class="serve-card-desc">Single-vendor service agreements with clear communication and consolidated invoicing across diverse real estate portfolios.</p>
+                    <div class="market-card w-100">
+                        <span class="market-card-num">03</span>
+                        <div class="market-card-icon"><i class="fa fa-user-tie"></i></div>
+                        <h4 class="market-card-title">Property Management Companies</h4>
+                        <p class="market-card-desc">Single-vendor service agreements with clear communication and consolidated invoicing across diverse real estate portfolios.</p>
                     </div>
                 </div>
 
                 <!-- 4. Retail Properties -->
                 <div class="col-lg-4 col-md-6 mb-4 d-flex">
-                    <div class="serve-card w-100">
-                        <div class="serve-card-icon"><i class="fa fa-store"></i></div>
-                        <h4 class="serve-card-title">Retail Properties</h4>
-                        <p class="serve-card-desc">Retail storefronts, plazas, and customer-facing commercial spaces where spotless presentation directly impacts patron confidence.</p>
+                    <div class="market-card w-100">
+                        <span class="market-card-num">04</span>
+                        <div class="market-card-icon"><i class="fa fa-store"></i></div>
+                        <h4 class="market-card-title">Retail Properties</h4>
+                        <p class="market-card-desc">Retail storefronts, plazas, and customer-facing commercial spaces where spotless presentation directly impacts patron confidence.</p>
                     </div>
                 </div>
 
                 <!-- 5. Medical, Dental & Professional Offices -->
                 <div class="col-lg-4 col-md-6 mb-4 d-flex">
-                    <div class="serve-card w-100">
-                        <div class="serve-card-icon"><i class="fa fa-clinic-medical"></i></div>
-                        <h4 class="serve-card-title">Medical, Dental &amp; Professional Offices</h4>
-                        <p class="serve-card-desc">Healthcare practices and professional suites adhering to detailed sanitization, high-touch disinfection, and spotless cleanliness.</p>
+                    <div class="market-card w-100">
+                        <span class="market-card-num">05</span>
+                        <div class="market-card-icon"><i class="fa fa-clinic-medical"></i></div>
+                        <h4 class="market-card-title">Medical, Dental &amp; Professional Offices</h4>
+                        <p class="market-card-desc">Healthcare practices and professional suites adhering to detailed sanitization, high-touch disinfection, and spotless cleanliness.</p>
                     </div>
                 </div>
 
                 <!-- 6. Construction & Renovation Projects -->
                 <div class="col-lg-4 col-md-6 mb-4 d-flex">
-                    <div class="serve-card w-100">
-                        <div class="serve-card-icon"><i class="fa fa-hard-hat"></i></div>
-                        <h4 class="serve-card-title">Construction &amp; Renovation Projects</h4>
-                        <p class="serve-card-desc">Rough and final post-construction cleanups, turnover detailing, and floor preparation for general contractors and builders.</p>
+                    <div class="market-card w-100">
+                        <span class="market-card-num">06</span>
+                        <div class="market-card-icon"><i class="fa fa-hard-hat"></i></div>
+                        <h4 class="market-card-title">Construction &amp; Renovation Projects</h4>
+                        <p class="market-card-desc">Rough and final post-construction cleanups, turnover detailing, and floor preparation for general contractors and builders.</p>
                     </div>
                 </div>
 
                 <!-- 7. Residential Properties (Last per client requirement) -->
-                <div class="col-lg-4 col-md-6 mb-4 d-flex mx-auto">
-                    <div class="serve-card w-100" style="border-top-color: #3F6B45;">
-                        <div class="serve-card-icon" style="background: rgba(63, 107, 69, 0.1); color: #3F6B45;"><i class="fa fa-home"></i></div>
-                        <h4 class="serve-card-title">Residential Properties</h4>
-                        <p class="serve-card-desc">Move-in/move-out deep cleaning, window cleaning, pressure washing, and seasonal property support for private residences.</p>
+                <div class="col-lg-4 col-md-6 mb-4 d-flex">
+                    <div class="market-card market-card--residential w-100">
+                        <span class="market-card-num">07</span>
+                        <div class="market-card-icon"><i class="fa fa-home"></i></div>
+                        <h4 class="market-card-title">Residential Properties</h4>
+                        <p class="market-card-desc">Move-in/move-out deep cleaning, window cleaning, pressure washing, and seasonal property support for private residences.</p>
                     </div>
                 </div>
             </div>
@@ -246,7 +256,7 @@
     <!-- 6. Why Choose Fraser (Safety, Training & Credentials) Start -->
     <div class="container-fluid py-5 bg-white">
         <div class="container py-5">
-            <div class="row align-items-center">
+            <div class="row align-items-center justify-content-center">
                 <div class="col-lg-7 pt-lg-3 pb-3">
                     <h6 class="text-secondary font-weight-semi-bold text-uppercase mb-3" style="letter-spacing: 2px;">Safety, Training &amp; Credentials</h6>
                     <h1 class="mb-4 section-title">One Partner. Every Service.</h1>
@@ -270,8 +280,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-5" style="min-height: 380px;">
-                    <div class="position-relative h-100 rounded overflow-hidden shadow-sm">
+                <div class="col-lg-5 col-md-10 mt-4 mt-lg-0" style="min-height: 380px;">
+                    <div class="position-relative h-100 rounded overflow-hidden shadow-sm" style="min-height: 380px;">
                         <img class="position-absolute w-100 h-100" src="./assets/img/about_us/feature.jpg" alt="Safety and Quality" style="object-fit: cover;">
                     </div>
                 </div>
@@ -296,9 +306,23 @@
                     <div class="d-flex flex-wrap justify-content-center align-items-center mb-4" style="gap: 8px;">
                         <?php
                         $homeAreas = [
-                            'Vancouver', 'Burnaby', 'New Westminster', 'Richmond', 'Delta', 'Surrey',
-                            'White Rock', 'West Vancouver', 'Chilliwack', 'Langley', 'Coquitlam',
-                            'Port Coquitlam', 'Port Moody', 'Maple Ridge', 'Pitt Meadows', 'North Vancouver', 'Abbotsford'
+                            'Vancouver',
+                            'Burnaby',
+                            'New Westminster',
+                            'Richmond',
+                            'Delta',
+                            'Surrey',
+                            'White Rock',
+                            'West Vancouver',
+                            'Chilliwack',
+                            'Langley',
+                            'Coquitlam',
+                            'Port Coquitlam',
+                            'Port Moody',
+                            'Maple Ridge',
+                            'Pitt Meadows',
+                            'North Vancouver',
+                            'Abbotsford'
                         ];
                         foreach ($homeAreas as $area): ?>
                             <span class="badge badge-white px-3 py-2 font-weight-bold shadow-sm" style="font-size: 0.9rem; border: 1px solid #dee2e6; color: #0F2747; background: #fff;">

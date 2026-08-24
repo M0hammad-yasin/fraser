@@ -462,3 +462,154 @@
     margin-bottom: 5px;
   }
 }
+
+/* ============================================
+   5. MARKETS WE SERVE SECTION & CARDS
+   ============================================ */
+
+.markets-bg {
+  background: linear-gradient(180deg, #F8FAFC 0%, #EDF2F7 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+.markets-bg::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(201, 161, 74, 0.3), transparent);
+}
+
+.market-card {
+  position: relative;
+  background: #ffffff;
+  border: 1px solid #E2E8F0;
+  border-radius: 16px;
+  padding: 36px 28px 30px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 20px rgba(15, 39, 71, 0.04), 0 1px 3px rgba(0, 0, 0, 0.02);
+  transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.35s ease, border-color 0.35s ease;
+  overflow: hidden;
+  z-index: 1;
+}
+
+/* Top subtle accent bar on hover */
+.market-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, #C9A14A 0%, #3F6B45 100%);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+  border-radius: 16px 16px 0 0;
+}
+
+.market-card:hover::before {
+  transform: scaleX(1);
+}
+
+.market-card:hover {
+  transform: translateY(-8px);
+  border-color: rgba(201, 161, 74, 0.5);
+  box-shadow: 0 20px 40px rgba(15, 39, 71, 0.09), 0 0 0 1px rgba(201, 161, 74, 0.2);
+}
+
+/* Watermark Index Number */
+.market-card-num {
+  position: absolute;
+  top: 18px;
+  right: 22px;
+  font-size: 2.2rem;
+  font-weight: 900;
+  line-height: 1;
+  color: #EDF2F7;
+  font-family: 'Inter', sans-serif;
+  letter-spacing: -1px;
+  transition: color 0.35s ease, transform 0.35s ease;
+  user-select: none;
+  pointer-events: none;
+}
+
+.market-card:hover .market-card-num {
+  color: rgba(201, 161, 74, 0.22);
+  transform: translateX(-4px);
+}
+
+/* Icon Box */
+.market-card-icon {
+  width: 58px;
+  height: 58px;
+  border-radius: 14px;
+  background: linear-gradient(135deg, rgba(201, 161, 74, 0.15) 0%, rgba(201, 161, 74, 0.05) 100%);
+  border: 1px solid rgba(201, 161, 74, 0.25);
+  color: #0F2747;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.35rem;
+  margin-bottom: 22px;
+  transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1), background 0.35s ease, color 0.35s ease, box-shadow 0.35s ease;
+  flex-shrink: 0;
+}
+
+.market-card:hover .market-card-icon {
+  background: linear-gradient(135deg, #C9A14A 0%, #b38d38 100%);
+  color: #0F2747;
+  border-color: #C9A14A;
+  transform: scale(1.08) rotate(-4deg);
+  box-shadow: 0 8px 20px rgba(201, 161, 74, 0.35);
+}
+
+/* Title & Description */
+.market-card-title {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #0F2747;
+  margin-bottom: 12px;
+  line-height: 1.35;
+  transition: color 0.25s ease;
+}
+
+.market-card:hover .market-card-title {
+  color: #0F2747;
+}
+
+.market-card-desc {
+  color: #64748B;
+  font-size: 0.92rem;
+  line-height: 1.65;
+  margin-bottom: 0;
+  flex-grow: 1;
+}
+
+/* Residential card specific treatment */
+.market-card--residential {
+  border-color: rgba(63, 107, 69, 0.25);
+  background: linear-gradient(180deg, #ffffff 0%, #F8FAF9 100%);
+}
+
+.market-card--residential::before {
+  background: linear-gradient(90deg, #3F6B45 0%, #C9A14A 100%);
+}
+
+.market-card--residential .market-card-icon {
+  background: rgba(63, 107, 69, 0.1);
+  border-color: rgba(63, 107, 69, 0.25);
+  color: #3F6B45;
+}
+
+.market-card--residential:hover .market-card-icon {
+  background: linear-gradient(135deg, #3F6B45 0%, #2f5334 100%);
+  color: #ffffff;
+  border-color: #3F6B45;
+  box-shadow: 0 8px 20px rgba(63, 107, 69, 0.35);
+}
+
