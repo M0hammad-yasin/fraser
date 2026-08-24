@@ -46,7 +46,7 @@ include 'components/head.php';
               </div>
               <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#faqAccordion">
                 <div class="card-body text-muted px-4 pb-4 pt-0">
-                  We provide complete facility solutions under a single point of contact across 6 core service areas: (1) <strong>Janitorial & Custodial Services</strong>, (2) <strong>Floor Care</strong> (stripping, waxing, carpet extraction, tile/grout), (3) <strong>Property & Building Maintenance</strong>, (4) <strong>Window & Exterior Cleaning</strong> (including pressure washing), (5) <strong>Facility & Specialty Services</strong>, and (6) <strong>Snow & Ice Management</strong> (salting, de-icing, and clearing).
+                  We provide facility solutions across 6 standardized categories: (1) <strong>Janitorial &amp; Custodial Services</strong>, (2) <strong>Floor &amp; Carpet Care</strong>, (3) <strong>Property Maintenance &amp; Facility Support</strong> (including trade coordination), (4) <strong>Window &amp; Exterior Cleaning</strong>, (5) <strong>Specialty Cleaning &amp; Facility Support</strong>, and (6) <strong>Snow &amp; Ice Management</strong>.
                 </div>
               </div>
             </div>
@@ -56,14 +56,14 @@ include 'components/head.php';
               <div class="card-header bg-white p-0 border-0" id="headingTwo">
                 <h2 class="mb-0">
                   <button class="btn btn-block text-left text-dark font-weight-bold p-4 collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" style="font-size: 1.1rem; outline: none; box-shadow: none;">
-                    Do you offer emergency response services?
+                    Do you offer urgent maintenance and cleanup support?
                     <i class="fa fa-angle-down float-right text-primary mt-1"></i>
                   </button>
                 </h2>
               </div>
               <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#faqAccordion">
                 <div class="card-body text-muted px-4 pb-4 pt-0">
-                  Yes, we provide 24/7 emergency response for our contracted clients. Whether it's sudden water damage, emergency cleanup, or urgent mechanical issues, our team is ready to respond swiftly to protect your property and minimize downtime.
+                  Yes, we provide responsive support for our contracted commercial and strata clients. When urgent maintenance needs, spill cleanups, or weather-related issues arise, our team coordinates prompt action to protect your property and minimize downtime.
                 </div>
               </div>
             </div>
@@ -73,14 +73,14 @@ include 'components/head.php';
               <div class="card-header bg-white p-0 border-0" id="headingThree">
                 <h2 class="mb-0">
                   <button class="btn btn-block text-left text-dark font-weight-bold p-4 collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" style="font-size: 1.1rem; outline: none; box-shadow: none;">
-                    Are your staff trained and insured?
+                    What safety credentials and insurance coverage do you hold?
                     <i class="fa fa-angle-down float-right text-primary mt-1"></i>
                   </button>
                 </h2>
               </div>
               <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#faqAccordion">
                 <div class="card-body text-muted px-4 pb-4 pt-0">
-                  Absolutely. Fraser Facility Services is <strong>Fully Insured</strong> with comprehensive commercial liability, our crew is <strong>WHMIS Trained</strong> in chemical and workplace safety, and our company is <strong>WorkSafeBC Registered</strong>, ensuring total compliance and peace of mind on your site.
+                  Fraser Facility Services operates with verified credentials: we are <strong>WorkSafeBC Registered</strong>, carry comprehensive <strong>Commercial Liability Insurance</strong>, and our staff are <strong>WHMIS-Trained</strong> in chemical handling, proper dilution, and workplace health and safety.
                 </div>
               </div>
             </div>
@@ -90,14 +90,14 @@ include 'components/head.php';
               <div class="card-header bg-white p-0 border-0" id="headingFour">
                 <h2 class="mb-0">
                   <button class="btn btn-block text-left text-dark font-weight-bold p-4 collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour" style="font-size: 1.1rem; outline: none; box-shadow: none;">
-                    How do you ensure quality control?
+                    How do you ensure consistent quality control?
                     <i class="fa fa-angle-down float-right text-primary mt-1"></i>
                   </button>
                 </h2>
               </div>
               <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#faqAccordion">
                 <div class="card-body text-muted px-4 pb-4 pt-0">
-                  We implement a rigorous Quality Assurance program that includes regular site inspections by dedicated supervisors, continuous staff training, and transparent communication with our clients. We use modern reporting software so you are always updated on your property's status.
+                  We maintain quality through site-specific scopes of work, regular supervisory checklists, routine walkthroughs, and clear, direct communication with property managers to address any feedback immediately.
                 </div>
               </div>
             </div>
@@ -107,14 +107,14 @@ include 'components/head.php';
               <div class="card-header bg-white p-0 border-0" id="headingFive">
                 <h2 class="mb-0">
                   <button class="btn btn-block text-left text-dark font-weight-bold p-4 collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive" style="font-size: 1.1rem; outline: none; box-shadow: none;">
-                    How do I get a quote for my property?
+                    How do I get a proposal or estimate for my property?
                     <i class="fa fa-angle-down float-right text-primary mt-1"></i>
                   </button>
                 </h2>
               </div>
               <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#faqAccordion">
                 <div class="card-body text-muted px-4 pb-4 pt-0">
-                  Getting a quote is easy. You can call us directly at <a href="tel:17788861491" class="font-weight-bold text-dark">+1 778-886-1491</a>, email <a href="mailto:operations@fraserfacilityservices.ca" class="font-weight-bold text-dark">operations@fraserfacilityservices.ca</a>, or use the form on our <a href="contact.php" class="text-primary font-weight-bold">Contact Us</a> page. We will schedule a free on-site assessment and provide a customized, detailed proposal with 24-hour turnaround.
+                  Getting started is simple. You can call us at <a href="tel:17788861491" class="font-weight-bold text-dark">+1 778-886-1491</a>, email <a href="mailto:info@fraserfacilityservices.ca" class="font-weight-bold text-dark">info@fraserfacilityservices.ca</a>, or submit your property details via our <a href="contact.php" class="text-primary font-weight-bold">Contact Form</a>. Following an on-site property assessment, we provide a detailed proposal outlining the recommended scope of work, service frequency and pricing.
                 </div>
               </div>
             </div>
@@ -148,7 +148,7 @@ include 'components/head.php';
               </div>
               <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#faqAccordion">
                 <div class="card-body text-muted px-4 pb-4 pt-0">
-                  Yes, we are committed to environmental sustainability. Upon request, we utilize certified non-toxic, biodegradable, and EcoLogo-approved cleaning solutions along with HEPA-filtered vacuum systems and microfiber technology to improve indoor air quality while safeguarding building occupants and pets.
+                  Yes, upon request we utilize certified non-toxic, biodegradable cleaning solutions along with HEPA-filtered equipment and microfiber cleaning protocols to maintain clean indoor environments safely.
                 </div>
               </div>
             </div>
@@ -165,7 +165,7 @@ include 'components/head.php';
               </div>
               <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#faqAccordion">
                 <div class="card-body text-muted px-4 pb-4 pt-0">
-                  Absolutely. We offer flexible scheduling designed around your building's unique requirements and peak traffic hours. Options include daily day-porter services, after-hours commercial cleaning, weekly common area upkeep, and monthly or quarterly preventive maintenance inspections tailored specifically for strata councils and property managers.
+                  Absolutely. We offer flexible scheduling designed around your building's unique requirements and peak hours: daily day-porter services, after-hours commercial cleaning, routine common area upkeep, and seasonal property support.
                 </div>
               </div>
             </div>
@@ -182,7 +182,7 @@ include 'components/head.php';
               </div>
               <div id="collapseNine" class="collapse" aria-labelledby="headingNine" data-parent="#faqAccordion">
                 <div class="card-body text-muted px-4 pb-4 pt-0">
-                  Yes! One of our core value propositions is eliminating the headache of juggling multiple vendors. You receive a dedicated Account Manager who oversees your janitorial, exterior landscaping, pressure washing, and general maintenance under one consolidated agreement with clear, itemized invoicing.
+                  Yes. Clients benefit from a <strong>Dedicated Point of Contact</strong> who oversees your janitorial, exterior washing, snow removal, and property maintenance under one consolidated agreement with clear, itemized invoicing.
                 </div>
               </div>
             </div>
@@ -192,14 +192,14 @@ include 'components/head.php';
               <div class="card-header bg-white p-0 border-0" id="headingTen">
                 <h2 class="mb-0">
                   <button class="btn btn-block text-left text-dark font-weight-bold p-4 collapsed" type="button" data-toggle="collapse" data-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen" style="font-size: 1.1rem; outline: none; box-shadow: none;">
-                    What is your contract flexibility and onboarding process?
+                    What is your onboarding process for new properties?
                     <i class="fa fa-angle-down float-right text-primary mt-1"></i>
                   </button>
                 </h2>
               </div>
               <div id="collapseTen" class="collapse" aria-labelledby="headingTen" data-parent="#faqAccordion">
                 <div class="card-body text-muted px-4 pb-4 pt-0">
-                  We provide flexible terms ranging from one-off specialized project work to long-term service agreements. Our seamless onboarding process includes a comprehensive site audit, custom Standard Operating Procedures (SOPs), staff site orientation, and immediate integration without any disruption to your day-to-day operations.
+                  Our onboarding process includes an initial on-site property walkthrough, customized scope of work definition, staff site orientation, and clear communication channels to ensure a smooth transition without disruption to your daily operations.
                 </div>
               </div>
             </div>

@@ -10,80 +10,83 @@
  */
 
 $serviceItems = [
-  [
-    'title' => 'Janitorial & Custodial',
-    'icon'  => 'fa-broom',
-    'image' => './assets/img/services/commercial.jfif',
-    'bullets' => [
-      'Commercial, office & residential cleaning',
-      'Healthcare & professional facility cleaning',
-      'Routine janitorial and sanitization services',
-      'Deep cleaning & disinfection',
-      'Move-in, move-out & post-construction'
+    [
+        'title' => 'Janitorial & Custodial Services',
+        'icon'  => 'fa-broom',
+        'image' => './assets/img/project/portfolio-1.jpg',
+        'bullets' => [
+            'Commercial & office cleaning',
+            'Strata & multi-unit common-area cleaning',
+            'Medical, dental & professional offices',
+            'Day porter & routine sanitization',
+            'Post-construction & move-in/out cleaning'
+        ],
+        'link'  => 'contact.php'
     ],
-    'link'  => 'contact.php'
-  ],
-  [
-    'title' => 'Floor Care',
-    'icon'  => 'fa-layer-group',
-    'image' => './assets/img/services/floor-cleaning.jpg',
-    'bullets' => [
-      'Carpet cleaning & extraction',
-      'Floor stripping, waxing & polishing',
-      'Tile & grout cleaning',
-      'Hard-floor maintenance & stain treatment'
+    [
+        'title' => 'Floor & Carpet Care',
+        'icon'  => 'fa-layer-group',
+        'image' => './assets/img/project/portfolio-2.jpg',
+        'bullets' => [
+            'Carpet cleaning & deep extraction',
+            'Floor stripping and refinishing',
+            'Floor polishing & buffing',
+            'Tile & grout cleaning',
+            'Scheduled floor-maintenance programs'
+        ],
+        'link'  => 'contact.php'
     ],
-    'link'  => 'contact.php'
-  ],
-  [
-    'title' => 'Property & Building Maintenance',
-    'icon'  => 'fa-tools',
-    'image' => './assets/img/services/building.jfif',
-    'bullets' => [
-      'General property upkeep & common areas',
-      'Minor repairs & maintenance',
-      'Preventive maintenance programs',
-      'Vendor & service coordination'
+    [
+        'title' => 'Property Maintenance & Facility Support',
+        'icon'  => 'fa-tools',
+        'image' => './assets/img/project/portfolio-4.jpg',
+        'bullets' => [
+            'General property upkeep & common areas',
+            'Minor repairs & preventive maintenance',
+            'Fixture & hardware replacement',
+            'Seasonal property preparation',
+            'Trade & vendor coordination*'
+        ],
+        'link'  => 'contact.php'
     ],
-    'link'  => 'contact.php'
-  ],
-  [
-    'title' => 'Window & Exterior Services',
-    'icon'  => 'fa-spray-can',
-    'image' => './assets/img/services/window.jfif',
-    'bullets' => [
-      'Interior & exterior window cleaning',
-      'Glass & entrance cleaning',
-      'High-pressure washing',
-      'Sidewalk, walkway & exterior cleaning'
+    [
+        'title' => 'Window & Exterior Cleaning',
+        'icon'  => 'fa-spray-can',
+        'image' => './assets/img/project/portfolio-3.jpg',
+        'bullets' => [
+            'Interior & exterior window cleaning',
+            'Entrance & storefront glass',
+            'High-pressure power washing',
+            'Sidewalk, walkway & parkade cleaning'
+        ],
+        'link'  => 'contact.php'
     ],
-    'link'  => 'contact.php'
-  ],
-  [
-    'title' => 'Facility & Specialty Services',
-    'icon'  => 'fa-shield-alt',
-    'image' => './assets/img/services/seasonal-property-cleanup.webp',
-    'bullets' => [
-      'Seasonal property cleanup',
-      'Janitorial supply monitoring & restocking',
-      'Customized facility support',
-      'Specialty cleaning services'
+    [
+        'title' => 'Specialty Cleaning & Facility Support',
+        'icon'  => 'fa-shield-alt',
+        'image' => './assets/img/project/portfolio-6.jpg',
+        'bullets' => [
+            'Post-construction & turnover cleaning',
+            'Janitorial supply monitoring & restocking',
+            'Garbage room & parkade cleaning',
+            'High-touch surface disinfection',
+            'Event & post-event cleanup'
+        ],
+        'link'  => 'contact.php'
     ],
-    'link'  => 'contact.php'
-  ],
-  [
-    'title' => 'Snow & Ice Management',
-    'icon'  => 'fa-snowflake',
-    'image' => './assets/img/services/snow-removal.jpg',
-    'bullets' => [
-      'Snow clearing & removal',
-      'Sidewalk, walkway & entrance clearing',
-      'Parking area snow management',
-      'Salting & de-icing programs'
-    ],
-    'link'  => 'contact.php',
-    'highlight' => true
-  ]
+    [
+        'title' => 'Snow & Ice Management',
+        'icon'  => 'fa-snowflake',
+        'image' => './assets/img/project/portfolio-5.jpg',
+        'bullets' => [
+            'Snow clearing & removal',
+            'Sidewalk, walkway & entrance clearing',
+            'Parking-area snow management',
+            'Salting & de-icing programs'
+        ],
+        'link'  => 'contact.php',
+        'highlight' => true
+    ]
 ];
 
 $secEyebrow = $servicesSectionEyebrow ?? 'Our Services';
@@ -141,6 +144,15 @@ $secDesc    = $servicesSectionDesc    ?? 'One Partner. Every Service. We provide
           </div>
         </div>
       <?php endforeach; ?>
+    </div>
+
+    <!-- Trade Coordination Disclaimer -->
+    <div class="row mt-3">
+      <div class="col-12 text-center">
+        <p class="text-white-50 small mb-0 font-italic">
+          *Specialized trade services (plumbing, HVAC, electrical) are coordinated through qualified, licensed subcontractors where certification is required, providing clients with a single point of contact.
+        </p>
+      </div>
     </div>
 
   </div>

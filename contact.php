@@ -40,7 +40,7 @@
         </div>
         <div class="col-lg-6">
           <h4 class="font-weight-normal text-muted mb-3">
-            Get in touch for a quote — one partner for every facility need. Proudly serving the Lower Mainland, BC and surrounding areas.
+            Get in touch for a property assessment or proposal — one partner for commercial cleaning, maintenance, and seasonal facility support across the Lower Mainland and Fraser Valley.
           </h4>
         </div>
       </div>

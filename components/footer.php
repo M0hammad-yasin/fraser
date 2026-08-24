@@ -5,7 +5,7 @@
                 <img src="./assets/img/logo-primary-light.png" alt="Logo" class="w-50 h-50">
             </a>
             <p>
-                Fraser Facility Services provides integrated solutions that keep your property clean, safe, and operating at its best.
+                Fraser Facility Services provides commercial cleaning, property maintenance, exterior cleaning and seasonal facility services for businesses, strata properties and professional facilities across the Lower Mainland and Fraser Valley.
             </p>
             <!-- <h5 class="font-weight-semi-bold text-white mb-2">Opening Hours:</h5>
             <p class="mb-1">Mon – Sat, 8AM – 5PM</p>
@@ -14,7 +14,8 @@
         <div class="col-lg-3 col-md-6 mb-5">
             <h4 class="font-weight-semi-bold text-primary mb-4">Get In Touch</h4>
             <p>
-                <i class="fa fa-map-marker-alt text-primary mr-2"></i>Surrey, BC
+                <i class="fa fa-map-marker-alt text-primary mr-2"></i>Surrey, BC<br>
+                <small class="text-white-50 ml-4">Serving Lower Mainland & Fraser Valley</small>
             </p>
             <p><i class="fa fa-phone-alt text-primary mr-2"></i><a href="tel:17788861491" class="text-white">+1 778-886-1491</a></p>
             <p>
@@ -35,11 +36,11 @@
         <div class="col-lg-3 col-md-6 mb-5">
             <h4 class="font-weight-semi-bold text-primary mb-4">Services</h4>
             <div class="d-flex flex-column justify-content-start">
-                <a class="text-white mb-2" href="service.php"><i class="fa fa-angle-right mr-2"></i>Janitorial & Custodial</a>
-                <a class="text-white mb-2" href="service.php"><i class="fa fa-angle-right mr-2"></i>Floor Care</a>
-                <a class="text-white mb-2" href="service.php"><i class="fa fa-angle-right mr-2"></i>Building Maintenance</a>
-                <a class="text-white mb-2" href="service.php"><i class="fa fa-angle-right mr-2"></i>Window & Exterior</a>
-                <a class="text-white mb-2" href="service.php"><i class="fa fa-angle-right mr-2"></i>Facility & Specialty</a>
+                <a class="text-white mb-2" href="service.php"><i class="fa fa-angle-right mr-2"></i>Janitorial & Custodial Services</a>
+                <a class="text-white mb-2" href="service.php"><i class="fa fa-angle-right mr-2"></i>Floor & Carpet Care</a>
+                <a class="text-white mb-2" href="service.php"><i class="fa fa-angle-right mr-2"></i>Property Maintenance & Facility Support</a>
+                <a class="text-white mb-2" href="service.php"><i class="fa fa-angle-right mr-2"></i>Window & Exterior Cleaning</a>
+                <a class="text-white mb-2" href="service.php"><i class="fa fa-angle-right mr-2"></i>Specialty Cleaning & Facility Support</a>
                 <a class="text-white" href="service.php"><i class="fa fa-angle-right mr-2"></i>Snow & Ice Management</a>
             </div>
         </div>

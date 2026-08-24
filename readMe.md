@@ -55,15 +55,23 @@
 
 ### 4. 🏢 2-Column Split Service Grid & Market Taxonomy
 
-- **Interactive 2-Column Split Cards (`components/services-section.php`)**: 6 core service packages matching the official company brochure:
-  1. *Janitorial & Custodial Services*
-  2. *Floor Care (Carpet extraction, stripping, waxing, tile & grout)*
-  3. *Property & Building Maintenance*
-  4. *Window & Exterior Services (Pressure washing, walkways, entrances)*
-  5. *Facility & Specialty Services (Restocking, seasonal cleanup)*
-  6. *Snow & Ice Management (Salting, de-icing, snow clearing)*
-- **"Markets We Serve" Grid (`service.php`)**: Dedicated card-based presentation for Commercial Offices, Healthcare Facilities, Retail, Strata & Multi-Unit, Property Management, Residential, and Construction & Renovation Projects.
+- **Interactive 2-Column Split Cards (`components/services-section.php`)**: 6 standardized service packages aligned with company positioning:
+  1. *Janitorial & Custodial Services* (Commercial, office, strata common areas, medical/dental, day porter)
+  2. *Floor & Carpet Care* (Carpet extraction, stripping, refinishing, polishing, tile & grout)
+  3. *Property Maintenance & Facility Support* (Upkeep, minor repairs, preventive care, trade coordination)
+  4. *Window & Exterior Cleaning* (Windows, storefronts, power washing, sidewalks, parkades)
+  5. *Specialty Cleaning & Facility Support* (Post-construction, turnovers, restocking, parkades)
+  6. *Snow & Ice Management* (Snow clearing, salting, de-icing, seasonal programs)
+- **"Markets We Serve" Grid (`service.php`, `index.php`)**: Structured in commercial-first priority:
+  1. Commercial Properties & Offices
+  2. Strata & Multi-Unit Residential
+  3. Property Management Companies
+  4. Retail Properties
+  5. Medical, Dental & Professional Offices
+  6. Construction & Renovation Projects
+  7. Residential Properties
 - **"Areas We Serve" Regional Coverage**: Full coverage across 17 municipalities in Lower Mainland & Fraser Valley.
+- **Safety, Training & Credentials**: WorkSafeBC Registered, Commercially Insured, WHMIS-Trained Personnel.
 
 ### 5. 📬 Enterprise SMTP AJAX Contact System
 

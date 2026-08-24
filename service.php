@@ -18,7 +18,7 @@
   <?php
   $pageHeaderTitle = "Complete Facility Solutions";
   $pageHeaderEyebrow = "Our Services";
-  $pageHeaderSubtitle = "One Partner. Every Service. Comprehensive property care engineered for excellence.";
+  $pageHeaderSubtitle = "One Partner. Every Service. Professional commercial cleaning, property maintenance, and facility support across the Lower Mainland.";
   $pageHeaderBg = "./assets/img/home/carousel-2.jpg";
   $breadcrumbs = [
     ['label' => 'Home', 'url' => 'index.php'],
@@ -28,7 +28,7 @@
   ?>
   <!-- Page Header End -->
 
-  <!-- Fraser Advantage (Sleek Service Pillars) Start -->
+  <!-- Fraser Advantage (Safety, Training & Compliance) Start -->
   <section class="container-fluid bg-white py-5 border-bottom fraser-compact-advantage">
     <div class="container py-2">
       <div class="row">
@@ -45,8 +45,8 @@
               </div>
             </div>
             <ul class="compact-adv-list list-unstyled mb-0">
-              <li><i class="fa fa-check text-primary mr-2"></i>Complete Facility Solutions</li>
               <li><i class="fa fa-check text-primary mr-2"></i>Single Point of Contact</li>
+              <li><i class="fa fa-check text-primary mr-2"></i>Standardized Scopes</li>
               <li><i class="fa fa-check text-primary mr-2"></i>Consolidated Invoicing</li>
             </ul>
           </div>
@@ -60,7 +60,7 @@
                 <i class="fa fa-bolt"></i>
               </div>
               <div>
-                <h6 class="mb-0 font-weight-bold text-dark">Rapid Dispatch</h6>
+                <h6 class="mb-0 font-weight-bold text-dark">Responsive Service</h6>
                 <small class="text-secondary font-weight-bold">Lower Mainland</small>
               </div>
             </div>
@@ -72,7 +72,7 @@
           </div>
         </div>
 
-        <!-- Col 3: Compliance & Credentials -->
+        <!-- Col 3: Compliance & Credentials (Per Client Point 6) -->
         <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
           <div class="compact-adv-item h-100 p-3 rounded">
             <div class="d-flex align-items-center mb-3">
@@ -80,19 +80,19 @@
                 <i class="fa fa-shield-alt"></i>
               </div>
               <div>
-                <h6 class="mb-0 font-weight-bold text-dark">Fully Certified</h6>
-                <small class="text-secondary font-weight-bold">Safety & Compliance</small>
+                <h6 class="mb-0 font-weight-bold text-dark">Safety &amp; Training</h6>
+                <small class="text-secondary font-weight-bold">Compliance</small>
               </div>
             </div>
             <ul class="compact-adv-list list-unstyled mb-0">
-              <li><i class="fa fa-check text-primary mr-2"></i>Fully Insured</li>
-              <li><i class="fa fa-check text-primary mr-2"></i>WHMIS Trained</li>
               <li><i class="fa fa-check text-primary mr-2"></i>WorkSafeBC Registered</li>
+              <li><i class="fa fa-check text-primary mr-2"></i>Commercially Insured</li>
+              <li><i class="fa fa-check text-primary mr-2"></i>WHMIS-Trained Personnel</li>
             </ul>
           </div>
         </div>
 
-        <!-- Col 4: Quality Control & Specialized -->
+        <!-- Col 4: Quality Control & Standards -->
         <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
           <div class="compact-adv-item h-100 p-3 rounded">
             <div class="d-flex align-items-center mb-3">
@@ -100,14 +100,14 @@
                 <i class="fa fa-clipboard-check"></i>
               </div>
               <div>
-                <h6 class="mb-0 font-weight-bold text-dark">Guaranteed Quality</h6>
-                <small class="text-secondary font-weight-bold">Audits & Inspections</small>
+                <h6 class="mb-0 font-weight-bold text-dark">Consistent Quality</h6>
+                <small class="text-secondary font-weight-bold">Site Checklists</small>
               </div>
             </div>
             <ul class="compact-adv-list list-unstyled mb-0">
-              <li><i class="fa fa-check text-primary mr-2"></i>Routine Site Inspections</li>
+              <li><i class="fa fa-check text-primary mr-2"></i>Routine Site Checklists</li>
+              <li><i class="fa fa-check text-primary mr-2"></i>Dedicated Point of Contact</li>
               <li><i class="fa fa-check text-primary mr-2"></i>Eco-Friendly Products</li>
-              <li><i class="fa fa-check text-primary mr-2"></i>Standard Operating SOPs</li>
             </ul>
           </div>
         </div>
