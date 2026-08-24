@@ -151,7 +151,7 @@ $blogs = [
       </ul>
 
       <h2 class="mb-4 mt-5">What to Look For in a Single Partner</h2>
-      <p><strong>Range that actually covers your building.</strong> Janitorial, building maintenance, exterior services, and mechanical support under one roof means one call handles almost everything that comes up.</p>
+      <p><strong>Range that actually covers your building.</strong> Janitorial, building maintenance, exterior services, and seasonal support under one roof means one call handles almost everything that comes up.</p>
       <p><strong>A single point of contact.</strong> Not a call center — someone who knows your property and is accountable for the work, end to end.</p>
       <p><strong>Responsiveness you can measure.</strong> How fast does a request actually get answered, not just acknowledged?</p>
       <p><strong>Experience across your property type.</strong> A partner who's worked office towers, strata buildings, medical offices, and industrial sites understands that each one needs a different approach — not a copy-paste service plan.</p>
@@ -159,7 +159,7 @@ $blogs = [
 
       <h2 class="mb-4 mt-5">The Real Test</h2>
       <p>Ask any prospective partner one question: if something falls outside your usual scope, what happens next? A single vendor with a narrow scope says "that's not us." A true facility services partner says "we'll handle it, or connect you directly with someone who will" — because they're accountable for the whole property, not just their slice of it.</p>
-      <p><strong>Fraser Facility Services was built around that idea</strong> — one partner, every service, one number to call for janitorial, maintenance, exterior, and mechanical needs across the Fraser region.</p>
+      <p><strong>Fraser Facility Services was built around that idea</strong> — one partner, complete facility solutions, one number to call for janitorial, maintenance, exterior, and seasonal needs across the Lower Mainland and Fraser Valley.</p>
       HTML,
   ],
 
