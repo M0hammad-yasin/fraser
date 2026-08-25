@@ -46,7 +46,6 @@ $blogs = [
       <ul>
         <li><strong>Scheduled inspections</strong> — catching wear before it becomes failure</li>
         <li><strong>Seasonal preparation</strong> — gutters, drainage, and exterior systems before weather turns</li>
-        <li><strong>Mechanical upkeep</strong> — HVAC, plumbing, and electrical systems serviced on a cycle, not just when something breaks</li>
         <li><strong>A single point of contact</strong> — so nothing falls through the cracks between vendors</li>
       </ul>
 
@@ -165,11 +164,11 @@ $blogs = [
 
   'whats-included-in-a-facility-maintenance-program' => [
     'title'             => "What's Actually Included in a Facility Maintenance Program?",
-    'excerpt'           => "A plain-English breakdown of what plumbing, electrical, and HVAC preventive maintenance actually covers — for building owners who aren't technical.",
-    'meta_description'  => "A plain-English breakdown of what plumbing, electrical, and HVAC preventive maintenance actually covers — for building owners who aren't technical.",
+    'excerpt'           => "A plain-English breakdown of what facility maintenance actually covers — for building owners who aren't technical.",
+    'meta_description'  => "A plain-English breakdown of what facility maintenance actually covers — for building owners who aren't technical.",
     'author'            => 'Fraser Facility Services',
-    'category'          => 'Mechanical & Facility Support',
-    'tags'              => ['Mechanical', 'HVAC', 'Maintenance'],
+    'category'          => 'Facility Care',
+    'tags'              => ['Facility Care', 'Maintenance'],
     'date'              => '2026-07-18',
     'image'             => './assets/img/blog/blog-whats-included-in-a-facility-maintenance-program.jpg
     ',

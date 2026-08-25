@@ -131,7 +131,7 @@
               <div class="d-flex align-items-center p-3 rounded h-100" style="background: rgba(255,255,255,0.05); border: 1px solid rgba(201,161,74,0.3);">
                 <i class="fa fa-2x fa-search-location text-primary mr-3"></i>
                 <div>
-                  <h6 class="text-white mb-0 font-weight-bold">Free Site Audit</h6>
+                  <h6 class="text-white mb-0 font-weight-bold">Site Audit</h6>
                   <small class="text-white-50">On-site property walkthrough</small>
                 </div>
               </div>
