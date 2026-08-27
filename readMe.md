@@ -8,7 +8,7 @@
 [![UI Status](https://img.shields.io/badge/UI%20Design-Glassmorphic%20%26%20Dynamic-ffc600?style=for-the-badge)](https://fraserfacilityservices.ca)
 [![Platform](https://img.shields.io/badge/Platform-Web%20%7C%20Mobile%20Optimized-23a036?style=for-the-badge)](https://fraserfacilityservices.ca)
 
-**An enterprise-grade, high-performance web platform built for Fraser Facility Services — delivering integrated janitorial, building maintenance, exterior care, mechanical, and specialized property solutions across British Columbia's Lower Mainland.**
+**An enterprise-grade, high-performance web platform built for Fraser Facility Services — delivering integrated janitorial, building maintenance, exterior care, and specialized property solutions across British Columbia's Lower Mainland.**
 
 [Explore Services](service.php) • [Read Insights](blogs.php) • [Get An Estimate](contact.php) • [FAQs](faq.php)
 
@@ -56,12 +56,12 @@
 ### 4. 🏢 2-Column Split Service Grid & Market Taxonomy
 
 - **Interactive 2-Column Split Cards (`components/services-section.php`)**: 6 standardized service packages aligned with company positioning:
-  1. *Janitorial & Custodial Services* (Commercial, office, strata common areas, medical/dental, day porter)
-  2. *Floor & Carpet Care* (Carpet extraction, stripping, refinishing, polishing, tile & grout)
-  3. *Property Maintenance & Facility Support* (Upkeep, minor repairs, preventive care, trade coordination)
-  4. *Window & Exterior Cleaning* (Windows, storefronts, power washing, sidewalks, parkades)
-  5. *Specialty Cleaning & Facility Support* (Post-construction, turnovers, restocking, parkades)
-  6. *Snow & Ice Management* (Snow clearing, salting, de-icing, seasonal programs)
+  1. _Janitorial & Custodial Services_ (Commercial, office, strata common areas, medical/dental, day porter)
+  2. _Floor & Carpet Care_ (Carpet extraction, stripping, refinishing, polishing, tile & grout)
+  3. _Property Maintenance & Facility Support_ (Upkeep, minor repairs, preventive care, trade coordination)
+  4. _Window & Exterior Cleaning_ (Windows, storefronts, power washing, sidewalks, parkades)
+  5. _Specialty Cleaning & Facility Support_ (Post-construction, turnovers, restocking, parkades)
+  6. _Snow & Ice Management_ (Snow clearing, salting, de-icing, seasonal programs)
 - **"Markets We Serve" Grid (`service.php`, `index.php`)**: Structured in commercial-first priority:
   1. Commercial Properties & Offices
   2. Strata & Multi-Unit Residential
@@ -94,7 +94,7 @@ fraser/
 ├── assets/                  # CSS, images, JS assets
 ├── components/              # Reusable PHP partials (header, footer, head, page-header, services-section)
 ├── data/                    # JSON/Data files for site content (blogs.php)
-├── lib/                     # UI libraries (owl carousel, isotope, lightbox, waypoints, etc.)
+├── library/                     # UI libraries (owl carousel, isotope, lightbox, waypoints, etc.)
 ├── mail/                    # Mail handling backend & scripts
 │   ├── config.php           # SMTP configuration & credentials (DO NOT COMMIT)
 │   ├── contact.php          # PHP backend handling form POST & PHPMailer logic
