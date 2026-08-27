@@ -54,7 +54,7 @@
                 <span class="mx-3 text-white-50">|</span>
                 <i class="fa fa-envelope text-primary mr-2"></i><a href="mailto:info@fraserfacilityservices.ca" class="text-white">info@fraserfacilityservices.ca</a>
                 <span class="mx-3 text-white-50">|</span>
-                <i class="fa fa-globe text-primary mr-2"></i><a href="https://fraserfacilityservices.ca" class="text-white">fraserfacilityservices.ca</a>
+                <i class="fa fa-file-pdf text-primary mr-2"></i><a href="documents/fraser%20Tri-Fold%20Brochure.pdf" download class="text-white">Download Brochure</a>
             </p>
         </div>
     </div>
