@@ -4,5 +4,6 @@
 # OS / editor junk
 .DS_Store
 Thumbs.db
-*.swp
-*.swo
+# Logs & debug files
+/mail/debug_emails.log
+*.log
