@@ -18,7 +18,7 @@
   $pageHeaderTitle = "About Fraser Facility Services";
   $pageHeaderEyebrow = "Who We Are";
   $pageHeaderSubtitle = "Locally owned and operated commercial cleaning and facility solutions across the Lower Mainland.";
-  $pageHeaderBg = "./assets/img/about_us/about.jpg";
+  $pageHeaderBg = "./assets/img/about_us/about.jfif";
   $breadcrumbs = [
     ['label' => 'Home', 'url' => 'index.php'],
     ['label' => 'About Us', 'url' => '']
@@ -33,7 +33,7 @@
       <div class="row align-items-center justify-content-center">
         <div class="col-lg-5 col-md-10 mb-4 mb-lg-0">
           <div class="position-relative rounded overflow-hidden shadow-sm" style="min-height: 420px;">
-            <img class="w-100 h-100 position-absolute" src="./assets/img/about_us/about.jpg" alt="About Fraser Facility Services" style="object-fit: cover;">
+            <img class="w-100 h-100 position-absolute" src="./assets/img/about_us/about.jfif" alt="About Fraser Facility Services" style="object-fit: cover;">
           </div>
         </div>
         <div class="col-lg-7 pl-lg-5">

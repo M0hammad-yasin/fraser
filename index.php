@@ -133,7 +133,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-5 mb-4 mb-lg-0">
                     <div class="position-relative rounded overflow-hidden shadow-sm" style="min-height: 380px;">
-                        <img class="w-100 h-100 position-absolute" src="./assets/img/about_us/about.jpg" alt="About Fraser Facility Services" style="object-fit: cover;">
+                        <img class="w-100 h-100 position-absolute" src="./assets/img/about_us/about.jfif" alt="About Fraser Facility Services" style="object-fit: cover;">
                     </div>
                 </div>
                 <div class="col-lg-7 pl-lg-5">

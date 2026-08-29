@@ -7,7 +7,7 @@
  * - $pageHeaderTitle    (string) : Main banner heading (e.g. "About Us", "Our Services")
  * - $pageHeaderEyebrow  (string) : Optional small gold pill/label (e.g. "WHO WE ARE", "FACILITY CARE")
  * - $pageHeaderSubtitle (string) : Optional short descriptive lead text
- * - $pageHeaderBg       (string) : Path to background image (e.g. "./assets/img/about_us/about.jpg")
+ * - $pageHeaderBg       (string) : Path to background image (e.g. "./assets/img/about_us/about.jfif")
  * - $breadcrumbs        (array)  : Array of ['label' => '...', 'url' => '...']
  */
 
