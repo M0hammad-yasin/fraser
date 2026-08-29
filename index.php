@@ -264,7 +264,7 @@
                     <div class="row">
                         <div class="col-sm-6 mb-4">
                             <h5 class="font-weight-semi-bold"><i class="fa fa-shield-alt text-primary mr-2"></i>WorkSafeBC Registered</h5>
-                            <p class="mb-0 text-muted">Operating in full accordance with provincial workplace health and safety requirements.</p>
+                            <p class="mb-0 text-muted">Registered with WorkSafeBC and committed to established workplace health and safety standards.</p>
                         </div>
                         <div class="col-sm-6 mb-4">
                             <h5 class="font-weight-semi-bold"><i class="fa fa-file-contract text-primary mr-2"></i>Commercially Insured</h5>

@@ -69,7 +69,7 @@
       <div class="row">
         <?php if (empty($pageSlugs)) : ?>
           <div class="col-12 text-center py-5">
-            <p class="text-muted mb-0">No posts yet — check back soon.</p>
+            <p class="text-muted mb-0">No posts yet. Please check back soon.</p>
           </div>
         <?php endif; ?>
 

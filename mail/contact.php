@@ -106,7 +106,7 @@ try {
 
     // Content
     $mail->isHTML(true);
-    $mail->Subject = "[Fraser Website] {$subject} – {$name}";
+    $mail->Subject = "[Fraser Website] {$subject} from {$name}";
     $mail->Body    = $htmlBody;
     $mail->AltBody = $plainBody;
 

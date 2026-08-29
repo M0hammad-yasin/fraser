@@ -11,7 +11,7 @@ if ($post) {
   $pageTitle = htmlspecialchars($post['title']) . ' - Fraser Facility Services';
   $postDate  = date('F j, Y', strtotime($post['date']));
 } else {
-  $pageTitle = '404 – Post Not Found - Fraser Facility Services';
+  $pageTitle = '404: Post Not Found - Fraser Facility Services';
 }
 
 // ── Sidebar: newest posts (excluding current) ─────────────────────────────
@@ -157,7 +157,7 @@ $allTags = array_keys($allTags);
               <div class="flex-grow-1">
                 <h5 class="text-white mb-1">One Partner. Complete Facility Solutions.</h5>
                 <p class="text-white-50 mb-0 small">
-                  Commercial cleaning, property maintenance &amp; seasonal facility support — serving the Lower Mainland from a single point of contact.
+                  Commercial cleaning, property maintenance, and seasonal facility support serving the Lower Mainland from a single point of contact.
                 </p>
               </div>
               <a href="contact.php" class="btn btn-primary ml-4 flex-shrink-0">
