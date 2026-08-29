@@ -59,6 +59,7 @@ function isActiveNav($pages, $currentScript)
                         <a href="index.php" class="nav-item nav-link <?php echo isActiveNav('index.php', $currentScript); ?>">Home</a>
                         <a href="about.php" class="nav-item nav-link <?php echo isActiveNav('about.php', $currentScript); ?>">About</a>
                         <a href="service.php" class="nav-item nav-link <?php echo isActiveNav('service.php', $currentScript); ?>">Services</a>
+                        <a href="our-work.php" class="nav-item nav-link <?php echo isActiveNav('our-work.php', $currentScript); ?>">Our Work</a>
                         <a href="blogs.php" class="nav-item nav-link <?php echo isActiveNav(['blogs.php', 'blog.php', 'single.php'], $currentScript); ?>">Blog</a>
                         <a href="faq.php" class="nav-item nav-link <?php echo isActiveNav('faq.php', $currentScript); ?>">FAQ</a>
                         <a href="contact.php" class="nav-item nav-link <?php echo isActiveNav('contact.php', $currentScript); ?>">Contact</a>
@@ -84,6 +85,7 @@ function isActiveNav($pages, $currentScript)
                 <a href="index.php" class="nav-item nav-link <?php echo isActiveNav('index.php', $currentScript); ?>">Home</a>
                 <a href="about.php" class="nav-item nav-link <?php echo isActiveNav('about.php', $currentScript); ?>">About</a>
                 <a href="service.php" class="nav-item nav-link <?php echo isActiveNav('service.php', $currentScript); ?>">Services</a>
+                <a href="our-work.php" class="nav-item nav-link <?php echo isActiveNav('our-work.php', $currentScript); ?>">Our Work</a>
                 <a href="blogs.php" class="nav-item nav-link <?php echo isActiveNav(['blogs.php', 'blog.php', 'single.php'], $currentScript); ?>">Blog</a>
                 <a href="faq.php" class="nav-item nav-link <?php echo isActiveNav('faq.php', $currentScript); ?>">FAQ</a>
                 <a href="contact.php" class="nav-item nav-link <?php echo isActiveNav('contact.php', $currentScript); ?>">Contact</a>
