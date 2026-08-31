@@ -3,7 +3,8 @@
 /**
  * Our Work / Portfolio data store.
  * 
- * To add a new project or photo pair, simply add an entry to the $portfolioItems array below.
+ * To add new projects or photos, update or add entries to $portfolioProjects.
+ * Categories without active project items will automatically display a clean "Coming Soon" section.
  * 
  * Available Categories:
  * - 'janitorial'           => 'Janitorial & Custodial'
@@ -24,77 +25,112 @@ $portfolioCategories = [
     'specialty'            => 'Specialty Cleaning',
 ];
 
-$portfolioItems = [
+// Active Projects (Janitorial & Custodial contains completed real photo gallery)
+$portfolioProjects = [
     [
-        'id'             => 'janitorial-1',
+        'id'             => 'janitorial-project',
         'category'       => 'janitorial',
         'category_name'  => 'Janitorial & Custodial',
-        'title'          => 'Corporate Office Suite Deep Clean',
-        'location'       => 'Burnaby, BC',
-        'scope'          => 'Complete post-tenancy sanitize, workstations detail & breakroom overhaul',
-        'before_img'     => './assets/img/our-work/janitorial/office-clean-before.jpg',
-        'after_img'      => './assets/img/our-work/janitorial/office-clean-after.jpg',
-        'description'    => 'Full-facility janitorial overhaul for a multi-tenant corporate office, restoring sanitized workspaces, pristine break areas, and high-standard hygiene.',
-        'highlights'     => ['Workstation & Surface Sanitization', 'Breakroom & Kitchen Deep Scrub', 'Waste & High-Touch Disinfection']
+        'title'          => 'Commercial Facility & Corporate Office Janitorial Care',
+        'location'       => 'Lower Mainland, BC',
+        'scope'          => 'Comprehensive Office Sanitization, Restroom Hygiene & Floor Maintenance',
+        'description'    => 'A complete commercial janitorial program delivering spotless workspaces, sanitized meeting areas, fully disinfected restrooms, and pristine common corridors for multi-tenant facilities.',
+        'highlights'     => [
+            'Full workstation & surface sanitization',
+            'High-touch point disinfection (handles, switches, desks)',
+            'Complete restroom deep clean & supply replenishment',
+            'Corridor, hallway, and common area upkeep'
+        ],
+        'gallery'        => [
+            [
+                'src'     => './assets/img/our-work/janitorial/offce-clean1.jpeg',
+                'title'   => 'Office Workstation Detailing',
+                'caption' => 'Clean, organized and sanitized desk surfaces and monitors'
+            ],
+            [
+                'src'     => './assets/img/our-work/janitorial/offce-clean12.jpeg',
+                'title'   => 'Conference & Meeting Room Maintenance',
+                'caption' => 'Dust-free tables, clean flooring and spotless presentation'
+            ],
+            [
+                'src'     => './assets/img/our-work/janitorial/bathroomclean1.jpeg',
+                'title'   => 'Commercial Restroom Disinfection',
+                'caption' => 'Deep sanitized sinks, shining chrome fixtures and streak-free mirrors'
+            ],
+            [
+                'src'     => './assets/img/our-work/janitorial/offce-clean3.jpeg',
+                'title'   => 'Private Office Sanitization',
+                'caption' => 'Thorough surface wiping, waste emptying and detail cleaning'
+            ],
+            [
+                'src'     => './assets/img/our-work/janitorial/offce-clean5.jpeg',
+                'title'   => 'Corridor & Common Area Upkeep',
+                'caption' => 'Tidy pathways, clear baseboards and pristine floors'
+            ],
+            [
+                'src'     => './assets/img/our-work/janitorial/offce-clean6.jpeg',
+                'title'   => 'Open Workspace Turnover',
+                'caption' => 'Sanitized partitions, refreshed cubicles and hygienic environment'
+            ],
+        ]
+    ]
+];
+
+// Coming Soon metadata for service categories currently being photographed
+$comingSoonCategories = [
+    'floor-care' => [
+        'category_name' => 'Floor & Carpet Care',
+        'icon'          => 'fa-broom',
+        'title'         => 'Floor & Carpet Care Gallery Coming Soon',
+        'description'   => 'We are currently documenting our recent commercial VCT stripping & waxing, carpet hot-water extraction, and hard surface polishing projects.',
+        'points'        => [
+            'Machine stripping & multi-coat protective waxing',
+            'Commercial hot-water carpet extraction',
+            'Tile, grout, and concrete deep scrubbing'
+        ]
     ],
-    [
-        'id'             => 'floor-care-1',
-        'category'       => 'floor-care',
-        'category_name'  => 'Floor & Carpet Care',
-        'title'          => 'Commercial Lobby Floor Strip & Wax',
-        'location'       => 'Vancouver, BC',
-        'scope'          => 'Commercial VCT & hardwood restorative buff, strip and multi-coat high gloss finish',
-        'before_img'     => './assets/img/our-work/floor-care/lobby-strip-wax-before.jpg',
-        'after_img'      => './assets/img/our-work/floor-care/lobby-strip-wax-after.jpg',
-        'description'    => 'Heavy-traffic commercial lobby restored from worn, scuffed linoleum into a mirror-like high-gloss finish with industrial grade protective sealant.',
-        'highlights'     => ['Complete Old Wax Stripping', 'Machine Scrub & Neutralization', '4-Coat High-Gloss Protective Wax']
+    'window-exterior' => [
+        'category_name' => 'Window & Exterior Cleaning',
+        'icon'          => 'fa-shower',
+        'title'         => 'Window & Exterior Cleaning Gallery Coming Soon',
+        'description'   => 'High-pressure washing, moss remediation, parkade cleaning, and multi-storey window cleaning photos are being prepared for showcase.',
+        'points'        => [
+            'Rotary surface pressure washing for concrete & walkways',
+            'Interior & exterior streak-free window cleaning',
+            'Algae, moss, and weather staining removal'
+        ]
     ],
-    [
-        'id'             => 'window-exterior-1',
-        'category'       => 'window-exterior',
-        'category_name'  => 'Window & Exterior Cleaning',
-        'title'          => 'Commercial Plaza Pressure Wash & Glass',
-        'location'       => 'Surrey, BC',
-        'scope'          => 'High-pressure wash of perimeter walkways, moss remediation & multi-storey exterior windows',
-        'before_img'     => './assets/img/our-work/window-exterior/exterior-wash-before.jpg',
-        'after_img'      => './assets/img/our-work/window-exterior/exterior-wash-after.jpg',
-        'description'    => 'Eliminated years of algae build-up, stained concrete walkways, and weathered glass facades to revitalize the exterior curb appeal of this commercial centre.',
-        'highlights'     => ['Rotary Surface Pressure Cleaning', 'Algae & Moss Eradication', 'Streak-Free Exterior Window Polish']
+    'property-maintenance' => [
+        'category_name' => 'Property Maintenance',
+        'icon'          => 'fa-tools',
+        'title'         => 'Property Maintenance Gallery Coming Soon',
+        'description'   => 'We are compiling visual case studies for scheduled preventive maintenance, strata common-area inspections, and trade coordination.',
+        'points'        => [
+            'Routine supervisory checklists & walkthroughs',
+            'Light fixture audits & minor building repairs',
+            'Single point of contact for trade services'
+        ]
     ],
-    [
-        'id'             => 'property-maintenance-1',
-        'category'       => 'property-maintenance',
-        'category_name'  => 'Property Maintenance',
-        'title'          => 'Strata Facility Maintenance & Common Area Detailing',
-        'location'       => 'Richmond, BC',
-        'scope'          => 'Preventive fixture upkeep, seasonal property cleanup & mechanical room inspection',
-        'before_img'     => './assets/img/our-work/property-maintenance/facility-repair-before.jpg',
-        'after_img'      => './assets/img/our-work/property-maintenance/facility-repair-after.jpg',
-        'description'    => 'Comprehensive routine maintenance program covering building entryways, parkade drain check, lighting audits, and grounds upkeep for a residential strata.',
-        'highlights'     => ['Common Area Checklists', 'Lighting & Fixture Inspections', 'Preventive Trade Coordination']
+    'snow-ice' => [
+        'category_name' => 'Snow & Ice Management',
+        'icon'          => 'fa-snowflake',
+        'title'         => 'Snow & Ice Management Gallery Coming Soon',
+        'description'   => 'Winter response photos including commercial lot plowing, anti-icing brine pre-treatment, and walkway salting are in progress.',
+        'points'        => [
+            'Zero-tolerance morning snow clearing',
+            'Eco-friendly salting & de-icer applications',
+            '24/7 winter storm monitoring across the Lower Mainland'
+        ]
     ],
-    [
-        'id'             => 'snow-ice-1',
-        'category'       => 'snow-ice',
-        'category_name'  => 'Snow & Ice Management',
-        'title'          => 'Commercial Parkade & Walkway De-Icing',
-        'location'       => 'Coquitlam, BC',
-        'scope'          => 'Early morning snow clearing, anti-icing brine pre-treatment & high-traffic walkway salting',
-        'before_img'     => './assets/img/our-work/snow-ice/snow-clearing-before.jpg',
-        'after_img'      => './assets/img/our-work/snow-ice/snow-clearing-after.jpg',
-        'description'    => 'Overnight response to heavy snowfall, ensuring safe tenant access, clear handicap routes, and risk-free parking areas before 7:00 AM opening.',
-        'highlights'     => ['Zero-Tolerance Snow Plowing', 'Eco-Friendly Salting & De-Icer', '24/7 Weather Tracking Response']
-    ],
-    [
-        'id'             => 'specialty-1',
-        'category'       => 'specialty',
-        'category_name'  => 'Specialty Cleaning',
-        'title'          => 'Healthcare & Clinic High-Level Detailing',
-        'location'       => 'Langley, BC',
-        'scope'          => 'Hospital-grade sanitization, touch-point disinfection & medical suite cleanout',
-        'before_img'     => './assets/img/our-work/specialty/deep-sanitization-before.jpg',
-        'after_img'      => './assets/img/our-work/specialty/deep-sanitization-after.jpg',
-        'description'    => 'Specialized medical clinic sanitization with strict infection control protocols, cross-contamination prevention, and certified medical-grade solutions.',
-        'highlights'     => ['WHMIS-Certified Handling', 'HEPA Air Filtration & Dusting', 'Hospital-Grade Disinfection']
+    'specialty' => [
+        'category_name' => 'Specialty Cleaning',
+        'icon'          => 'fa-shield-virus',
+        'title'         => 'Specialty Cleaning Gallery Coming Soon',
+        'description'   => 'Healthcare clinic terminal cleaning, post-renovation turnover detailing, and certified sanitization photo records are coming soon.',
+        'points'        => [
+            'Medical & dental clinic infection control cleaning',
+            'Post-construction rough & final cleanups',
+            'WHMIS-trained personnel & certified solutions'
+        ]
     ],
 ];
