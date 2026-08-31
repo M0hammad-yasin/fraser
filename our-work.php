@@ -167,11 +167,11 @@
                                             <div class="work-photo-thumb-wrap">
                                                 <span class="work-status-badge"><i class="fa fa-check-circle"></i>Cleaned</span>
                                                 <img src="<?php echo htmlspecialchars($photo['src']); ?>" alt="<?php echo htmlspecialchars($photo['title']); ?>">
-                                                <a 
-                                                    href="<?php echo htmlspecialchars($photo['src']); ?>" 
-                                                    data-lightbox="project-<?php echo htmlspecialchars($project['id']); ?>" 
-                                                    data-title="<?php echo htmlspecialchars($project['title']) . ' — ' . htmlspecialchars($photo['title']); ?>" 
-                                                    class="work-photo-overlay" 
+                                                <a
+                                                    href="<?php echo htmlspecialchars($photo['src']); ?>"
+                                                    data-lightbox="project-<?php echo htmlspecialchars($project['id']); ?>"
+                                                    data-title="<?php echo htmlspecialchars($project['title']) . ' — ' . htmlspecialchars($photo['title']); ?>"
+                                                    class="work-photo-overlay"
                                                     title="View Fullscreen Photo">
                                                     <div class="work-zoom-icon">
                                                         <i class="fa fa-search-plus"></i>
