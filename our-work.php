@@ -59,7 +59,7 @@
                                 <button
                                     type="button"
                                     class="work-filter-btn <?php echo ($filterKey === '*') ? 'active' : ''; ?>"
-                                    data-filter="<?php echo ($filterKey === '*') ? '*' : '.' . htmlspecialchars($filterKey); ?>">
+                                    data-filter="<?php echo ($filterKey === '*') ? ':not(.work-coming-soon)' : '.' . htmlspecialchars($filterKey); ?>">
                                     <?php echo htmlspecialchars($filterLabel); ?>
                                 </button>
                             </li>
@@ -132,7 +132,7 @@
 
                 <!-- 1. Active Projects (e.g. Janitorial multi-photo showcase) -->
                 <?php foreach ($portfolioProjects as $project): ?>
-                    <div class="col-12 work-item <?php echo htmlspecialchars($project['category']); ?>">
+                    <div class="col-12 work-item work-active-project <?php echo htmlspecialchars($project['category']); ?>">
                         <div class="work-project-card">
 
                             <!-- Project Header -->
@@ -224,7 +224,7 @@
 
                 <!-- 2. Coming Soon Sections (For categories currently in documentation) -->
                 <?php foreach ($comingSoonCategories as $catSlug => $catData): ?>
-                    <div class="col-12 work-item <?php echo htmlspecialchars($catSlug); ?>">
+                    <div class="col-12 work-item work-coming-soon <?php echo htmlspecialchars($catSlug); ?>">
                         <div class="work-coming-soon-card">
                             <div class="coming-soon-icon-box">
                                 <i class="fa <?php echo htmlspecialchars($catData['icon']); ?>"></i>
@@ -316,6 +316,7 @@
             var $grid = $('#work-container').isotope({
                 itemSelector: '.work-item',
                 layoutMode: 'fitRows',
+                filter: ':not(.work-coming-soon)',
                 transitionDuration: '0.4s'
             });
 
