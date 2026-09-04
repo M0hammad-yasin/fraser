@@ -221,6 +221,96 @@
                         </div>
                     </div>
                 <?php endforeach; ?>
+                <?php foreach ($portfolioProjectsMedical as $project): ?>
+                    <div class="col-12 work-item work-active-project <?php echo htmlspecialchars($project['category']); ?>">
+                        <div class="work-project-card">
+
+                            <!-- Project Header -->
+                            <div class="work-project-header">
+                                <div class="row align-items-center">
+                                    <div class="col-lg-8 mb-3 mb-lg-0">
+                                        <span class="work-project-cat"><?php echo htmlspecialchars($project['category_name']); ?></span>
+                                        <h2 class="work-project-title"><?php echo htmlspecialchars($project['title']); ?></h2>
+                                        <div class="work-project-meta">
+                                            <span><i class="fa fa-map-marker-alt"></i><?php echo htmlspecialchars($project['location']); ?></span>
+                                            <span><i class="fa fa-clipboard-check"></i><?php echo htmlspecialchars($project['scope']); ?></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 text-lg-right">
+                                        <a href="contact.php" class="btn btn-primary font-weight-bold py-2 px-4 shadow-sm" style="border-radius: 50px;">
+                                            Request This Service <i class="fa fa-arrow-right ml-2"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Multi-Photo Cleaned Gallery Grid -->
+                            <div class="work-gallery-section">
+                                <div class="work-gallery-heading">
+                                    <h5><i class="fa fa-images text-primary mr-2"></i>Completed Work &amp; Facility Results</h5>
+                                    <small class="text-muted"><i class="fa fa-search-plus mr-1"></i>Click any photo to view full size</small>
+                                </div>
+
+                                <div class="work-gallery-grid">
+                                    <?php foreach ($project['gallery'] as $idx => $photo): ?>
+                                        <div class="work-photo-card">
+                                            <div class="work-photo-thumb-wrap">
+                                                <span class="work-status-badge"><i class="fa fa-check-circle"></i>Cleaned</span>
+                                                <img src="<?php echo htmlspecialchars($photo['src']); ?>" alt="<?php echo htmlspecialchars($photo['title']); ?>">
+                                                <a
+                                                    href="<?php echo htmlspecialchars($photo['src']); ?>"
+                                                    data-lightbox="project-<?php echo htmlspecialchars($project['id']); ?>"
+                                                    data-title="<?php echo htmlspecialchars($project['title']) . ' — ' . htmlspecialchars($photo['title']); ?>"
+                                                    class="work-photo-overlay"
+                                                    title="View Fullscreen Photo">
+                                                    <div class="work-zoom-icon">
+                                                        <i class="fa fa-search-plus"></i>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="work-photo-info">
+                                                <h6 class="work-photo-title"><?php echo htmlspecialchars($photo['title']); ?></h6>
+                                                <p class="work-photo-caption"><?php echo htmlspecialchars($photo['caption']); ?></p>
+                                            </div>
+                                        </div>
+                                    <?php endforeach; ?>
+                                </div>
+                            </div>
+
+                            <!-- Project Details & Highlights -->
+                            <div class="work-project-body">
+                                <h5 class="text-dark font-weight-bold mb-2">Service Overview &amp; Execution</h5>
+                                <p class="text-muted mb-4"><?php echo htmlspecialchars($project['description']); ?></p>
+
+                                <?php if (!empty($project['highlights'])): ?>
+                                    <h6 class="text-secondary font-weight-bold text-uppercase mb-2" style="letter-spacing: 1.5px; font-size: 0.8rem;">
+                                        Key Standards Delivered
+                                    </h6>
+                                    <div class="work-highlights-grid">
+                                        <?php foreach ($project['highlights'] as $highlight): ?>
+                                            <div class="work-highlight-item">
+                                                <i class="fa fa-check-circle"></i>
+                                                <span><?php echo htmlspecialchars($highlight); ?></span>
+                                            </div>
+                                        <?php endforeach; ?>
+                                    </div>
+                                <?php endif; ?>
+                            </div>
+
+                            <!-- Project Footer Strip -->
+                            <div class="work-project-footer">
+                                <div class="d-flex align-items-center text-muted small">
+                                    <i class="fa fa-shield-alt text-primary mr-2" style="font-size: 1.1rem;"></i>
+                                    <span>WorkSafeBC Registered &bull; WHMIS-Trained Personnel &bull; Commercially Insured</span>
+                                </div>
+                                <a href="contact.php" class="btn btn-sm btn-outline-primary font-weight-bold py-2 px-4" style="border-radius: 50px;">
+                                    Get a Facility Quote
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+                <?php endforeach; ?>
 
                 <!-- 2. Coming Soon Sections (For categories currently in documentation) -->
                 <?php foreach ($comingSoonCategories as $catSlug => $catData): ?>

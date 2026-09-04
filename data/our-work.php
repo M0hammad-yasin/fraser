@@ -75,7 +75,40 @@ $portfolioProjects = [
         ]
     ]
 ];
-
+$portfolioProjectsMedical = [
+    [
+        'id'             => 'medical-clinic-project',
+        'category'       => 'janitorial',
+        'category_name'  => 'Janitorial & Custodial',
+        'title'          => 'Medical Clinic & Treatment Room Sanitization',
+        'location'       => 'Lower Mainland, BC',
+        'scope'          => 'Clinical Surface Disinfection, Treatment Room Care & Floor Maintenance',
+        'description'    => 'A specialized janitorial program focusing on strict medical-grade sanitization, ensuring sterile treatment rooms, hygienic patient care areas, and fully disinfected clinical equipment.',
+        'highlights'     => [
+            'Medical-grade surface disinfection',
+            'Treatment bed and clinical equipment sanitization',
+            'Clinic hard floor sweeping and mopping',
+            'Safe waste receptacle emptying and management'
+        ],
+        'gallery'        => [
+            [
+                'src'     => './assets/img/our-work/janitorial/medical/Treatment-Room-Sanitization.jpeg',
+                'title'   => 'Treatment Room Sanitization',
+                'caption' => 'Spotless massage tables, wiped window sills, and thoroughly sanitized clinical equipment carts.'
+            ],
+            [
+                'src'     => './assets/img/our-work/janitorial/medical/Clinic-Floor-&-Surface-Care.jpeg',
+                'title'   => 'Clinic Floor & Surface Care',
+                'caption' => 'Swept and mopped hard flooring, dust-free shelving, and hygienic patient care areas.'
+            ],
+            [
+                'src'     => './assets/img/our-work/janitorial/medical/Medical-Office-Deep-Clean.jpeg',
+                'title'   => 'Medical Office Deep Clean',
+                'caption' => 'Disinfected treatment beds, emptied and sanitized waste receptacles, and pristine medical assessment spaces.'
+            ]
+        ]
+    ]
+];
 // Coming Soon metadata for service categories currently being photographed
 $comingSoonCategories = [
     'floor-care' => [
