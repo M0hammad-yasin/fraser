@@ -156,17 +156,122 @@
     <!-- 3. About End -->
 
 
-    <!-- 4. Core Services Section Start -->
+    <!-- 4. Our Mission Section Start -->
+    <div class="container-fluid fraser-mission-section py-5">
+        <div class="container py-4">
+            <div class="row justify-content-center text-center">
+                <div class="col-lg-10">
+                    <span class="fraser-mission-badge">Our Mission</span>
+                    <h2 class="fraser-mission-title">Service You Can Rely On. Standards You Can Trust.</h2>
+                    <p class="fraser-mission-lead">
+                        Our mission is to provide reliable, high-quality facility services that make the properties entrusted to us cleaner, safer, and easier to manage. We are committed to building lasting client relationships through consistent service, clear communication, accountability, and a standard of work our clients can depend on.
+                    </p>
+
+                    <!-- 3 Mission Pillars -->
+                    <div class="row pt-2 text-left justify-content-center">
+                        <div class="col-md-4 mb-3 mb-md-0">
+                            <div class="fraser-mission-card">
+                                <div class="fraser-mission-card-icon">
+                                    <i class="fa fa-shield-alt"></i>
+                                </div>
+                                <div>
+                                    <h6 class="fraser-mission-card-title">Cleaner &amp; Safer</h6>
+                                    <p class="fraser-mission-card-desc">Properties easier to manage every day</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-3 mb-md-0">
+                            <div class="fraser-mission-card">
+                                <div class="fraser-mission-card-icon">
+                                    <i class="fa fa-handshake"></i>
+                                </div>
+                                <div>
+                                    <h6 class="fraser-mission-card-title">Lasting Partnerships</h6>
+                                    <p class="fraser-mission-card-desc">Consistent service &amp; clear communication</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="fraser-mission-card">
+                                <div class="fraser-mission-card-icon">
+                                    <i class="fa fa-check-circle"></i>
+                                </div>
+                                <div>
+                                    <h6 class="fraser-mission-card-title">Dependable Standards</h6>
+                                    <p class="fraser-mission-card-desc">High-caliber work you can count on</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 4. Our Mission End -->
+
+
+    <!-- 5. Founder Bio & Message Start -->
+    <div class="container-fluid fraser-founder-section py-5">
+        <div class="container py-4">
+            <div class="row align-items-center justify-content-center">
+                <!-- Founder Photo Column -->
+                <div class="col-lg-5 col-md-9 mb-4 mb-lg-0">
+                    <div class="fraser-founder-photo-wrap">
+                        <img class="fraser-founder-img" src="./assets/img/about_us/ceo.jpeg" alt="Rukhsar Omeri, BSc, RDH - Founder &amp; Director">
+                        <div class="fraser-founder-caption">
+                            <h5 class="fraser-founder-name">Rukhsar Omeri, BSc, RDH</h5>
+                            <div class="fraser-founder-role">Founder &amp; Director</div>
+                            <div class="fraser-founder-company">Fraser Facility Services</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Founder Message Column -->
+                <div class="col-lg-7 pl-lg-5">
+                    <h6 class="fraser-founder-eyebrow">A Message from Our Founder</h6>
+                    <h2 class="fraser-founder-title section-title">Built on Care. Driven by Standards.</h2>
+                    <p class="fraser-founder-text">
+                        My professional background in healthcare has shaped my understanding of the importance of clean, safe, and well-maintained environments. It has also instilled in me a strong commitment to attention to detail, accountability, consistency, and a genuine responsibility for the spaces and people we serve.
+                    </p>
+                    <p class="fraser-founder-text">
+                        I founded Fraser Facility Services (FFS) with the goal of creating a company that clients can trust to care for their properties with the same level of professionalism and attention that I have always expected in my own work. To me, exceptional service is more than simply completing a task. It means being dependable, communicating effectively, taking pride in our work, and consistently delivering on our commitments.
+                    </p>
+                    <p class="fraser-founder-text">
+                        As Founder and Director, I remain personally invested in the standards we uphold and the relationships we build. My vision for FFS is to build a company recognized for the quality of its work, the strength of its partnerships, and the trust it earns, while continuing to grow without compromising the values on which it was founded: integrity, reliability, quality, and care.
+                    </p>
+                    
+                    <div class="fraser-founder-signoff">
+                        <div>
+                            <h5 class="fraser-founder-sign-name">Rukhsar Omeri, <span class="fraser-founder-sign-cred">BSc, RDH</span></h5>
+                            <p class="fraser-founder-sign-title">Founder &amp; Director</p>
+                            <small class="fraser-founder-sign-org">Fraser Facility Services</small>
+                        </div>
+                        <div>
+                            <span class="fraser-founder-badge-pill">
+                                <i class="fa fa-heartbeat"></i> Healthcare-Informed Standards
+                            </span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 5. Founder Bio & Message End -->
+
+
+    <!-- 6. Core Services Section Start -->
     <?php
     $servicesSectionEyebrow = "Our Services";
     $servicesSectionTitle = "Complete Facility Solutions";
     $servicesSectionDesc = "One Partner. Complete Facility Solutions. Standardized, professional facility care tailored for commercial properties, strata councils, and business facilities.";
     include 'components/services-section.php';
     ?>
-    <!-- 4. Core Services End -->
+    <!-- 6. Core Services End -->
 
 
-    <!-- 5. Markets We Serve Section Start -->
+    <!-- 7. Markets We Serve Section Start -->
     <div class="container-fluid markets-bg py-5">
         <div class="container py-5">
             <div class="row justify-content-center">
@@ -250,10 +355,10 @@
             </div>
         </div>
     </div>
-    <!-- 5. Markets We Serve End -->
+    <!-- 7. Markets We Serve End -->
 
 
-    <!-- 6. Why Choose Fraser (Safety, Training & Credentials) Start -->
+    <!-- 8. Why Choose Fraser (Safety, Training & Credentials) Start -->
     <div class="container-fluid py-5 bg-white">
         <div class="container py-5">
             <div class="row align-items-center justify-content-center">
@@ -288,10 +393,10 @@
             </div>
         </div>
     </div>
-    <!-- 6. Why Choose Fraser End -->
+    <!-- 8. Why Choose Fraser End -->
 
 
-    <!-- 7. Service Area Section Start -->
+    <!-- 9. Service Area Section Start -->
     <div class="container-fluid bg-light py-5">
         <div class="container py-4">
             <div class="row justify-content-center text-center">
@@ -338,10 +443,10 @@
             </div>
         </div>
     </div>
-    <!-- 7. Service Area End -->
+    <!-- 9. Service Area End -->
 
 
-    <!-- 8. Our Service Commitment Section Start (Replaces artificial testimonials) -->
+    <!-- 10. Our Service Commitment Section Start (Replaces artificial testimonials) -->
     <div class="container-fluid py-5" style="background-color: #0F2747;">
         <div class="container py-5">
             <div class="row justify-content-center text-center mb-5">
@@ -387,10 +492,10 @@
             </div>
         </div>
     </div>
-    <!-- 8. Service Commitment End -->
+    <!-- 10. Service Commitment End -->
 
 
-    <!-- 9. Request a Site Assessment CTA Start -->
+    <!-- 11. Request a Site Assessment CTA Start -->
     <div class="container-fluid py-5 bg-white border-top">
         <div class="container py-4 text-center">
             <div class="row justify-content-center">

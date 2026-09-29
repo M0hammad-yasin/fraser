@@ -613,3 +613,249 @@
   box-shadow: 0 8px 20px rgba(63, 107, 69, 0.35);
 }
 
+/* ============================================
+   FRASER MISSION STATEMENT SECTION
+   ============================================ */
+
+.fraser-mission-section {
+  background: linear-gradient(135deg, #0F2747 0%, #153761 100%);
+  position: relative;
+  overflow: hidden;
+  border-top: 3px solid #C9A14A;
+  border-bottom: 3px solid #C9A14A;
+}
+
+.fraser-mission-section::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: radial-gradient(rgba(201, 161, 74, 0.15) 1px, transparent 1px);
+  background-size: 32px 32px;
+  pointer-events: none;
+}
+
+.fraser-mission-badge {
+  display: inline-block;
+  background: #C9A14A;
+  color: #0F2747;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  padding: 6px 18px;
+  border-radius: 100px;
+  margin-bottom: 18px;
+}
+
+.fraser-mission-title {
+  color: #ffffff;
+  font-size: clamp(1.8rem, 3.2vw, 2.35rem);
+  font-weight: 800;
+  line-height: 1.25;
+  margin-bottom: 20px;
+  letter-spacing: -0.5px;
+}
+
+.fraser-mission-lead {
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 1.12rem;
+  line-height: 1.85;
+  max-width: 860px;
+  margin: 0 auto 36px;
+}
+
+.fraser-mission-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(201, 161, 74, 0.3);
+  border-radius: 16px;
+  padding: 22px 20px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  transition: transform 0.3s ease, background 0.3s ease, border-color 0.3s ease;
+}
+
+.fraser-mission-card:hover {
+  transform: translateY(-5px);
+  background: rgba(255, 255, 255, 0.09);
+  border-color: rgba(201, 161, 74, 0.6);
+}
+
+.fraser-mission-card-icon {
+  width: 46px;
+  height: 46px;
+  border-radius: 12px;
+  background: rgba(201, 161, 74, 0.2);
+  color: #C9A14A;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  margin-right: 16px;
+  flex-shrink: 0;
+  transition: transform 0.3s ease;
+}
+
+.fraser-mission-card:hover .fraser-mission-card-icon {
+  transform: scale(1.1) rotate(-4deg);
+}
+
+.fraser-mission-card-title {
+  color: #ffffff;
+  font-size: 1.05rem;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.fraser-mission-card-desc {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 0.85rem;
+  margin-bottom: 0;
+  line-height: 1.5;
+}
+
+/* ============================================
+   FRASER FOUNDER BIO & MESSAGE SECTION
+   ============================================ */
+
+.fraser-founder-section {
+  background: #ffffff;
+  position: relative;
+  overflow: hidden;
+}
+
+.fraser-founder-photo-wrap {
+  position: relative;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 16px 40px rgba(15, 39, 71, 0.12);
+  border: 2px solid rgba(201, 161, 74, 0.35);
+  background: #0F2747;
+}
+
+.fraser-founder-img {
+  width: 100%;
+  max-height: 520px;
+  object-fit: cover;
+  object-position: top center;
+  display: block;
+  transition: transform 0.4s ease;
+}
+
+.fraser-founder-photo-wrap:hover .fraser-founder-img {
+  transform: scale(1.02);
+}
+
+.fraser-founder-caption {
+  background: #0F2747;
+  border-top: 2px solid #C9A14A;
+  padding: 16px 20px;
+  text-align: center;
+}
+
+.fraser-founder-name {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 1.15rem;
+  margin-bottom: 2px;
+}
+
+.fraser-founder-role {
+  color: #C9A14A;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+.fraser-founder-company {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 0.82rem;
+  margin-top: 2px;
+}
+
+.fraser-founder-eyebrow {
+  color: #3F6B45;
+  font-size: 0.82rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+.fraser-founder-title {
+  color: #0F2747;
+  font-size: clamp(1.7rem, 2.8vw, 2.2rem);
+  font-weight: 800;
+  line-height: 1.25;
+  margin-bottom: 20px;
+}
+
+.fraser-founder-text {
+  color: #64748B;
+  font-size: 1.02rem;
+  line-height: 1.8;
+  margin-bottom: 16px;
+}
+
+.fraser-founder-signoff {
+  padding-top: 20px;
+  margin-top: 24px;
+  border-top: 1px solid #E2E8F0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.fraser-founder-sign-name {
+  color: #0F2747;
+  font-weight: 700;
+  font-size: 1.1rem;
+  margin-bottom: 2px;
+}
+
+.fraser-founder-sign-cred {
+  font-size: 0.92rem;
+  font-weight: 500;
+  color: #64748B;
+}
+
+.fraser-founder-sign-title {
+  color: #C9A14A;
+  font-weight: 600;
+  font-size: 0.88rem;
+  margin-bottom: 0;
+}
+
+.fraser-founder-sign-org {
+  color: #94A3B8;
+  font-size: 0.82rem;
+}
+
+.fraser-founder-badge-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background-color: #F8FAFC;
+  border: 1px solid #E2E8F0;
+  color: #0F2747;
+  border-radius: 30px;
+  padding: 8px 18px;
+  font-size: 0.82rem;
+  font-weight: 600;
+}
+
+.fraser-founder-badge-pill i {
+  color: #C9A14A;
+}
+
+@media (max-width: 991px) {
+  .fraser-founder-photo-wrap {
+    max-width: 440px;
+    margin: 0 auto;
+  }
+}
+
+

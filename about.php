@@ -3,6 +3,7 @@
 
 <head>
   <?php
+  $customCss = ["./assets/css/index.css"];
   $pageTitle = "About Us - Fraser Facility Services";
   include 'components/head.php';
   ?>
@@ -63,62 +64,48 @@
   <!-- About End -->
 
   <!-- Mission Statement Start -->
-  <div class="container-fluid py-5" style="background: linear-gradient(135deg, #0F2747 0%, #153761 100%); border-top: 3px solid #C9A14A; border-bottom: 3px solid #C9A14A;">
+  <div class="container-fluid fraser-mission-section py-5">
     <div class="container py-4">
       <div class="row justify-content-center text-center">
         <div class="col-lg-10">
-          <div class="d-inline-flex align-items-center justify-content-center mb-3">
-            <span class="badge badge-pill px-3 py-2 text-uppercase font-weight-bold" style="background-color: #C9A14A; color: #0F2747; letter-spacing: 2px; font-size: 0.8rem;">
-              Our Mission
-            </span>
-          </div>
-          <h2 class="text-white font-weight-bold mb-4" style="font-size: 2.25rem; letter-spacing: -0.5px;">
-            Service You Can Rely On. Standards You Can Trust.
-          </h2>
-          <div class="position-relative px-md-5 mb-4">
-            <p class="text-white-50 lead mx-auto mb-0" style="max-width: 860px; font-size: 1.15rem; line-height: 1.9;">
-              Our mission is to provide reliable, high-quality facility services that make the properties entrusted to us cleaner, safer, and easier to manage. We are committed to building lasting client relationships through consistent service, clear communication, accountability, and a standard of work our clients can depend on.
-            </p>
-          </div>
+          <span class="fraser-mission-badge">Our Mission</span>
+          <h2 class="fraser-mission-title">Service You Can Rely On. Standards You Can Trust.</h2>
+          <p class="fraser-mission-lead">
+            Our mission is to provide reliable, high-quality facility services that make the properties entrusted to us cleaner, safer, and easier to manage. We are committed to building lasting client relationships through consistent service, clear communication, accountability, and a standard of work our clients can depend on.
+          </p>
 
           <!-- 3 Mission Pillars -->
-          <div class="row pt-4 text-left justify-content-center">
+          <div class="row pt-2 text-left justify-content-center">
             <div class="col-md-4 mb-3 mb-md-0">
-              <div class="p-3 rounded h-100" style="background: rgba(255,255,255,0.06); border: 1px solid rgba(201,161,74,0.35);">
-                <div class="d-flex align-items-center">
-                  <div class="rounded-circle d-flex align-items-center justify-content-center mr-3" style="width: 44px; height: 44px; background: rgba(201,161,74,0.2); color: #C9A14A; flex-shrink: 0;">
-                    <i class="fa fa-shield-alt"></i>
-                  </div>
-                  <div>
-                    <h6 class="text-white mb-1 font-weight-bold">Cleaner &amp; Safer</h6>
-                    <small class="text-white-50">Properties easier to manage every day</small>
-                  </div>
+              <div class="fraser-mission-card">
+                <div class="fraser-mission-card-icon">
+                  <i class="fa fa-shield-alt"></i>
+                </div>
+                <div>
+                  <h6 class="fraser-mission-card-title">Cleaner &amp; Safer</h6>
+                  <p class="fraser-mission-card-desc">Properties easier to manage every day</p>
                 </div>
               </div>
             </div>
             <div class="col-md-4 mb-3 mb-md-0">
-              <div class="p-3 rounded h-100" style="background: rgba(255,255,255,0.06); border: 1px solid rgba(201,161,74,0.35);">
-                <div class="d-flex align-items-center">
-                  <div class="rounded-circle d-flex align-items-center justify-content-center mr-3" style="width: 44px; height: 44px; background: rgba(201,161,74,0.2); color: #C9A14A; flex-shrink: 0;">
-                    <i class="fa fa-handshake"></i>
-                  </div>
-                  <div>
-                    <h6 class="text-white mb-1 font-weight-bold">Lasting Partnerships</h6>
-                    <small class="text-white-50">Consistent service &amp; clear communication</small>
-                  </div>
+              <div class="fraser-mission-card">
+                <div class="fraser-mission-card-icon">
+                  <i class="fa fa-handshake"></i>
+                </div>
+                <div>
+                  <h6 class="fraser-mission-card-title">Lasting Partnerships</h6>
+                  <p class="fraser-mission-card-desc">Consistent service &amp; clear communication</p>
                 </div>
               </div>
             </div>
             <div class="col-md-4">
-              <div class="p-3 rounded h-100" style="background: rgba(255,255,255,0.06); border: 1px solid rgba(201,161,74,0.35);">
-                <div class="d-flex align-items-center">
-                  <div class="rounded-circle d-flex align-items-center justify-content-center mr-3" style="width: 44px; height: 44px; background: rgba(201,161,74,0.2); color: #C9A14A; flex-shrink: 0;">
-                    <i class="fa fa-check-circle"></i>
-                  </div>
-                  <div>
-                    <h6 class="text-white mb-1 font-weight-bold">Dependable Standards</h6>
-                    <small class="text-white-50">High-caliber work you can count on</small>
-                  </div>
+              <div class="fraser-mission-card">
+                <div class="fraser-mission-card-icon">
+                  <i class="fa fa-check-circle"></i>
+                </div>
+                <div>
+                  <h6 class="fraser-mission-card-title">Dependable Standards</h6>
+                  <p class="fraser-mission-card-desc">High-caliber work you can count on</p>
                 </div>
               </div>
             </div>
@@ -131,48 +118,44 @@
   <!-- Mission Statement End -->
 
   <!-- Founder Bio & Message Start -->
-  <div class="container-fluid py-5">
+  <div class="container-fluid fraser-founder-section py-5">
     <div class="container py-4">
       <div class="row align-items-center justify-content-center">
         <!-- Founder Photo Column -->
         <div class="col-lg-5 col-md-9 mb-4 mb-lg-0">
-          <div class="position-relative rounded overflow-hidden shadow-lg" style="border: 2px solid rgba(201,161,74,0.35); border-radius: 16px;">
-            <img class="w-100" src="./assets/img/about_us/ceo.jpeg" alt="Rukhsar Omeri, BSc, RDH - Founder &amp; Director" style="object-fit: cover; object-position: top center; max-height: 520px; display: block;">
-            <div class="p-3 text-center" style="background: #0F2747; border-top: 2px solid #C9A14A;">
-              <h5 class="text-white mb-1 font-weight-bold" style="font-size: 1.15rem;">Rukhsar Omeri, BSc, RDH</h5>
-              <div class="text-primary font-weight-semi-bold small text-uppercase" style="letter-spacing: 1px;">Founder &amp; Director</div>
-              <small class="text-white-50">Fraser Facility Services</small>
+          <div class="fraser-founder-photo-wrap">
+            <img class="fraser-founder-img" src="./assets/img/about_us/ceo.jpeg" alt="Rukhsar Omeri, BSc, RDH - Founder &amp; Director">
+            <div class="fraser-founder-caption">
+              <h5 class="fraser-founder-name">Rukhsar Omeri, BSc, RDH</h5>
+              <div class="fraser-founder-role">Founder &amp; Director</div>
+              <div class="fraser-founder-company">Fraser Facility Services</div>
             </div>
           </div>
         </div>
 
         <!-- Founder Message Column -->
         <div class="col-lg-7 pl-lg-5">
-          <h6 class="text-secondary font-weight-semi-bold text-uppercase mb-2" style="letter-spacing: 2px;">
-            A Message from Our Founder
-          </h6>
-          <h2 class="mb-4 section-title" style="color: #0F2747; font-weight: 700;">
-            Built on Care. Driven by Standards.
-          </h2>
-          <p class="text-muted mb-3" style="line-height: 1.8; font-size: 1.02rem;">
+          <h6 class="fraser-founder-eyebrow">A Message from Our Founder</h6>
+          <h2 class="fraser-founder-title section-title">Built on Care. Driven by Standards.</h2>
+          <p class="fraser-founder-text">
             My professional background in healthcare has shaped my understanding of the importance of clean, safe, and well-maintained environments. It has also instilled in me a strong commitment to attention to detail, accountability, consistency, and a genuine responsibility for the spaces and people we serve.
           </p>
-          <p class="text-muted mb-3" style="line-height: 1.8; font-size: 1.02rem;">
+          <p class="fraser-founder-text">
             I founded Fraser Facility Services (FFS) with the goal of creating a company that clients can trust to care for their properties with the same level of professionalism and attention that I have always expected in my own work. To me, exceptional service is more than simply completing a task. It means being dependable, communicating effectively, taking pride in our work, and consistently delivering on our commitments.
           </p>
-          <p class="text-muted mb-4" style="line-height: 1.8; font-size: 1.02rem;">
+          <p class="fraser-founder-text">
             As Founder and Director, I remain personally invested in the standards we uphold and the relationships we build. My vision for FFS is to build a company recognized for the quality of its work, the strength of its partnerships, and the trust it earns, while continuing to grow without compromising the values on which it was founded: integrity, reliability, quality, and care.
           </p>
           
-          <div class="pt-3 border-top d-flex align-items-center justify-content-between flex-wrap">
+          <div class="fraser-founder-signoff">
             <div>
-              <h5 class="font-weight-bold mb-0" style="color: #0F2747;">Rukhsar Omeri, <span style="font-size: 0.95rem; font-weight: 500; color: #6c757d;">BSc, RDH</span></h5>
-              <p class="text-primary font-weight-semi-bold mb-0 small">Founder &amp; Director</p>
-              <small class="text-muted">Fraser Facility Services</small>
+              <h5 class="fraser-founder-sign-name">Rukhsar Omeri, <span class="fraser-founder-sign-cred">BSc, RDH</span></h5>
+              <p class="fraser-founder-sign-title">Founder &amp; Director</p>
+              <small class="fraser-founder-sign-org">Fraser Facility Services</small>
             </div>
-            <div class="mt-2 mt-sm-0">
-              <span class="badge px-3 py-2" style="background-color: #f3f5f7; border: 1px solid #dce2e6; color: #0F2747; border-radius: 30px; font-size: 0.82rem; font-weight: 600;">
-                <i class="fa fa-heartbeat text-primary mr-1"></i> Healthcare-Informed Standards
+            <div>
+              <span class="fraser-founder-badge-pill">
+                <i class="fa fa-heartbeat"></i> Healthcare-Informed Standards
               </span>
             </div>
           </div>
