@@ -13,7 +13,7 @@ $serviceItems = [
   [
     'title' => 'Janitorial & Custodial Services',
     'icon'  => 'fa-broom',
-    'image' => './assets/img/services/commercial.jfif',
+    'image' => './assets/img/services/commercial.png',
     'bullets' => [
       'Commercial & office cleaning',
       'Strata & multi-unit common-area cleaning',
@@ -28,7 +28,7 @@ $serviceItems = [
   [
     'title' => 'Floor & Carpet Care',
     'icon'  => 'fa-layer-group',
-    'image' => './assets/img/services/floor-cleaning.jpg',
+    'image' => './assets/img/services/floor-cleaning.png',
     'bullets' => [
       'Carpet cleaning & extraction',
       'Floor stripping & refinishing',
@@ -41,7 +41,7 @@ $serviceItems = [
   [
     'title' => 'Property Maintenance & Facility Support',
     'icon'  => 'fa-tools',
-    'image' => './assets/img/services/building.jfif',
+    'image' => './assets/img/services/building.png',
     'bullets' => [
       'General property & common-area upkeep',
       'Minor repairs & maintenance',
@@ -54,7 +54,7 @@ $serviceItems = [
   [
     'title' => 'Window & Exterior Cleaning',
     'icon'  => 'fa-spray-can',
-    'image' => './assets/img/services/window.jfif',
+    'image' => './assets/img/services/window.png',
     'bullets' => [
       'Interior & exterior window cleaning',
       'Glass & entrance cleaning',
@@ -67,7 +67,7 @@ $serviceItems = [
   [
     'title' => 'Specialty Cleaning & Facility Support',
     'icon'  => 'fa-shield-alt',
-    'image' => './assets/img/services/seasonal-property-cleanup.webp',
+    'image' => './assets/img/services/seasonal-property-cleanup.png',
     'bullets' => [
       'Post-construction & turnover cleaning',
       'Janitorial supply monitoring & restocking',
@@ -80,7 +80,7 @@ $serviceItems = [
   [
     'title' => 'Snow & Ice Management',
     'icon'  => 'fa-snowflake',
-    'image' => './assets/img/services/snow-removal.jpg',
+    'image' => './assets/img/services/snow-removal.png',
     'bullets' => [
       'Snow clearing & removal',
       'Sidewalk, walkway & entrance clearing',
