@@ -19,7 +19,7 @@
   $pageHeaderTitle = "About Fraser Facility Services";
   $pageHeaderEyebrow = "Who We Are";
   $pageHeaderSubtitle = "Locally owned and operated commercial cleaning and facility solutions across the Lower Mainland.";
-  $pageHeaderBg = "./assets/img/about_us/about.jfif";
+  $pageHeaderBg = "./assets/img/about_us/about.png";
   $breadcrumbs = [
     ['label' => 'Home', 'url' => 'index.php'],
     ['label' => 'About Us', 'url' => '']
@@ -146,7 +146,7 @@
           <p class="fraser-founder-text">
             As Founder and Director, I remain personally invested in the standards we uphold and the relationships we build. My vision for FFS is to build a company recognized for the quality of its work, the strength of its partnerships, and the trust it earns, while continuing to grow without compromising the values on which it was founded: integrity, reliability, quality, and care.
           </p>
-          
+
           <div class="fraser-founder-signoff">
             <div>
               <h5 class="fraser-founder-sign-name">Rukhsar Omeri, <span class="fraser-founder-sign-cred">BSc, RDH</span></h5>
