@@ -29,7 +29,7 @@
             <div class="carousel-inner">
                 <!-- Slide 1 (Flagship) -->
                 <div class="carousel-item active">
-                    <img class="img-fluid" src="./assets/img/home/carousel-1.jpg" alt="Commercial Facility Services">
+                    <img class="h-100 w-100" src="./assets/img/home/team.png" alt="Commercial Facility Services">
                     <div class="carousel-caption d-flex align-items-center justify-content-center">
                         <div class="p-3 p-md-5" style="width: 100%; max-width: 900px;">
                             <span class="badge badge-pill badge-primary text-uppercase font-weight-bold px-3 py-2 mb-3" style="letter-spacing: 2px; font-size: 0.8rem; background-color: #C9A14A; color: #0F2747;">One Partner. Complete Facility Solutions.</span>
@@ -48,7 +48,7 @@
 
                 <!-- Slide 2 -->
                 <div class="carousel-item">
-                    <img class="img-fluid" src="./assets/img/home/carousel-2.jpg" alt="Janitorial and Maintenance">
+                    <img class="h-100 w-100" src="./assets/img/home/carousel-2.jpg" alt="Janitorial and Maintenance">
                     <div class="carousel-caption d-flex align-items-center justify-content-center">
                         <div class="p-3 p-md-5" style="width: 100%; max-width: 900px;">
                             <span class="badge badge-pill badge-primary text-uppercase font-weight-bold px-3 py-2 mb-3" style="letter-spacing: 2px; font-size: 0.8rem; background-color: #C9A14A; color: #0F2747;">Single Point of Contact</span>
@@ -67,7 +67,7 @@
 
                 <!-- Slide 3 -->
                 <div class="carousel-item">
-                    <img class="img-fluid" src="./assets/img/home/carousel-3.jpg" alt="Snow and Ice Management">
+                    <img class="h-100 w-100" src="./assets/img/home/carousel-3.jpg" alt="Snow and Ice Management">
                     <div class="carousel-caption d-flex align-items-center justify-content-center">
                         <div class="p-3 p-md-5" style="width: 100%; max-width: 900px;">
                             <span class="badge badge-pill badge-primary text-uppercase font-weight-bold px-3 py-2 mb-3" style="letter-spacing: 2px; font-size: 0.8rem; background-color: #C9A14A; color: #0F2747;">Regional Coverage</span>
@@ -133,7 +133,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-5 mb-4 mb-lg-0">
                     <div class="position-relative rounded overflow-hidden shadow-sm" style="min-height: 380px;">
-                        <img class="w-100 h-100 position-absolute" src="./assets/img/about_us/about.jfif" alt="About Fraser Facility Services" style="object-fit: cover;">
+                        <img class="w-100 h-100 position-absolute" src="./assets/img/home/team.png" alt="About Fraser Facility Services" style="object-fit: cover;">
                     </div>
                 </div>
                 <div class="col-lg-7 pl-lg-5">
@@ -240,7 +240,7 @@
                     <p class="fraser-founder-text">
                         As Founder and Director, I remain personally invested in the standards we uphold and the relationships we build. My vision for FFS is to build a company recognized for the quality of its work, the strength of its partnerships, and the trust it earns, while continuing to grow without compromising the values on which it was founded: integrity, reliability, quality, and care.
                     </p>
-                    
+
                     <div class="fraser-founder-signoff">
                         <div>
                             <h5 class="fraser-founder-sign-name">Rukhsar Omeri, <span class="fraser-founder-sign-cred">BSc, RDH</span></h5>

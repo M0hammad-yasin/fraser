@@ -1,5 +1,5 @@
 .fraser-services-bg {
-  background: linear-gradient(135deg, #0F2747 0%, #153761 60%, #0F2747 100%);
+  background: linear-gradient(135deg, #0f2747 0%, #153761 60%, #0f2747 100%);
 }
 .fraser-service-card {
   position: relative;
@@ -28,7 +28,7 @@
   left: 0;
   right: 0;
   height: 4px;
-  background: linear-gradient(90deg, #C9A14A 0%, #3F6B45 100%);
+  background: linear-gradient(90deg, #c9a14a 0%, #3f6b45 100%);
   border-radius: 16px 16px 0 0;
   transform: scaleX(0);
   transform-origin: left;
@@ -41,7 +41,7 @@
   width: 72px;
   height: 72px;
   border-radius: 50%;
-  background: linear-gradient(135deg, #C9A14A 0%, #b38d38 100%);
+  background: linear-gradient(135deg, #c9a14a 0%, #b38d38 100%);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -53,7 +53,7 @@
 }
 .fraser-card-icon i {
   font-size: 1.55rem;
-  color: #0F2747;
+  color: #0f2747;
 }
 .fraser-service-card:hover .fraser-card-icon {
   transform: scale(1.12) rotate(-6deg);
@@ -75,7 +75,7 @@
 .fraser-card-link {
   display: inline-flex;
   align-items: center;
-  color: #3F6B45;
+  color: #3f6b45;
   font-weight: 600;
   font-size: 0.875rem;
   text-decoration: none;
@@ -85,7 +85,7 @@
     letter-spacing 0.2s ease;
 }
 .fraser-card-link:hover {
-  color: #C9A14A;
+  color: #c9a14a;
   text-decoration: none;
   letter-spacing: 1.5px;
 }
@@ -109,7 +109,7 @@
   opacity: 1;
 }
 .fraser-services-label {
-  color: #C9A14A;
+  color: #c9a14a;
   letter-spacing: 3px;
   font-size: 0.8rem;
 }
@@ -127,7 +127,7 @@
 .fraser-cta-left {
   position: relative;
   flex: 1 1 55%;
-  background: linear-gradient(130deg, #0F2747 0%, #153761 100%);
+  background: linear-gradient(130deg, #0f2747 0%, #153761 100%);
   padding: 80px 64px 80px 80px;
   display: flex;
   align-items: center;
@@ -138,7 +138,10 @@
 .fraser-cta-dots {
   position: absolute;
   inset: 0;
-  background-image: radial-gradient(rgba(201, 161, 74, 0.2) 1px, transparent 1px);
+  background-image: radial-gradient(
+    rgba(201, 161, 74, 0.2) 1px,
+    transparent 1px
+  );
   background-size: 28px 28px;
   pointer-events: none;
 }
@@ -152,7 +155,7 @@
 .fraser-cta-eyebrow {
   display: inline-block;
   background: rgba(201, 161, 74, 0.15);
-  color: #C9A14A;
+  color: #c9a14a;
   font-size: 0.72rem;
   font-weight: 700;
   letter-spacing: 2.5px;
@@ -172,7 +175,7 @@
 }
 
 .fraser-cta-dot {
-  color: #C9A14A;
+  color: #c9a14a;
 }
 
 .fraser-cta-subtext {
@@ -187,8 +190,8 @@
   position: relative;
   display: inline-flex;
   align-items: center;
-  background: linear-gradient(135deg, #C9A14A 0%, #b38d38 100%);
-  color: #0F2747;
+  background: linear-gradient(135deg, #c9a14a 0%, #b38d38 100%);
+  color: #0f2747;
   font-weight: 700;
   font-size: 0.95rem;
   padding: 16px 36px;
@@ -196,13 +199,15 @@
   text-decoration: none;
   letter-spacing: 0.4px;
   box-shadow: 0 8px 28px rgba(201, 161, 74, 0.4);
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
   margin-right: 20px;
   margin-bottom: 20px;
 }
 
 .fraser-cta-btn-primary:hover {
-  color: #0F2747;
+  color: #0f2747;
   text-decoration: none;
   transform: translateY(-3px);
   box-shadow: 0 14px 40px rgba(201, 161, 74, 0.55);
@@ -210,7 +215,7 @@
 
 /* pulse ring on button */
 .fraser-cta-btn-primary::before {
-  content: '';
+  content: "";
   position: absolute;
   inset: -4px;
   border-radius: 100px;
@@ -220,8 +225,14 @@
 }
 
 @keyframes ctaPulse {
-  0%   { opacity: 0.8; transform: scale(1); }
-  100% { opacity: 0;   transform: scale(1.14); }
+  0% {
+    opacity: 0.8;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1.14);
+  }
 }
 
 /* Phone CTA pill */
@@ -234,7 +245,9 @@
   padding: 12px 24px 12px 14px;
   border: 1px solid rgba(255, 255, 255, 0.15);
   border-radius: 100px;
-  transition: border-color 0.25s ease, background 0.25s ease;
+  transition:
+    border-color 0.25s ease,
+    background 0.25s ease;
   margin-bottom: 20px;
 }
 
@@ -249,7 +262,7 @@
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background: #3F6B45;
+  background: #3f6b45;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -261,7 +274,7 @@
 /* ---- Right gold panel ---- */
 .fraser-cta-right {
   flex: 1 1 45%;
-  background: linear-gradient(145deg, #C9A14A 0%, #b38d38 100%);
+  background: linear-gradient(145deg, #c9a14a 0%, #b38d38 100%);
   padding: 60px 56px;
   display: flex;
   align-items: center;
@@ -272,7 +285,7 @@
 
 /* large circle watermark */
 .fraser-cta-right::before {
-  content: '';
+  content: "";
   position: absolute;
   top: -80px;
   right: -80px;
@@ -284,7 +297,7 @@
 }
 
 .fraser-cta-right::after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: -100px;
   left: -60px;
@@ -312,7 +325,9 @@
   border-radius: 16px;
   padding: 28px 20px 24px;
   text-align: center;
-  transition: transform 0.25s ease, background 0.25s ease;
+  transition:
+    transform 0.25s ease,
+    background 0.25s ease;
   backdrop-filter: blur(4px);
 }
 
@@ -325,17 +340,17 @@
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  background: #0F2747;
+  background: #0f2747;
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 0 auto 12px;
   font-size: 1rem;
-  color: #C9A14A;
+  color: #c9a14a;
 }
 
 .fraser-cta-stat-number {
-  color: #0F2747;
+  color: #0f2747;
   font-size: 1.9rem;
   font-weight: 800;
   line-height: 1;
@@ -388,19 +403,42 @@
 }
 
 /* ============================================
-   RESPONSIVE HOMEPAGE HEADER CAROUSEL (MOBILE)
+   HOMEPAGE HEADER CAROUSEL
    ============================================ */
+
+#header-carousel .carousel-item {
+  height: 600px;
+  max-height: 600px;
+  overflow: hidden;
+  background-color: #0f2747;
+}
+
+#header-carousel .carousel-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+#header-carousel .carousel-item:first-child img {
+  object-position: center 10%;
+}
 
 @media (max-width: 768px) {
   #header-carousel .carousel-item {
     min-height: 420px;
     height: 420px;
+    max-height: none;
   }
 
   #header-carousel .carousel-item img {
     height: 100%;
     width: 100%;
     object-fit: cover;
+  }
+
+  #header-carousel .carousel-item:first-child img {
+    object-position: center 10%;
   }
 
   #header-carousel .carousel-caption {
@@ -437,7 +475,7 @@
   }
 
   #header-carousel .carousel-indicators li.active {
-    background-color: #3F6B45 !important;
+    background-color: #3f6b45 !important;
     width: 24px !important;
     border-radius: 10px !important;
   }
@@ -468,7 +506,7 @@
    ============================================ */
 
 .markets-bg {
-  background: linear-gradient(180deg, #F8FAFC 0%, #EDF2F7 100%);
+  background: linear-gradient(180deg, #f8fafc 0%, #edf2f7 100%);
   position: relative;
   overflow: hidden;
 }
@@ -480,19 +518,29 @@
   left: 0;
   right: 0;
   height: 1px;
-  background: linear-gradient(90deg, transparent, rgba(201, 161, 74, 0.3), transparent);
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(201, 161, 74, 0.3),
+    transparent
+  );
 }
 
 .market-card {
   position: relative;
   background: #ffffff;
-  border: 1px solid #E2E8F0;
+  border: 1px solid #e2e8f0;
   border-radius: 16px;
   padding: 36px 28px 30px;
   display: flex;
   flex-direction: column;
-  box-shadow: 0 4px 20px rgba(15, 39, 71, 0.04), 0 1px 3px rgba(0, 0, 0, 0.02);
-  transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.35s ease, border-color 0.35s ease;
+  box-shadow:
+    0 4px 20px rgba(15, 39, 71, 0.04),
+    0 1px 3px rgba(0, 0, 0, 0.02);
+  transition:
+    transform 0.35s cubic-bezier(0.16, 1, 0.3, 1),
+    box-shadow 0.35s ease,
+    border-color 0.35s ease;
   overflow: hidden;
   z-index: 1;
 }
@@ -505,7 +553,7 @@
   left: 0;
   right: 0;
   height: 4px;
-  background: linear-gradient(90deg, #C9A14A 0%, #3F6B45 100%);
+  background: linear-gradient(90deg, #c9a14a 0%, #3f6b45 100%);
   transform: scaleX(0);
   transform-origin: left;
   transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1);
@@ -519,7 +567,9 @@
 .market-card:hover {
   transform: translateY(-8px);
   border-color: rgba(201, 161, 74, 0.5);
-  box-shadow: 0 20px 40px rgba(15, 39, 71, 0.09), 0 0 0 1px rgba(201, 161, 74, 0.2);
+  box-shadow:
+    0 20px 40px rgba(15, 39, 71, 0.09),
+    0 0 0 1px rgba(201, 161, 74, 0.2);
 }
 
 /* Watermark Index Number */
@@ -530,10 +580,12 @@
   font-size: 2.2rem;
   font-weight: 900;
   line-height: 1;
-  color: #EDF2F7;
-  font-family: 'Inter', sans-serif;
+  color: #edf2f7;
+  font-family: "Inter", sans-serif;
   letter-spacing: -1px;
-  transition: color 0.35s ease, transform 0.35s ease;
+  transition:
+    color 0.35s ease,
+    transform 0.35s ease;
   user-select: none;
   pointer-events: none;
 }
@@ -548,22 +600,30 @@
   width: 58px;
   height: 58px;
   border-radius: 14px;
-  background: linear-gradient(135deg, rgba(201, 161, 74, 0.15) 0%, rgba(201, 161, 74, 0.05) 100%);
+  background: linear-gradient(
+    135deg,
+    rgba(201, 161, 74, 0.15) 0%,
+    rgba(201, 161, 74, 0.05) 100%
+  );
   border: 1px solid rgba(201, 161, 74, 0.25);
-  color: #0F2747;
+  color: #0f2747;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 1.35rem;
   margin-bottom: 22px;
-  transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1), background 0.35s ease, color 0.35s ease, box-shadow 0.35s ease;
+  transition:
+    transform 0.35s cubic-bezier(0.16, 1, 0.3, 1),
+    background 0.35s ease,
+    color 0.35s ease,
+    box-shadow 0.35s ease;
   flex-shrink: 0;
 }
 
 .market-card:hover .market-card-icon {
-  background: linear-gradient(135deg, #C9A14A 0%, #b38d38 100%);
-  color: #0F2747;
-  border-color: #C9A14A;
+  background: linear-gradient(135deg, #c9a14a 0%, #b38d38 100%);
+  color: #0f2747;
+  border-color: #c9a14a;
   transform: scale(1.08) rotate(-4deg);
   box-shadow: 0 8px 20px rgba(201, 161, 74, 0.35);
 }
@@ -572,18 +632,18 @@
 .market-card-title {
   font-size: 1.15rem;
   font-weight: 700;
-  color: #0F2747;
+  color: #0f2747;
   margin-bottom: 12px;
   line-height: 1.35;
   transition: color 0.25s ease;
 }
 
 .market-card:hover .market-card-title {
-  color: #0F2747;
+  color: #0f2747;
 }
 
 .market-card-desc {
-  color: #64748B;
+  color: #64748b;
   font-size: 0.92rem;
   line-height: 1.65;
   margin-bottom: 0;
@@ -593,23 +653,23 @@
 /* Residential card specific treatment */
 .market-card--residential {
   border-color: rgba(63, 107, 69, 0.25);
-  background: linear-gradient(180deg, #ffffff 0%, #F8FAF9 100%);
+  background: linear-gradient(180deg, #ffffff 0%, #f8faf9 100%);
 }
 
 .market-card--residential::before {
-  background: linear-gradient(90deg, #3F6B45 0%, #C9A14A 100%);
+  background: linear-gradient(90deg, #3f6b45 0%, #c9a14a 100%);
 }
 
 .market-card--residential .market-card-icon {
   background: rgba(63, 107, 69, 0.1);
   border-color: rgba(63, 107, 69, 0.25);
-  color: #3F6B45;
+  color: #3f6b45;
 }
 
 .market-card--residential:hover .market-card-icon {
-  background: linear-gradient(135deg, #3F6B45 0%, #2f5334 100%);
+  background: linear-gradient(135deg, #3f6b45 0%, #2f5334 100%);
   color: #ffffff;
-  border-color: #3F6B45;
+  border-color: #3f6b45;
   box-shadow: 0 8px 20px rgba(63, 107, 69, 0.35);
 }
 
@@ -618,26 +678,29 @@
    ============================================ */
 
 .fraser-mission-section {
-  background: linear-gradient(135deg, #0F2747 0%, #153761 100%);
+  background: linear-gradient(135deg, #0f2747 0%, #153761 100%);
   position: relative;
   overflow: hidden;
-  border-top: 3px solid #C9A14A;
-  border-bottom: 3px solid #C9A14A;
+  border-top: 3px solid #c9a14a;
+  border-bottom: 3px solid #c9a14a;
 }
 
 .fraser-mission-section::before {
   content: "";
   position: absolute;
   inset: 0;
-  background-image: radial-gradient(rgba(201, 161, 74, 0.15) 1px, transparent 1px);
+  background-image: radial-gradient(
+    rgba(201, 161, 74, 0.15) 1px,
+    transparent 1px
+  );
   background-size: 32px 32px;
   pointer-events: none;
 }
 
 .fraser-mission-badge {
   display: inline-block;
-  background: #C9A14A;
-  color: #0F2747;
+  background: #c9a14a;
+  color: #0f2747;
   font-size: 0.75rem;
   font-weight: 700;
   letter-spacing: 2.5px;
@@ -672,7 +735,10 @@
   height: 100%;
   display: flex;
   align-items: center;
-  transition: transform 0.3s ease, background 0.3s ease, border-color 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    background 0.3s ease,
+    border-color 0.3s ease;
 }
 
 .fraser-mission-card:hover {
@@ -686,7 +752,7 @@
   height: 46px;
   border-radius: 12px;
   background: rgba(201, 161, 74, 0.2);
-  color: #C9A14A;
+  color: #c9a14a;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -730,7 +796,7 @@
   overflow: hidden;
   box-shadow: 0 16px 40px rgba(15, 39, 71, 0.12);
   border: 2px solid rgba(201, 161, 74, 0.35);
-  background: #0F2747;
+  background: #0f2747;
 }
 
 .fraser-founder-img {
@@ -747,8 +813,8 @@
 }
 
 .fraser-founder-caption {
-  background: #0F2747;
-  border-top: 2px solid #C9A14A;
+  background: #0f2747;
+  border-top: 2px solid #c9a14a;
   padding: 16px 20px;
   text-align: center;
 }
@@ -761,7 +827,7 @@
 }
 
 .fraser-founder-role {
-  color: #C9A14A;
+  color: #c9a14a;
   font-size: 0.8rem;
   font-weight: 600;
   text-transform: uppercase;
@@ -775,7 +841,7 @@
 }
 
 .fraser-founder-eyebrow {
-  color: #3F6B45;
+  color: #3f6b45;
   font-size: 0.82rem;
   font-weight: 700;
   text-transform: uppercase;
@@ -784,7 +850,7 @@
 }
 
 .fraser-founder-title {
-  color: #0F2747;
+  color: #0f2747;
   font-size: clamp(1.7rem, 2.8vw, 2.2rem);
   font-weight: 800;
   line-height: 1.25;
@@ -792,7 +858,7 @@
 }
 
 .fraser-founder-text {
-  color: #64748B;
+  color: #64748b;
   font-size: 1.02rem;
   line-height: 1.8;
   margin-bottom: 16px;
@@ -801,7 +867,7 @@
 .fraser-founder-signoff {
   padding-top: 20px;
   margin-top: 24px;
-  border-top: 1px solid #E2E8F0;
+  border-top: 1px solid #e2e8f0;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -810,7 +876,7 @@
 }
 
 .fraser-founder-sign-name {
-  color: #0F2747;
+  color: #0f2747;
   font-weight: 700;
   font-size: 1.1rem;
   margin-bottom: 2px;
@@ -819,18 +885,18 @@
 .fraser-founder-sign-cred {
   font-size: 0.92rem;
   font-weight: 500;
-  color: #64748B;
+  color: #64748b;
 }
 
 .fraser-founder-sign-title {
-  color: #C9A14A;
+  color: #c9a14a;
   font-weight: 600;
   font-size: 0.88rem;
   margin-bottom: 0;
 }
 
 .fraser-founder-sign-org {
-  color: #94A3B8;
+  color: #94a3b8;
   font-size: 0.82rem;
 }
 
@@ -838,9 +904,9 @@
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  background-color: #F8FAFC;
-  border: 1px solid #E2E8F0;
-  color: #0F2747;
+  background-color: #f8fafc;
+  border: 1px solid #e2e8f0;
+  color: #0f2747;
   border-radius: 30px;
   padding: 8px 18px;
   font-size: 0.82rem;
@@ -848,7 +914,7 @@
 }
 
 .fraser-founder-badge-pill i {
-  color: #C9A14A;
+  color: #c9a14a;
 }
 
 @media (max-width: 991px) {
@@ -857,5 +923,3 @@
     margin: 0 auto;
   }
 }
-
-
